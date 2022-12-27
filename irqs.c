@@ -2,17 +2,17 @@
 
 void Timer1_IRQHandler()
 {
+	/*Подсчет секунд*/
 	MDR_TIMER1->STATUS &= ~(TIMER_STATUS_CNT_ARR_EVENT);
 	seconds++;	
 }
 
 void Timer2_IRQHandler()
 {
+	/*Прерывания*/
 	MDR_TIMER2->STATUS &= ~(TIMER_STATUS_CNT_ARR_EVENT);
 	
-//	running_red1(0, leds_data_rgb);
-	alg_functions.funcs[alg_functions.currently_selected](0, leds_data_rgb);
-	convert_array(leds_data_rgb, leds_data_corrected);
-	update_leds();
-	
+	alg_functions.funcs[alg_functions.currently_selected](get_time(), leds_data_rgb); // вызов функции генерации
+	convert_array(leds_data_rgb, leds_data_corrected); // конвертация массива
+	update_leds(); // отправить на гирлянду
 }

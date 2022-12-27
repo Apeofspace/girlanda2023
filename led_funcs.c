@@ -11,7 +11,7 @@ void glow_white(cur_time_t time, uint8_t* data)
 void breath_white1(cur_time_t time, uint8_t* data)
 {
 	static uint8_t dir = 1;
-	static uint8_t step = 30;
+	static uint8_t step = 15;
 	static uint8_t brightness = 255;
 	
 	if (brightness<step) dir = 0;
@@ -21,6 +21,32 @@ void breath_white1(cur_time_t time, uint8_t* data)
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
 		data[i] = brightness;
+	}
+}
+
+void breath_colors1(cur_time_t time, uint8_t* data)
+{
+	static uint8_t dir = 1;
+	static uint8_t step = 15;
+	static uint8_t brightness = 255;
+	
+	static COLORS color = 0;
+	static uint8_t colors_array[6][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 1, 0}, {1, 0, 1}, {0, 1, 1}};
+	
+	if (brightness<step) 
+	{
+		dir = 0;
+		color++;
+		if (color>5) color = 0;
+	}
+	if (brightness>(255-step)) dir = 1;
+	brightness = (dir==0)? brightness+step : brightness-step;
+	
+	for (uint16_t i = 0; i< LEDS_NUMBER*3; i+=3)
+	{
+		data[i] = brightness * colors_array[color][0];
+		data[i+1] = brightness * colors_array[color][1];
+		data[i+2] = brightness * colors_array[color][2];
 	}
 }
 
@@ -41,4 +67,20 @@ void running_red1(cur_time_t time, uint8_t* data)
 uint32_t* breathing_color_wave1(cur_time_t time, uint8_t* data)
 {
 	
+}
+
+void breath_white2(cur_time_t time, uint8_t* data)
+{
+	static uint8_t dir = 1;
+	static uint8_t step = 15;
+	static uint8_t brightness = 255;
+	
+	if (brightness<step) dir = 0;
+	if (brightness>(255-step)) dir = 1;
+	brightness = (dir==0)? brightness+step : brightness-step;
+	
+	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
+	{
+		data[i] = brightness;
+	}
 }

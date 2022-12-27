@@ -12,6 +12,7 @@ int main(){
 	alg_functions.total_registered = 0;
 	init_joystick();
 	
+	register_alg(breath_colors1);
 	register_alg(running_red1);
 	register_alg(breath_white1);
 	
@@ -25,10 +26,11 @@ int main(){
 		{
 			case NOKEY:
 				break;
-			case SEL:
+			case SEL:	
 				clear_leds();
 				update_leds();
-			//doesnt do much
+				NVIC_DisableIRQ(Timer2_IRQn); 
+				//doesnt work????????
 				break;
 			case RIGHT:
 				NVIC_DisableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
@@ -43,10 +45,14 @@ int main(){
 				NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
 				break;
 			case UP:
+				NVIC_EnableIRQ(Timer2_IRQn);
 				break;
 			case DOWN:
+				NVIC_DisableIRQ(Timer2_IRQn); 
 				break;
 			case MULTIPLE:
+				break;
+			case NUM_KEY_CODES:
 				break;
 		}
 	}

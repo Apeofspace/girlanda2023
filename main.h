@@ -15,6 +15,8 @@
 #define ONE 0xF0
 #define ZERO 0xC0
 
+typedef enum {R, G, B, RG, RB, GB}COLORS;
+
 /* Inits */
 void init_CPU(void);
 void init_TIMER1(void);
@@ -53,3 +55,4 @@ extern alg_functions_t alg_functions;
 void glow_white(cur_time_t time, uint8_t* data);
 void running_red1(cur_time_t time, uint8_t* data);
 void breath_white1(cur_time_t time, uint8_t* data);
+void breath_colors1(cur_time_t time, uint8_t* data);
