@@ -66,9 +66,69 @@ typedef struct
         ^
 9 warnings generated.
 compiling main.c...
+led_funcs.c(1): warning: In file included from...
+./main.h(1): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(68): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(140): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cmInstr.h(448): warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+  return(result);
+  ~~~~~~ ^~~~~~
+led_funcs.c(1): warning: In file included from...
+./main.h(1): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(32): warning: In file included from...
+./RTE/Device/MDR1986BE92\MDR32F9Qx_config.h(68): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc\MDR32Fx.h(80): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3\core_cm3.h(1499): warning: function 'NVIC_SystemReset' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+led_funcs.c(1): warning: In file included from...
+./main.h(1): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus."
+     ^
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(225): warning: "Legacy v1.5.3: @ref BitAction enumeration (Bit_RESET, Bit_SET) will be removed. Use @ref BitStatus." [-W#warnings]
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction"
+     ^
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_port.h(286): warning: "Legacy v1.5.3: BitAction enumeration (Bit_RESET, Bit_SET) will be removed. In PORT_WriteBit() function use @ref BitStatus instead of @ref BitAction" [-W#warnings]
+led_funcs.c(1): warning: In file included from...
+./main.h(3): warning: In file included from...
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: #warning is a language extension [-Wpedantic]
+    #warning "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead"
+     ^
+C:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc\MDR32F9Qx_timer.h(91): warning: "Legacy v1.5.3: TIMER_EvSrc_None is deprecated and will be removed, use TIMER_EvSrc_TIM_CLK instead" [-W#warnings]
+led_funcs.c(4): warning: unused parameter 'delta_time' [-Wunused-parameter]
+void glow_white(cur_time_t delta_time, uint8_t* data)
+                           ^
+led_funcs.c(12): warning: unused parameter 'delta_time' [-Wunused-parameter]
+void breath_white1(cur_time_t delta_time, uint8_t* data)
+                              ^
+led_funcs.c(55): warning: unused parameter 'delta_time' [-Wunused-parameter]
+void running_red1(cur_time_t delta_time, uint8_t* data)
+                             ^
+led_funcs.c(69): warning: unused parameter 'delta_time' [-Wunused-parameter]
+uint32_t* breathing_color_wave1(cur_time_t delta_time, uint8_t* data)
+                                           ^
+led_funcs.c(69): warning: unused parameter 'data' [-Wunused-parameter]
+uint32_t* breathing_color_wave1(cur_time_t delta_time, uint8_t* data)
+                                                                ^
+led_funcs.c(69): warning: no previous prototype for function 'breathing_color_wave1' [-Wmissing-prototypes]
+uint32_t* breathing_color_wave1(cur_time_t delta_time, uint8_t* data)
+          ^
+led_funcs.c(69): note: declare 'static' if the function is not intended to be used outside of this translation unit
+uint32_t* breathing_color_wave1(cur_time_t delta_time, uint8_t* data)
+^
+static 
+led_funcs.c(72): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+15 warnings generated.
+compiling led_funcs.c...
 linking...
-Program Size: Code=4376 RO-data=244 RW-data=8 ZI-data=4448  
-".\Objects\girlanda2023.axf" - 0 Error(s), 9 Warning(s).
+Program Size: Code=5364 RO-data=244 RW-data=8 ZI-data=4456  
+".\Objects\girlanda2023.axf" - 0 Error(s), 24 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -116,7 +176,7 @@ Package Vendor: Keil
    * Component: Keil::Drivers:TIMER:2.0.0
       Include file:  Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h
       Source file:   Libraries\SPL\MDR32Fx\src\MDR32F9Qx_timer.c
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

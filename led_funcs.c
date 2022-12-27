@@ -1,6 +1,7 @@
 #include "main.h"
+//#include "math.h"
 
-void glow_white(cur_time_t time, uint8_t* data)
+void glow_white(cur_time_t delta_time, uint8_t* data)
 {
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
@@ -8,8 +9,9 @@ void glow_white(cur_time_t time, uint8_t* data)
 	}
 }
 
-void breath_white1(cur_time_t time, uint8_t* data)
+void breath_white1(cur_time_t delta_time, uint8_t* data)
 {
+	// не зависит от времени
 	static uint8_t dir = 1;
 	static uint8_t step = 15;
 	static uint8_t brightness = 255;
@@ -24,14 +26,16 @@ void breath_white1(cur_time_t time, uint8_t* data)
 	}
 }
 
-void breath_colors1(cur_time_t time, uint8_t* data)
+void breath_colors1(cur_time_t delta_time, uint8_t* data)
 {
 	static uint8_t dir = 1;
-	static uint8_t step = 15;
 	static uint8_t brightness = 255;
 	
 	static COLORS color = 0;
 	static uint8_t colors_array[6][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 1, 0}, {1, 0, 1}, {0, 1, 1}};
+	
+	uint8_t speed = 255;
+	uint8_t step = (uint8_t)((double)speed * (double)delta_time);
 	
 	if (brightness<step) 
 	{
@@ -50,7 +54,7 @@ void breath_colors1(cur_time_t time, uint8_t* data)
 	}
 }
 
-void running_red1(cur_time_t time, uint8_t* data)
+void running_red1(cur_time_t delta_time, uint8_t* data)
 {
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
@@ -64,16 +68,18 @@ void running_red1(cur_time_t time, uint8_t* data)
 	if (active_red>LEDS_NUMBER*3) active_red=0;
 }
 
-uint32_t* breathing_color_wave1(cur_time_t time, uint8_t* data)
+uint32_t* breath_color_wave1(cur_time_t delta_time, uint8_t* data)
 {
 	
 }
 
-void breath_white2(cur_time_t time, uint8_t* data)
+void breath_white2(cur_time_t delta_time, uint8_t* data)
 {
+	//зависимость от времени
 	static uint8_t dir = 1;
-	static uint8_t step = 15;
 	static uint8_t brightness = 255;
+	uint8_t speed = 255; // 255 = 1 в сек
+	uint8_t step = (uint8_t)((double)speed * (double)delta_time);
 	
 	if (brightness<step) dir = 0;
 	if (brightness>(255-step)) dir = 1;

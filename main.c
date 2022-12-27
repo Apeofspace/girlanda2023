@@ -12,9 +12,10 @@ int main(){
 	alg_functions.total_registered = 0;
 	init_joystick();
 	
+	register_alg(breath_white2);
 	register_alg(breath_colors1);
 	register_alg(running_red1);
-	register_alg(breath_white1);
+//	register_alg(breath_white1);
 	
 	init_TIMER1();
 	init_TIMER2();	

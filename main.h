@@ -30,11 +30,11 @@ void Timer2_IRQHandler(void);
 /*Time*/
 typedef double cur_time_t;
 extern uint32_t seconds;
-cur_time_t get_time(void);
+cur_time_t get_delta_time(void);
 void reset_time(void);
 
 /*Funcs*/
-void register_alg(void alg(cur_time_t time, uint8_t* data));
+void register_alg(void alg(cur_time_t delta_time, uint8_t* data));
 void update_leds(void);
 void clear_leds(void);
 void convert_array(uint8_t* arr, uint8_t* result);
@@ -44,7 +44,7 @@ extern uint8_t leds_data_rgb[LEDS_NUMBER*3];
 extern uint8_t leds_data_corrected[LEDS_NUMBER*24];
 typedef struct
 {
-	void (*funcs[20])(cur_time_t time, uint8_t* data);
+	void (*funcs[20])(cur_time_t delta_time, uint8_t* data);
 	uint8_t total_registered;
 	uint8_t currently_selected;
 } alg_functions_t;
@@ -52,7 +52,8 @@ extern alg_functions_t alg_functions;
 
 
 /*Algorythms*/
-void glow_white(cur_time_t time, uint8_t* data);
-void running_red1(cur_time_t time, uint8_t* data);
-void breath_white1(cur_time_t time, uint8_t* data);
-void breath_colors1(cur_time_t time, uint8_t* data);
+void glow_white(cur_time_t delta_time, uint8_t* data);
+void running_red1(cur_time_t delta_time, uint8_t* data);
+void breath_white1(cur_time_t delta_time, uint8_t* data);
+void breath_colors1(cur_time_t delta_time, uint8_t* data);
+void breath_white2(cur_time_t delta_time, uint8_t* data);
