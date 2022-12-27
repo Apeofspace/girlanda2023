@@ -14,13 +14,15 @@ int main(){
 	alg_functions.speed = 100;
 	init_joystick();
 	
+	/*!!Регистрация алгоритмов!!*/
+	register_alg(breath_colors2);
 	register_alg(running_red1);
 	register_alg(breath_colors1);
 	register_alg(breath_white2);
+	/*--------------------------*/
 	
 	init_TIMER1();
 	init_TIMER2();	
-	
 	
 	while(1)
 	{

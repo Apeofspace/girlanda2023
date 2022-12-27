@@ -57,6 +57,7 @@ double get_delta_time()
 	if (old_time>new_time) old_time = 0;
 	delta_time = new_time-old_time;
 	old_time = new_time;
+	if ((uint8_t)old_time == 0) delta_time = 0; //??
 	return delta_time;
 }
 
