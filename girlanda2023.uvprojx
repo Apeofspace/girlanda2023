@@ -423,6 +423,11 @@
               <FileType>5</FileType>
               <FilePath>.\joystick.h</FilePath>
             </File>
+            <File>
+              <FileName>led_funcs.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\led_funcs.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -47,11 +47,11 @@ void reset_time()
 		seconds = 0;
 }
 
-cur_time_t get_delta_time()
+double get_delta_time()
 {	
-	static cur_time_t old_time = 0;
-	cur_time_t new_time;
-	cur_time_t delta_time;
+	static double old_time = 0;
+	double new_time;
+	double delta_time;
 	double onefiftythou = MDR_TIMER1->CNT;
 	new_time = (double)seconds + onefiftythou/50000;
 	if (old_time>new_time) old_time = 0;
@@ -60,7 +60,7 @@ cur_time_t get_delta_time()
 	return delta_time;
 }
 
-void register_alg(void alg(cur_time_t delta_time, uint8_t* data, uint16_t speed))
+void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed))
 {
 	alg_functions.funcs[alg_functions.total_registered] = alg;
 	alg_functions.total_registered++;
