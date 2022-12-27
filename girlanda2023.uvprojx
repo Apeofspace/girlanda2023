@@ -404,14 +404,14 @@
               <FilePath>.\irqs.c</FilePath>
             </File>
             <File>
-              <FileName>time.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\time.c</FilePath>
-            </File>
-            <File>
               <FileName>led_funcs.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\led_funcs.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_controls.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\led_controls.c</FilePath>
             </File>
           </Files>
         </Group>
