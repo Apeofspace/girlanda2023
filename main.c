@@ -11,7 +11,7 @@ int main(){
 	
 	alg_functions.currently_selected = 0;
 	alg_functions.total_registered = 0;
-	alg_functions.speed = 255;
+	alg_functions.speed = 100;
 	init_joystick();
 	
 	register_alg(running_red1);
@@ -53,10 +53,10 @@ int main(){
 				NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
 				break;
 			case UP:
-				if (alg_functions.speed<1000) alg_functions.speed+=50;
+				if (alg_functions.speed<400) alg_functions.speed+=20;
 				break;
 			case DOWN:
-				if (alg_functions.speed>50)	alg_functions.speed-=50;
+				if (alg_functions.speed>20)	alg_functions.speed-=20;
 				break;
 			case MULTIPLE:
 				break;
