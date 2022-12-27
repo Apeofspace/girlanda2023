@@ -1,40 +1,23 @@
 #include "main.h"
-//#include "math.h"
 
-void glow_white(cur_time_t delta_time, uint8_t* data)
+void glow_white(cur_time_t delta_time, uint8_t* data, uint16_t speed)
 {
+	// тупо макс яркость
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
 		data[i] = 0xFF;
 	}
 }
 
-void breath_white1(cur_time_t delta_time, uint8_t* data)
+void breath_colors1(cur_time_t delta_time, uint8_t* data, uint16_t speed)
 {
-	// не зависит от времени
-	static uint8_t dir = 1;
-	static uint8_t step = 15;
-	static uint8_t brightness = 255;
-	
-	if (brightness<step) dir = 0;
-	if (brightness>(255-step)) dir = 1;
-	brightness = (dir==0)? brightness+step : brightness-step;
-	
-	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
-	{
-		data[i] = brightness;
-	}
-}
-
-void breath_colors1(cur_time_t delta_time, uint8_t* data)
-{
+	// цвета меняют друг друга по очереди
 	static uint8_t dir = 1;
 	static uint8_t brightness = 255;
 	
 	static COLORS color = 0;
 	static uint8_t colors_array[6][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 1, 0}, {1, 0, 1}, {0, 1, 1}};
 	
-	uint8_t speed = 255;
 	uint8_t step = (uint8_t)((double)speed * (double)delta_time);
 	
 	if (brightness<step) 
@@ -54,8 +37,9 @@ void breath_colors1(cur_time_t delta_time, uint8_t* data)
 	}
 }
 
-void running_red1(cur_time_t delta_time, uint8_t* data)
+void running_red1(cur_time_t delta_time, uint8_t* data, uint16_t speed)
 {
+	// красная фигня бегает
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
 		data[i] = 0;
@@ -68,17 +52,16 @@ void running_red1(cur_time_t delta_time, uint8_t* data)
 	if (active_red>LEDS_NUMBER*3) active_red=0;
 }
 
-uint32_t* breath_color_wave1(cur_time_t delta_time, uint8_t* data)
+uint32_t* breath_color_wave1(cur_time_t delta_time, uint8_t* data, uint16_t speed)
 {
 	
 }
 
-void breath_white2(cur_time_t delta_time, uint8_t* data)
+void breath_white2(cur_time_t delta_time, uint8_t* data, uint16_t speed)
 {
-	//зависимость от времени
+	//дышит белым
 	static uint8_t dir = 1;
 	static uint8_t brightness = 255;
-	uint8_t speed = 255; // 255 = 1 в сек
 	uint8_t step = (uint8_t)((double)speed * (double)delta_time);
 	
 	if (brightness<step) dir = 0;

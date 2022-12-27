@@ -60,7 +60,7 @@ cur_time_t get_delta_time()
 	return delta_time;
 }
 
-void register_alg(void alg(cur_time_t delta_time, uint8_t* data))
+void register_alg(void alg(cur_time_t delta_time, uint8_t* data, uint16_t speed))
 {
 	alg_functions.funcs[alg_functions.total_registered] = alg;
 	alg_functions.total_registered++;
