@@ -10,7 +10,7 @@ void (*alg_functions[10])(cur_time_t time, uint8_t* data);
 void convert_array(uint8_t* arr, uint8_t* result)
 {
 	uint16_t i = 0;
-	uint8_t j = 0;
+	int j = 0;
 	uint8_t temp = 0;
 //	while(i<LEDS_NUMBER*3)
 //	{
@@ -28,9 +28,8 @@ void convert_array(uint8_t* arr, uint8_t* result)
 	{
 		temp = arr[i];
 		j = 7;
-		while (j!=0)
-		{
-			
+		while (j>=0)
+		{		
 			*result = ((temp>>j)&0x1)? ONE : ZERO;
 			result++;
 			j--;

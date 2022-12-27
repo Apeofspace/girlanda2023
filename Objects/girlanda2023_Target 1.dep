@@ -1,7 +1,7 @@
 Dependencies for Project 'girlanda2023', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\main.c)(0x63AABC9F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
-I (main.h)(0x63AABC9F)
+F (.\main.c)(0x63AABEE3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+I (main.h)(0x63AAC396)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)
@@ -14,9 +14,9 @@ I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
-F (.\main.h)(0x63AABC9F)()
+F (.\main.h)(0x63AAC396)()
 F (.\inits.c)(0x63A98927)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/inits.o -MD)
-I (main.h)(0x63AABC9F)
+I (main.h)(0x63AAC396)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)
@@ -29,8 +29,8 @@ I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
-F (.\irqs.c)(0x63AABE7E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/irqs.o -MD)
-I (main.h)(0x63AABC9F)
+F (.\irqs.c)(0x63AAC38F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/irqs.o -MD)
+I (main.h)(0x63AAC396)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)
@@ -43,8 +43,8 @@ I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
-F (.\led_funcs.c)(0x63AABD6C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_funcs.o -MD)
-I (main.h)(0x63AABC9F)
+F (.\led_funcs.c)(0x63AAC38F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_funcs.o -MD)
+I (main.h)(0x63AAC396)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)
@@ -57,8 +57,8 @@ I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
-F (.\led_controls.c)(0x63AABE5A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_controls.o -MD)
-I (main.h)(0x63AABC9F)
+F (.\led_controls.c)(0x63AAC2BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_controls.o -MD)
+I (main.h)(0x63AAC396)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)

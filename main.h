@@ -43,3 +43,4 @@ extern void (*alg_functions[10])(cur_time_t time, uint8_t* data);
 /*Algorythms*/
 void glow_white(cur_time_t time, uint8_t* data);
 void running_red1(cur_time_t time, uint8_t* data);
+void breath_white1(cur_time_t time, uint8_t* data);

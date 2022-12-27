@@ -8,6 +8,22 @@ void glow_white(cur_time_t time, uint8_t* data)
 	}
 }
 
+void breath_white1(cur_time_t time, uint8_t* data)
+{
+	static uint8_t dir = 1;
+	static uint8_t step = 30;
+	static uint8_t brightness = 255;
+	
+	if (brightness<step) dir = 0;
+	if (brightness>(255-step)) dir = 1;
+	brightness = (dir==0)? brightness+step : brightness-step;
+	
+	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
+	{
+		data[i] = brightness;
+	}
+}
+
 void running_red1(cur_time_t time, uint8_t* data)
 {
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
