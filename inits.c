@@ -45,6 +45,40 @@ void init_TIMER1(){
 	MDR_TIMER1->CNTRL |= TIMER_CNTRL_CNT_EN; //включить таймер.	
 }
 
+void init_TIMER2(){
+	/*Таймер для прерываний*/
+	/*Тактирование таймеров*/
+	MDR_RST_CLK->PER_CLOCK |= RST_CLK_PCLK_TIMER2;
+	MDR_RST_CLK->TIM_CLOCK |= RST_CLK_TIM_CLOCK_TIM2_CLK_EN;
+	
+	/*Обнуление*/
+	MDR_TIMER2->CH1_CNTRL = 0x00000000;
+	MDR_TIMER2->CH2_CNTRL = 0x00000000;
+	MDR_TIMER2->CH3_CNTRL = 0x00000000;
+	MDR_TIMER2->CH4_CNTRL = 0x00000000;
+	MDR_TIMER2->CH1_CNTRL1 = 0x00000000;
+	MDR_TIMER2->CH2_CNTRL1 = 0x00000000;
+	MDR_TIMER2->CH3_CNTRL1 = 0x00000000;
+	MDR_TIMER2->CH4_CNTRL1 = 0x00000000;	
+	MDR_TIMER2->CH1_CNTRL2 = 0x00000000;
+	MDR_TIMER2->CH2_CNTRL2 = 0x00000000;
+	MDR_TIMER2->CH3_CNTRL2 = 0x00000000;
+	MDR_TIMER2->CH4_CNTRL2 = 0x00000000;	
+	MDR_TIMER2->STATUS = 0x00000000;
+	MDR_TIMER2->CNTRL = 0x00000000; // режим инициализации таймера
+	MDR_TIMER2->CNT = 0x00000000; // Начальное значение счетчика	
+
+	/*Настройки таймера*/
+	MDR_TIMER2->PSG = 79; // Предделитель частоты
+	MDR_TIMER2->ARR = 33332; // Основание счета (16 бит)
+	// приблизительно 30 Гц
+	MDR_TIMER2->CNTRL = TIMER_CNTRL_ARRB_EN | (0 << TIMER_CNTRL_CNT_MODE_Pos); //вверх, буферизация включена
+	
+	/*Разрешения работы*/
+	MDR_TIMER2->IE = TIMER_IE_CNT_ARR_EVENT_IE;		//прерывание по cnt=arr
+	NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
+	MDR_TIMER2->CNTRL |= TIMER_CNTRL_CNT_EN; //включить таймер.	
+}
 
 void init_SPI(){
 	SSP_InitTypeDef SSI_init_struct;
