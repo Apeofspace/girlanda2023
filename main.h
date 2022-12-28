@@ -39,7 +39,7 @@ extern uint8_t leds_data_rgb[LEDS_NUMBER*3];
 extern uint8_t leds_data_corrected[LEDS_NUMBER*24];
 typedef struct
 {
-	void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed);
+	void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed); //массив указателей на функции
 	uint8_t total_registered;
 	uint8_t currently_selected;
 	uint16_t speed;

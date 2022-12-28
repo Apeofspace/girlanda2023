@@ -7,6 +7,7 @@ alg_functions_t alg_functions;
 
 
 void convert_array(uint8_t* arr, uint8_t* result)
+	/*Превращает массив из 300 элементов в массив из 2400 элементов чтобы можно было кидать на SPI*/
 {
 	uint16_t i = 0;
 	int j = 0;
@@ -34,6 +35,7 @@ void clear_leds()
 }
 
 void update_leds()
+	/*Отправить массив на диодную ленту*/
 {
 	for (uint32_t i = 0; i < LEDS_NUMBER*24; i++)
 	{
@@ -49,6 +51,7 @@ void reset_time()
 
 double get_delta_time()
 {	
+	/*Возвращает время в секундах, прошедшее от предыдущего вызова этой функции*/
 	static double old_time = 0;
 	double new_time;
 	double delta_time;
@@ -63,6 +66,7 @@ double get_delta_time()
 
 void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed))
 {
+	/*Добавляет указатель функции в массив указателей*/
 	alg_functions.funcs[alg_functions.total_registered] = alg;
 	alg_functions.total_registered++;
 }

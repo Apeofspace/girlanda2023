@@ -12,3 +12,5 @@ void running_red1(double delta_time, uint8_t* data, uint16_t speed);
 void breath_colors1(double delta_time, uint8_t* data, uint16_t speed);
 void breath_white2(double delta_time, uint8_t* data, uint16_t speed);
 void breath_colors2(double delta_time, uint8_t* data, uint16_t speed);
+void breath_colors3(double delta_time, uint8_t* data, uint16_t speed);
+void running_color1(double delta_time, uint8_t* data, uint16_t speed);

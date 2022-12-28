@@ -15,10 +15,12 @@ int main(){
 	init_joystick();
 	
 	/*!!Регистрация алгоритмов!!*/
+//	register_alg(breath_colors3);
+	register_alg(running_color1);
 	register_alg(breath_colors2);
 	register_alg(running_red1);
 	register_alg(breath_colors1);
-	register_alg(breath_white2);
+//	register_alg(breath_white2);
 	/*--------------------------*/
 	
 	init_TIMER1();
