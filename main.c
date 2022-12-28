@@ -1,6 +1,7 @@
 #include "main.h"
 
 
+
 int main(){
 	uint8_t pause = 0;
 	
@@ -14,9 +15,11 @@ int main(){
 	alg_functions.speed = 100;
 	init_joystick();
 	
+	srand(12568);
+	
 	/*!!Регистрация алгоритмов!!*/
 //	register_alg(breath_colors3);
-	register_alg(running_color1);
+	register_alg(running_color2);
 	register_alg(breath_colors2);
 	register_alg(running_red1);
 	register_alg(breath_colors1);

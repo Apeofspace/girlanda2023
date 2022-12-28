@@ -10,6 +10,13 @@
 ----------------------------------------
 */
 
+void clear(double delta_time, uint8_t* data, uint16_t speed)
+{
+		for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
+	{
+		data[i] = 0;
+	}
+}
 void glow_white(double delta_time, uint8_t* data, uint16_t speed)
 {
 	// тупо макс яркость
@@ -161,6 +168,7 @@ void breath_colors3(double delta_time, uint8_t* data, uint16_t speed)
 
 void running_color1(double delta_time, uint8_t* data, uint16_t speed)
 {
+	//бегает в две стороны
 	// синий красный зеленый
 	static uint8_t rc1_color_array[10][3] = {
 		{0,MAX_BRIGHTNESS/2,0},//слабый к
@@ -175,23 +183,21 @@ void running_color1(double delta_time, uint8_t* data, uint16_t speed)
 		{0,MAX_BRIGHTNESS/2,0}//слабый к
 	};
 
-	static uint8_t phase = 0;
+	static uint8_t phase = PHASE_UP;
 	static double rc1_k = 0;
 	
 	if (rc1_k>1) 
 	{
-		phase=1;
+		phase=PHASE_DOWN;
 		rc1_k=1;
 	}
 	if (rc1_k<0) 
 	{
-		phase=0;
+		phase=PHASE_UP;
 		rc1_k=0;
 	}
 	
-//	static phase_switch
-	
-	if (phase==0)	rc1_k += delta_time*speed/150;
+	if (phase==PHASE_UP)	rc1_k += delta_time*speed/150;
 	else rc1_k -= delta_time*speed/150;
 	
 	int ind = (int)(floor(rc1_k * 100));
@@ -226,4 +232,111 @@ void running_color1(double delta_time, uint8_t* data, uint16_t speed)
 			data[z+2] = rc1_color_array[i][2];
 		}
 	}
+}
+
+
+void running_color2(double delta_time, uint8_t* data, uint16_t speed)
+{
+	// бегает в две стороны и скрэтчит
+	// синий красный зеленый
+	static uint8_t rc1_color_array[10][3] = {
+		{0,MAX_BRIGHTNESS/2,0},//слабый к
+		{MAX_BRIGHTNESS/4,MAX_BRIGHTNESS,0}, //к + слабый ф
+		{MAX_BRIGHTNESS, MAX_BRIGHTNESS,0}, //ф
+		{MAX_BRIGHTNESS,0, MAX_BRIGHTNESS}, //г
+		{MAX_BRIGHTNESS, 20, 20}, //с + слабый белый
+		{MAX_BRIGHTNESS, 20, 20}, //с + слабый белый
+		{MAX_BRIGHTNESS,0, MAX_BRIGHTNESS}, //г
+		{MAX_BRIGHTNESS, MAX_BRIGHTNESS,0}, //ф
+		{MAX_BRIGHTNESS/4,MAX_BRIGHTNESS,0}, //к + слабый ф
+		{0,MAX_BRIGHTNESS/2,0}//слабый к
+	};
+
+	static uint8_t rc2_phase = PHASE_UP;
+	static double rc1_k = 0;
+	double rc2_scratch_threshold=0.65;
+	uint8_t rc2_scratch_reset_value = 7;
+	static uint8_t rc2_scratch_countdown = 0;	
+	static uint8_t rc2_scratching_now = 4;
+	static uint16_t rc2_speed_temp;
+	
+	if (rc1_k>1) 
+	{
+		rc2_phase=PHASE_DOWN;
+		rc1_k=1;
+		if (rc2_scratch_countdown>0) rc2_scratch_countdown--;
+	}
+	if (rc1_k<0) 
+	{
+		rc2_phase=PHASE_UP;
+		rc1_k=0;
+		if (rc2_scratch_countdown>0) rc2_scratch_countdown--;
+	}
+	
+	if (rc2_scratch_countdown==0) // скрэтч тайм!
+	{
+		if ((rc2_phase==PHASE_UP)&(rc1_k>rc2_scratch_threshold))
+		{
+			rc2_phase=PHASE_DOWN;
+			if (rc2_scratching_now==0) rc2_speed_temp*=2;
+			rc2_scratching_now++;
+			
+		}
+		if ((rc2_phase==PHASE_DOWN)&(rc1_k<(1-rc2_scratch_threshold)))
+		{
+			rc2_phase=PHASE_UP;
+			if (rc2_scratching_now==0) rc2_speed_temp*=2;
+			rc2_scratching_now++;
+		}
+		if (rc2_scratching_now>=4) // скрэтч офф =(
+		{
+			rc2_scratch_countdown = rc2_scratch_reset_value;
+			rc2_scratching_now = 0;
+			rc2_speed_temp=speed;
+		}
+	}
+	
+	
+	if (rc2_phase==PHASE_UP)	rc1_k += delta_time*rc2_speed_temp/100;
+	else rc1_k -= delta_time*rc2_speed_temp/100;
+	
+	int ind = (int)(floor(rc1_k * 100));
+
+	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
+	{
+		data[i] = 0;
+	}
+
+	
+	for (uint16_t i = 0; i<10;i++)
+	{
+		int z = (ind+i)*3;
+		if (!(z<LEDS_NUMBER*3))
+		{
+			//z больше 297. Правая граница
+			data[LEDS_NUMBER*3-3] = 0;
+			data[LEDS_NUMBER*3-2] = MAX_BRIGHTNESS;
+			data[LEDS_NUMBER*3-1] = 0;
+		}
+		else if (!(z>0))
+		{
+			//z отрицательное. Левая граница
+			data[0] = 0;
+			data[1] = MAX_BRIGHTNESS;
+			data[2] = 0;
+		}
+		else
+		{
+			//всё нормально
+			data[z] = rc1_color_array[i][0];
+			data[z+1] = rc1_color_array[i][1];
+			data[z+2] = rc1_color_array[i][2];
+		}
+	}
+}
+
+void running_color3(double delta_time, uint8_t* data, uint16_t speed)
+{
+	breath_colors2(delta_time, data, speed);
+	running_color2(delta_time,data,speed);
 }
