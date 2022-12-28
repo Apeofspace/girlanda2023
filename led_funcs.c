@@ -10,7 +10,7 @@
 ----------------------------------------
 */
 //-----------------------------------------------------------------------
-void clear(double delta_time, uint8_t* data, uint16_t speed)
+void clear(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// очищает массив диодов как бейзлайн дл€ других алгоритмов
 		for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
@@ -19,7 +19,7 @@ void clear(double delta_time, uint8_t* data, uint16_t speed)
 	}
 }
 //-----------------------------------------------------------------------
-void glow_white(double delta_time, uint8_t* data, uint16_t speed)
+void glow_white(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// тупо макс €ркость
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
@@ -28,35 +28,35 @@ void glow_white(double delta_time, uint8_t* data, uint16_t speed)
 	}
 }
 //-----------------------------------------------------------------------
-void breath_colors1(double delta_time, uint8_t* data, uint16_t speed)
+void breath_colors1(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// цвета мен€ют друг друга по очереди
 	static uint8_t dir = 1;
-	static uint8_t brightness = MAX_BRIGHTNESS;
+	static uint8_t bc1_brightness = MAX_BRIGHTNESS;
 	
 	static COLORS color = 0;
 	static uint8_t bc1_colors_array[6][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 1, 0}, {1, 0, 1}, {0, 1, 1}};
 	
 	uint8_t step = (uint8_t)((double)speed/100 * MAX_BRIGHTNESS * (double)delta_time);
 	
-	if (brightness<step) 
+	if (bc1_brightness<step) 
 	{
 		dir = 0;
 		color++;
 		if (color>5) color = 0;
 	}
-	if (brightness>(MAX_BRIGHTNESS-step)) dir = 1;
-	brightness = (dir==0)? brightness+step : brightness-step;
+	if (bc1_brightness>(MAX_BRIGHTNESS-step)) dir = 1;
+	bc1_brightness = (dir==0)? bc1_brightness+step : bc1_brightness-step;
 	
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i+=3)
 	{
-		data[i] = brightness * bc1_colors_array[color][0];
-		data[i+1] = brightness * bc1_colors_array[color][1];
-		data[i+2] = brightness * bc1_colors_array[color][2];
+		data[i] = bc1_brightness * bc1_colors_array[color][0];
+		data[i+1] = bc1_brightness * bc1_colors_array[color][1];
+		data[i+2] = bc1_brightness * bc1_colors_array[color][2];
 	}
 }
 //-----------------------------------------------------------------------
-void running_red1(double delta_time, uint8_t* data, uint16_t speed)
+void running_red1(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// красна€ фигн€ бегает максимально простым образом
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
@@ -65,13 +65,13 @@ void running_red1(double delta_time, uint8_t* data, uint16_t speed)
 	}
 	static uint16_t rr_active_red = 0;
 	data[rr_active_red] = 0; //синий
-	data[rr_active_red+1] = MAX_BRIGHTNESS; //красный
+	data[rr_active_red+1] = brightness; //красный
 	data[rr_active_red+2] = 0; //зеленый
 	rr_active_red+=3;
 	if (rr_active_red>LEDS_NUMBER*3) rr_active_red=0;
 }
 //-----------------------------------------------------------------------
-void breath_colors2(double delta_time, uint8_t* data, uint16_t speed)
+void breath_colors2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 		// цвета мен€ют друг друга плавно
 
@@ -90,9 +90,9 @@ void breath_colors2(double delta_time, uint8_t* data, uint16_t speed)
 	while (bc2_k3>1) bc2_k3--;
 	
 	double s1, s2, s3;
-	s1 = MAX_BRIGHTNESS/3 * sin(2 * M_PI * bc2_k1)+MAX_BRIGHTNESS/2;
-	s2 = MAX_BRIGHTNESS * sin(2 * M_PI * bc2_k2)+MAX_BRIGHTNESS/2;
-	s3 = MAX_BRIGHTNESS/2 * sin(2 * M_PI * bc2_k3)+MAX_BRIGHTNESS/2;
+	s1 = brightness/3 * sin(2 * M_PI * bc2_k1)+brightness/2;
+	s2 = brightness * sin(2 * M_PI * bc2_k2)+brightness/2;
+	s3 = brightness/2 * sin(2 * M_PI * bc2_k3)+brightness/2;
 	
 	if (s1 < 0) s1 = 0; // если синусоида меньше нул€, то обнул€ем ее совсем.
 	if (s2 < 0) s2 = 0;
@@ -107,24 +107,24 @@ void breath_colors2(double delta_time, uint8_t* data, uint16_t speed)
 	
 }
 //-----------------------------------------------------------------------
-void breath_white2(double delta_time, uint8_t* data, uint16_t speed)
+void breath_white2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	//дышит белым
 	static uint8_t dir = 1;
-	static uint8_t brightness = MAX_BRIGHTNESS;
-	uint8_t step = (uint8_t)((double)speed/100 * MAX_BRIGHTNESS * (double)delta_time);
+	static uint8_t bw2_brightness = MAX_BRIGHTNESS;
+	uint8_t step = (uint8_t)((double)speed/100 * brightness * (double)delta_time);
 	
-	if (brightness<step) dir = 0;
-	if (brightness>(MAX_BRIGHTNESS-step)) dir = 1;
-	brightness = (dir==0)? brightness+step : brightness-step;
+	if (bw2_brightness<step) dir = 0;
+	if (bw2_brightness>(brightness-step)) dir = 1;
+	bw2_brightness = (dir==0)? bw2_brightness+step : bw2_brightness-step;
 	
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
-		data[i] = brightness;
+		data[i] = bw2_brightness;
 	}
 }
 //-----------------------------------------------------------------------
-void running_color(double delta_time, uint8_t* data, uint16_t speed)
+void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// бегает в две стороны и скрэтчит
 	// не очищает предыдущий массив, можно использовать поверх других
@@ -198,14 +198,14 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed)
 		{
 			//z больше 297. ѕрава€ граница
 			data[LEDS_NUMBER*3-3] = 0;
-			data[LEDS_NUMBER*3-2] = MAX_BRIGHTNESS;
+			data[LEDS_NUMBER*3-2] = brightness;
 			data[LEDS_NUMBER*3-1] = 0;
 		}
 		else if (!(z>0))
 		{
 			//z отрицательное. Ћева€ граница
 			data[0] = 0;
-			data[1] = MAX_BRIGHTNESS;
+			data[1] = brightness;
 			data[2] = 0;
 		}
 		else
@@ -218,22 +218,22 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed)
 	}
 }
 //-----------------------------------------------------------------------
-void running_color2(double delta_time, uint8_t* data, uint16_t speed)
+void running_color2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
-	clear(delta_time, data, speed);
-	running_color(delta_time, data, speed);
+	clear(delta_time, data, speed, brightness/3);
+	running_color(delta_time, data, speed, brightness);
 	
 }
 //-----------------------------------------------------------------------
-void running_color3(double delta_time, uint8_t* data, uint16_t speed)
+void running_color3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
-	breath_colors2(delta_time, data, speed/2);
-	running_color(delta_time,data,speed);
+	breath_colors2(delta_time, data, speed/2, brightness/3);
+	running_color(delta_time,data,speed, brightness);
 }
 //-----------------------------------------------------------------------
-void running_color4(double delta_time, uint8_t* data, uint16_t speed)
+void running_color4(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
-	breath_colors1(delta_time, data, speed/2);
-	running_color(delta_time,data,speed);
+	breath_colors1(delta_time, data, speed/2, brightness/3);
+	running_color(delta_time,data,speed,brightness);
 }
 //-----------------------------------------------------------------------

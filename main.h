@@ -29,7 +29,7 @@ double get_delta_time(void);
 void reset_time(void);
 
 /*Funcs*/
-void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed));
+void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness));
 void update_leds(void);
 void clear_leds(void);
 void convert_array(uint8_t* arr, uint8_t* result);
@@ -39,7 +39,7 @@ extern uint8_t leds_data_rgb[LEDS_NUMBER*3];
 extern uint8_t leds_data_corrected[LEDS_NUMBER*24];
 typedef struct
 {
-	void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed); //массив указателей на функции
+	void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness); //массив указателей на функции
 	uint8_t total_registered;
 	uint8_t currently_selected;
 	uint16_t speed;

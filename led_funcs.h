@@ -10,12 +10,11 @@ typedef enum {PHASE_UP,PHASE_DOWN} phase_t;
 #define M_PI 3.14159265358979323846
 
 /*Algorythms*/
-void glow_white(double delta_time, uint8_t* data, uint16_t speed);
-void running_red1(double delta_time, uint8_t* data, uint16_t speed);
-void breath_colors1(double delta_time, uint8_t* data, uint16_t speed);
-void breath_white2(double delta_time, uint8_t* data, uint16_t speed);
-void breath_colors2(double delta_time, uint8_t* data, uint16_t speed);
-void running_color2(double delta_time, uint8_t* data, uint16_t speed);
-void running_color3(double delta_time, uint8_t* data, uint16_t speed);
-void running_color4(double delta_time, uint8_t* data, uint16_t speed);
-	
+void glow_white(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void running_red1(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void breath_colors1(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void breath_white2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void breath_colors2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void running_color2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void running_color3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void running_color4(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);

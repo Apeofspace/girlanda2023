@@ -64,7 +64,7 @@ double get_delta_time()
 	return delta_time;
 }
 
-void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed))
+void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness))
 {
 	/*Добавляет указатель функции в массив указателей*/
 	alg_functions.funcs[alg_functions.total_registered] = alg;
