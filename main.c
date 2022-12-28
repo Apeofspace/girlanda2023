@@ -41,6 +41,7 @@ int main(){
 				else
 				{
 					pause = 0;
+					reset_time();
 					NVIC_EnableIRQ(Timer2_IRQn);
 				}
 				break;

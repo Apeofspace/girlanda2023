@@ -175,17 +175,26 @@ void running_color1(double delta_time, uint8_t* data, uint16_t speed)
 		{0,MAX_BRIGHTNESS/2,0}//слабый к
 	};
 
-	
+	static uint8_t phase = 0;
 	static double rc1_k = 0;
-	rc1_k += delta_time*speed/150;
-	while (rc1_k>1) rc1_k--;
 	
-	uint16_t ind = (uint16_t)(floor(rc1_k * 100));
-	if (ind>=LEDS_NUMBER-10) 
+	if (rc1_k>1) 
 	{
-		ind = 0;
-		rc1_k = 0;
+		phase=1;
+		rc1_k=1;
 	}
+	if (rc1_k<0) 
+	{
+		phase=0;
+		rc1_k=0;
+	}
+	
+//	static phase_switch
+	
+	if (phase==0)	rc1_k += delta_time*speed/150;
+	else rc1_k -= delta_time*speed/150;
+	
+	int ind = (int)(floor(rc1_k * 100));
 
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{
@@ -194,8 +203,27 @@ void running_color1(double delta_time, uint8_t* data, uint16_t speed)
 	
 	for (uint16_t i = 0; i<10;i++)
 	{
-		data[(ind+i)*3] = rc1_color_array[i][0];
-		data[(ind+i)*3+1] = rc1_color_array[i][1];
-		data[(ind+i)*3+2] = rc1_color_array[i][2];
+		int z = (ind+i)*3;
+		if (!(z<LEDS_NUMBER*3))
+		{
+			//z больше 297. Правая граница
+			data[LEDS_NUMBER*3-3] = 0;
+			data[LEDS_NUMBER*3-2] = MAX_BRIGHTNESS;
+			data[LEDS_NUMBER*3-1] = 0;
+		}
+		else if (!(z>0))
+		{
+			//z отрицательное. Левая граница
+			data[0] = 0;
+			data[1] = MAX_BRIGHTNESS;
+			data[2] = 0;
+		}
+		else
+		{
+			//всё нормально
+			data[z] = rc1_color_array[i][0];
+			data[z+1] = rc1_color_array[i][1];
+			data[z+2] = rc1_color_array[i][2];
+		}
 	}
 }
