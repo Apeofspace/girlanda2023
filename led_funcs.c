@@ -143,7 +143,8 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t bri
 
 	static uint8_t rc_phase = PHASE_UP;
 	static double rc_k = 0;
-	double rc_scratch_threshold=0.65;
+	double rc_scratch_threshold1=0.8;
+	double rc_scratch_threshold2=0.6;
 	uint8_t rc_scratch_reset_value = 7;
 	static uint8_t rc_scratch_countdown = 0;	
 	static uint8_t rc_scratching_now = 4;
@@ -164,14 +165,14 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t bri
 	
 	if (rc_scratch_countdown==0) // скрэтч тайм!
 	{
-		if ((rc_phase==PHASE_UP)&(rc_k>rc_scratch_threshold))
+		if ((rc_phase==PHASE_UP)&(rc_k>rc_scratch_threshold1))
 		{
 			rc_phase=PHASE_DOWN;
 			if (rc_scratching_now==0) rc_speed_temp*=2;
 			rc_scratching_now++;
 			
 		}
-		if ((rc_phase==PHASE_DOWN)&(rc_k<(1-rc_scratch_threshold)))
+		if ((rc_phase==PHASE_DOWN)&(rc_k<(rc_scratch_threshold2)))
 		{
 			rc_phase=PHASE_UP;
 			if (rc_scratching_now==0) rc_speed_temp*=2;
@@ -186,10 +187,10 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t bri
 	}
 	
 	
-	if (rc_phase==PHASE_UP)	rc_k += delta_time*rc_speed_temp/100;
-	else rc_k -= delta_time*rc_speed_temp/100;
+	if (rc_phase==PHASE_UP)	rc_k += delta_time*rc_speed_temp/150;
+	else rc_k -= delta_time*rc_speed_temp/150;
 	
-	int ind = (int)(floor(rc_k * 100));
+	int ind = (int)(floor(rc_k * LEDS_NUMBER));
 
 	for (uint16_t i = 0; i<10;i++)
 	{

@@ -1,8 +1,8 @@
 #include "MDR32F9Qx_rst_clk.h"          // Keil::Drivers:RST_CLK
-#include "time.h"
-#include "stdlib.h"
+//#include "time.h"
+//#include "stdlib.h"
 
-#define LEDS_NUMBER 100
+#define LEDS_NUMBER 200
 typedef enum {R, G, B, RG, RB, GB}COLORS;
 typedef enum {PHASE_UP,PHASE_DOWN} phase_t;
 

@@ -15,8 +15,6 @@ int main(){
 	alg_functions.speed = 100;
 	init_joystick();
 	
-	srand(12568);
-	
 	/*!!Регистрация алгоритмов!!*/
 	register_alg(running_color2);
 	register_alg(running_color3);

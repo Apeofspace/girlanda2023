@@ -15,9 +15,7 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR3
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
 I (joystick.h)(0x62333183)
-I (led_funcs.h)(0x63AC4498)
-I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60354E20)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (led_funcs.h)(0x63AD9605)
 F (.\main.h)(0x63AC439D)()
 F (.\inits.c)(0x63AACA24)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/inits.o -MD)
 I (main.h)(0x63AC439D)
@@ -34,9 +32,7 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR3
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
 I (joystick.h)(0x62333183)
-I (led_funcs.h)(0x63AC4498)
-I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60354E20)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (led_funcs.h)(0x63AD9605)
 F (.\irqs.c)(0x63AC4318)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/irqs.o -MD)
 I (main.h)(0x63AC439D)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
@@ -52,11 +48,9 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR3
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
 I (joystick.h)(0x62333183)
-I (led_funcs.h)(0x63AC4498)
-I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60354E20)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
-F (.\led_funcs.c)(0x63AC44BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_funcs.o -MD)
-I (led_funcs.h)(0x63AC4498)
+I (led_funcs.h)(0x63AD9605)
+F (.\led_funcs.c)(0x63AD9605)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_funcs.o -MD)
+I (led_funcs.h)(0x63AD9605)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6239A812)
@@ -66,8 +60,6 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\CMSIS\MD
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmInstr.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\CMSIS\MDR32Fx\CoreSupport\CM3\core_cmFunc.h)(0x610A8048)
 I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
-I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60354E20)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
 I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60354E1A)
 F (.\led_controls.c)(0x63AC4318)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/led_controls.o -MD)
 I (main.h)(0x63AC439D)
@@ -84,9 +76,7 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR3
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_timer.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_ssp.h)(0x610A8048)
 I (joystick.h)(0x62333183)
-I (led_funcs.h)(0x63AC4498)
-I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60354E20)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (led_funcs.h)(0x63AD9605)
 F (.\joystick.c)(0x6234237D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="535" -D_RTE_ -D_RTE_-o ./objects/joystick.o -MD)
 I (joystick.h)(0x62333183)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_port.h)(0x610A8048)
@@ -100,7 +90,7 @@ I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\CMSIS\MD
 I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x610A8048)
 I (C:\Users\DV\AppData\Local\Arm\Packs\Keil\MDR1986BExx\2.0.0\Libraries\SPL\MDR32Fx\inc\MDR32F9Qx_rst_clk.h)(0x610A8048)
 F (.\joystick.h)(0x62333183)()
-F (.\led_funcs.h)(0x63AC4498)()
+F (.\led_funcs.h)(0x63AD9605)()
 F (RTE\Device\MDR1986BE92\MDR1986VE9x.sct)(0x610A8048)()
 F (RTE\Device\MDR1986BE92\MDR32F9Qx_config.h)(0x63A96A52)()
 F (RTE\Device\MDR1986BE92\startup_MDR32F9Qx.S)(0x610A8048)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/CoreSupport/CM3-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/CMSIS/MDR32Fx/DeviceSupport/MDR1986VE9x/inc-IC:/Users/DV/AppData/Local/Arm/Packs/Keil/MDR1986BExx/2.0.0/Libraries/SPL/MDR32Fx/inc-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION=535 -D_RTE_ -D_RTE_-o ./objects/startup_mdr32f9qx.o)
