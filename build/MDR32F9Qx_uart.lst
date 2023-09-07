@@ -2731,12 +2731,12 @@ ARM GAS   			page 1
  2095      65466C6F 
  2095      77436F6E 
  2096              	 .text
- 2097              	 .section .gnu.lto_.profile.1fb1d8692bc85efd,"e",%progbits
+ 2097              	 .section .gnu.lto_.profile.e5a6914e937b59ee,"e",%progbits
  2098 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  2098      00010000 
  2098      120003
  2099              	 .text
- 2100              	 .section .gnu.lto_.inline.1fb1d8692bc85efd,"e",%progbits
+ 2100              	 .section .gnu.lto_.inline.e5a6914e937b59ee,"e",%progbits
  2101 0000 789C8591 	 .ascii "x\234\205\221\261\016\001A\024E\337\276Y\313\332]\226"
  2101      B10E0141 
  2101      1445DFBE 
@@ -2808,7 +2808,7 @@ ARM GAS   			page 1
  2115 00f5 5E3B7F8C 	 .ascii "^;\177\214F"
  2115      46
  2116              	 .text
- 2117              	 .section .gnu.lto_.jmpfuncs.1fb1d8692bc85efd,"e",%progbits
+ 2117              	 .section .gnu.lto_.jmpfuncs.e5a6914e937b59ee,"e",%progbits
  2118 0000 789C45CA 	 .ascii "x\234E\312K\016\200 \020\300\320'\370CP\3414\336\377"
  2118      4B0E8020 
  2118      10C0D027 
@@ -2826,7 +2826,7 @@ ARM GAS   			page 1
  2120      8FFA011C 
  2120      C300D1
  2121              	 .text
- 2122              	 .section .gnu.lto_.pureconst.1fb1d8692bc85efd,"e",%progbits
+ 2122              	 .section .gnu.lto_.pureconst.e5a6914e937b59ee,"e",%progbits
  2123 0000 789C05C1 	 .ascii "x\234\005\301\001\002\200\020\020\000\301\243-\022\245"
  2123      01028010 
  2123      1000C1A3 
@@ -2841,11 +2841,11 @@ ARM GAS   			page 1
  2125      3629330B 
  2125      4C
  2126              	 .text
- 2127              	 .section .gnu.lto_.lto.1fb1d8692bc85efd,"e",%progbits
+ 2127              	 .section .gnu.lto_.lto.e5a6914e937b59ee,"e",%progbits
  2128 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  2128      01000000 
  2129              	 .text
- 2130              	 .section .gnu.lto_UART_DeInit.56.1fb1d8692bc85efd,"e",%progbits
+ 2130              	 .section .gnu.lto_UART_DeInit.56.e5a6914e937b59ee,"e",%progbits
  2131 0000 789C8DD2 	 .ascii "x\234\215\322OH\024a\024\000\360\367\346\333\331u\017"
  2131      4F481461 
  2131      1400F0F7 
@@ -2984,7 +2984,7 @@ ARM GAS   			page 1
  2157      C7B93F39 
  2157      60
  2158              	 .text
- 2159              	 .section .gnu.lto_UART_Init.57.1fb1d8692bc85efd,"e",%progbits
+ 2159              	 .section .gnu.lto_UART_Init.57.e5a6914e937b59ee,"e",%progbits
  2160 0000 789C7D56 	 .ascii "x\234}V{P\224U\024\277\347\273\337\276ay+\323\250\254"
  2160      7B509455 
  2160      14BFE7BB 
@@ -3435,7 +3435,7 @@ ARM GAS   			page 1
  2248      E5FF030B 
  2249 065f 93C62A   	 .ascii "\223\306*"
  2250              	 .text
- 2251              	 .section .gnu.lto_UART_StructInit.58.1fb1d8692bc85efd,"e",%progbits
+ 2251              	 .section .gnu.lto_UART_StructInit.58.e5a6914e937b59ee,"e",%progbits
  2252 0000 789C8D91 	 .ascii "x\234\215\221=H[Q\024\307\317\377\335$6\213\342R\212"
  2252      3D485B51 
  2252      14C7CFFF 
@@ -3561,7 +3561,7 @@ ARM GAS   			page 1
  2276      AD354EB7 
  2276      B28AE465 
  2277              	 .text
- 2278              	 .section .gnu.lto_UART_Cmd.59.1fb1d8692bc85efd,"e",%progbits
+ 2278              	 .section .gnu.lto_UART_Cmd.59.e5a6914e937b59ee,"e",%progbits
  2279 0000 789C8550 	 .ascii "x\234\205PMh\023Q\020\236og7IU\204\006<\350)\236\304"
  2279      4D681351 
  2279      109E6F67 
@@ -3713,7 +3713,7 @@ ARM GAS   			page 1
  2308      71EE
  2309 0219 0C       	 .ascii "\014"
  2310              	 .text
- 2311              	 .section .gnu.lto_UART_ITConfig.60.1fb1d8692bc85efd,"e",%progbits
+ 2311              	 .section .gnu.lto_UART_ITConfig.60.e5a6914e937b59ee,"e",%progbits
  2312 0000 789C8550 	 .ascii "x\234\205PMh\023A\030\235\267\337n\223\024\025KA\320"
  2312      4D681341 
  2312      189DB7DF 
@@ -3876,7 +3876,7 @@ ARM GAS   			page 1
  2343 023c FE05DF32 	 .ascii "\376\005\3372\003w"
  2343      0377
  2344              	 .text
- 2345              	 .section .gnu.lto_UART_GetITStatus.61.1fb1d8692bc85efd,"e",%progbits
+ 2345              	 .section .gnu.lto_UART_GetITStatus.61.e5a6914e937b59ee,"e",%progbits
  2346 0000 789C5D51 	 .ascii "x\234]Q_H\223Q\024?\277{\276m\032\375Y\017I\364\264"
  2346      5F489351 
  2346      143FBF7B 
@@ -4047,7 +4047,7 @@ ARM GAS   			page 1
  2378      FF012A
  2379 024d B0EF8D   	 .ascii "\260\357\215"
  2380              	 .text
- 2381              	 .section .gnu.lto_UART_GetITStatusMasked.62.1fb1d8692bc85efd,"e",%progbits
+ 2381              	 .section .gnu.lto_UART_GetITStatusMasked.62.e5a6914e937b59ee,"e",%progbits
  2382 0000 789C5D52 	 .ascii "x\234]RKHTQ\030\376\277\363\337\231\321\3501;\243\325"
  2382      4B485451 
  2382      18FEBFF3 
@@ -4213,7 +4213,7 @@ ARM GAS   			page 1
  2414 0244 077C2EED 	 .ascii "\007|.\3553"
  2414      33
  2415              	 .text
- 2416              	 .section .gnu.lto_UART_ClearITPendingBit.63.1fb1d8692bc85efd,"e",%progbits
+ 2416              	 .section .gnu.lto_UART_ClearITPendingBit.63.e5a6914e937b59ee,"e",%progbits
  2417 0000 789C7550 	 .ascii "x\234uP?H\033a\024\177\277{wF\247:\270\230)\342 \035"
  2417      3F481B61 
  2417      147FBF7B 
@@ -4333,7 +4333,7 @@ ARM GAS   			page 1
  2440      63B6A7
  2441 01b3 78       	 .ascii "x"
  2442              	 .text
- 2443              	 .section .gnu.lto_UART_DMAConfig.64.1fb1d8692bc85efd,"e",%progbits
+ 2443              	 .section .gnu.lto_UART_DMAConfig.64.e5a6914e937b59ee,"e",%progbits
  2444 0000 789C5D91 	 .ascii "x\234]\221Oh\023Q\020\306\347\333\331MRA\353\325\234"
  2444      4F681351 
  2444      10C6E7DB 
@@ -4473,7 +4473,7 @@ ARM GAS   			page 1
  2471      321BC8BF 
  2471      210AC842 
  2472              	 .text
- 2473              	 .section .gnu.lto_UART_DMACmd.65.1fb1d8692bc85efd,"e",%progbits
+ 2473              	 .section .gnu.lto_UART_DMACmd.65.e5a6914e937b59ee,"e",%progbits
  2474 0000 789C8551 	 .ascii "x\234\205QOH\024Q\034~\337\374fv\334\224\266[\224\227"
  2474      4F481451 
  2474      1C7EDFFC 
@@ -4644,7 +4644,7 @@ ARM GAS   			page 1
  2506 0250 0EDBE65F 	 .ascii "\016\333\346_\027\331\017Y"
  2506      17D90F59 
  2507              	 .text
- 2508              	 .section .gnu.lto_UART_SendData.66.1fb1d8692bc85efd,"e",%progbits
+ 2508              	 .section .gnu.lto_UART_SendData.66.e5a6914e937b59ee,"e",%progbits
  2509 0000 789C5D50 	 .ascii "x\234]P\317KTa\024\275\347\273oF]\344\336\0262\340B"
  2509      CF4B5461 
  2509      14BDE7BB 
@@ -4763,7 +4763,7 @@ ARM GAS   			page 1
  2532      D67F581D 
  2532      9B06
  2533              	 .text
- 2534              	 .section .gnu.lto_UART_ReceiveData.67.1fb1d8692bc85efd,"e",%progbits
+ 2534              	 .section .gnu.lto_UART_ReceiveData.67.e5a6914e937b59ee,"e",%progbits
  2535 0000 789C5D4F 	 .ascii "x\234]O;H\303P\024\2757/\251\272\210\263C\311\244v\260"
  2535      3B48C350 
  2535      14BD372F 
@@ -4871,7 +4871,7 @@ ARM GAS   			page 1
  2555      30FC00
  2556 0188 BF94944A 	 .ascii "\277\224\224J"
  2557              	 .text
- 2558              	 .section .gnu.lto_UART_BreakLine.68.1fb1d8692bc85efd,"e",%progbits
+ 2558              	 .section .gnu.lto_UART_BreakLine.68.e5a6914e937b59ee,"e",%progbits
  2559 0000 789C8550 	 .ascii "x\234\205PMh\023Q\020\236og7IUr\025\275$\236\304\203"
  2559      4D681351 
  2559      109E6F67 
@@ -5019,7 +5019,7 @@ ARM GAS   			page 1
  2588      E5DA7F00 
  2588      BC62EE85 
  2589              	 .text
- 2590              	 .section .gnu.lto_UART_IrDAConfig.69.1fb1d8692bc85efd,"e",%progbits
+ 2590              	 .section .gnu.lto_UART_IrDAConfig.69.e5a6914e937b59ee,"e",%progbits
  2591 0000 789C7552 	 .ascii "x\234uR]H\223Q\030>\317w\276\315\315\234vQ\020]\255"
  2591      5D489351 
  2591      183ECF77 
@@ -5223,7 +5223,7 @@ ARM GAS   			page 1
 
  2630      3EFC
  2631              	 .text
- 2632              	 .section .gnu.lto_UART_IrDACmd.70.1fb1d8692bc85efd,"e",%progbits
+ 2632              	 .section .gnu.lto_UART_IrDACmd.70.e5a6914e937b59ee,"e",%progbits
  2633 0000 789C8550 	 .ascii "x\234\205PMh\023A\024\236o\336\356&U\353M\020O\361\244"
  2633      4D681341 
  2633      149E6FDE 
@@ -5376,7 +5376,7 @@ ARM GAS   			page 1
  2663      ED3FEB51 
  2663      F0EF
  2664              	 .text
- 2665              	 .section .gnu.lto_UART_GetFlagStatus.71.1fb1d8692bc85efd,"e",%progbits
+ 2665              	 .section .gnu.lto_UART_GetFlagStatus.71.e5a6914e937b59ee,"e",%progbits
  2666 0000 789C5D92 	 .ascii "x\234]\222MHTQ\024\307\317\377\23673\012Zn\332\264\232"
  2666      4D485451 
  2666      14C7CFFF 
@@ -5543,7 +5543,7 @@ ARM GAS   			page 1
  2698 024c 0395F1F2 	 .ascii "\003\225\361\362\315"
  2698      CD
  2699              	 .text
- 2700              	 .section .gnu.lto_UART_BRGInit.72.1fb1d8692bc85efd,"e",%progbits
+ 2700              	 .section .gnu.lto_UART_BRGInit.72.e5a6914e937b59ee,"e",%progbits
  2701 0000 789C7552 	 .ascii "x\234uRmH\223Q\024\276\347\275\357\373\272\315\315\354"
  2701      6D489351 
  2701      14BEE7BD 
@@ -5772,7 +5772,7 @@ ARM GAS   			page 1
  2745      FD017C82 
  2745      9A74
  2746              	 .text
- 2747              	 .section .gnu.lto_.symbol_nodes.1fb1d8692bc85efd,"e",%progbits
+ 2747              	 .section .gnu.lto_.symbol_nodes.e5a6914e937b59ee,"e",%progbits
  2748 0000 789C75D1 	 .ascii "x\234u\321I\022\001A\024\204\341|U\255\3214ji\345\032"
  2748      49120141 
  2748      1484E17C 
@@ -5812,12 +5812,12 @@ ARM GAS   			page 1
  2755      0DDF5284 
  2755      3E
  2756              	 .text
- 2757              	 .section .gnu.lto_.refs.1fb1d8692bc85efd,"e",%progbits
+ 2757              	 .section .gnu.lto_.refs.e5a6914e937b59ee,"e",%progbits
  2758 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  2758      00020000 
  2758      0A0002
  2759              	 .text
- 2760              	 .section .gnu.lto_.decls.1fb1d8692bc85efd,"e",%progbits
+ 2760              	 .section .gnu.lto_.decls.e5a6914e937b59ee,"e",%progbits
 ARM GAS   			page 98
 
 
@@ -6906,7 +6906,7 @@ ARM GAS   			page 1
  2979      FD3FC00E 
  2979      437F
  2980              	 .text
- 2981              	 .section .gnu.lto_.symtab.1fb1d8692bc85efd,"e",%progbits
+ 2981              	 .section .gnu.lto_.symtab.e5a6914e937b59ee,"e",%progbits
  2982 0000 55415254 	 .ascii "UART_DeInit\000"
  2982      5F446549 
  2982      6E697400 
@@ -7099,7 +7099,7 @@ ARM GAS   			page 1
  3088      00000000 
  3089 0222 39010000 	 .ascii "9\001\000\000"
  3090              	 .text
- 3091              	 .section .gnu.lto_.ext_symtab.1fb1d8692bc85efd,"e",%progbits
+ 3091              	 .section .gnu.lto_.ext_symtab.e5a6914e937b59ee,"e",%progbits
  3092 0000 01       	 .ascii "\001"
  3093 0001 01       	 .ascii "\001"
  3094 0002 00       	 .ascii "\000"

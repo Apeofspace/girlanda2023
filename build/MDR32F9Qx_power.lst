@@ -2263,12 +2263,12 @@ ARM GAS   			page 1
  1766      6C75735F 
  1766      3130306D 
  1767              	 .text
- 1768              	 .section .gnu.lto_.profile.cb1517a4e89871ed,"e",%progbits
+ 1768              	 .section .gnu.lto_.profile.8b3988e63cbd269c,"e",%progbits
  1769 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1769      00010000 
  1769      120003
  1770              	 .text
- 1771              	 .section .gnu.lto_.inline.cb1517a4e89871ed,"e",%progbits
+ 1771              	 .section .gnu.lto_.inline.8b3988e63cbd269c,"e",%progbits
  1772 0000 789C85CF 	 .ascii "x\234\205\317\315\015\2030\014\005\340\207CC\240\264"
  1772      CD0D8330 
  1772      0C05E087 
@@ -2306,7 +2306,7 @@ ARM GAS   			page 1
  1778      F1A6027F 
  1778      2F99722F 
  1779              	 .text
- 1780              	 .section .gnu.lto_.jmpfuncs.cb1517a4e89871ed,"e",%progbits
+ 1780              	 .section .gnu.lto_.jmpfuncs.8b3988e63cbd269c,"e",%progbits
  1781 0000 789C45CA 	 .ascii "x\234E\312\311\021\200 \000\000\261\240\200\312Y\012"
  1781      C9118020 
  1781      0000B1A0 
@@ -2320,7 +2320,7 @@ ARM GAS   			page 1
  1783      CEBA0114 
  1783      CA00A8
  1784              	 .text
- 1785              	 .section .gnu.lto_.pureconst.cb1517a4e89871ed,"e",%progbits
+ 1785              	 .section .gnu.lto_.pureconst.8b3988e63cbd269c,"e",%progbits
  1786 0000 789C05C1 	 .ascii "x\234\005\301\201\001\200 \014\300\260\211\235\240\010"
  1786      81018020 
  1786      0CC0B089 
@@ -2335,14 +2335,14 @@ ARM GAS   			page 1
  1788      64CA06EA 
  1788      180A0A
  1789              	 .text
- 1790              	 .section .gnu.lto_.lto.cb1517a4e89871ed,"e",%progbits
+ 1790              	 .section .gnu.lto_.lto.8b3988e63cbd269c,"e",%progbits
  1791 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1791      01000000 
 ARM GAS   			page 40
 
 
  1792              	 .text
- 1793              	 .section .gnu.lto_POWER_DeInit.56.cb1517a4e89871ed,"e",%progbits
+ 1793              	 .section .gnu.lto_POWER_DeInit.56.8b3988e63cbd269c,"e",%progbits
  1794 0000 789C3BC8 	 .ascii "x\234;\310\300\300P\007\304\312@\314\310\314\3008ib"
  1794      C0C05007 
  1794      C4CA40CC 
@@ -2427,7 +2427,7 @@ ARM GAS   			page 1
  1810      921900C2 
  1810      D26ED0
  1811              	 .text
- 1812              	 .section .gnu.lto_POWER_DUccMode.57.cb1517a4e89871ed,"e",%progbits
+ 1812              	 .section .gnu.lto_POWER_DUccMode.57.8b3988e63cbd269c,"e",%progbits
  1813 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337N\262\233\\\322\203\207\012"
  1813      CF6B1341 
  1813      147EDF4E 
@@ -2573,7 +2573,7 @@ ARM GAS   			page 1
  1841 0207 7C7BFC07 	 .ascii "|{\374\007\314\331\331\030"
  1841      CCD9D918 
  1842              	 .text
- 1843              	 .section .gnu.lto_POWER_DUccTrim.58.cb1517a4e89871ed,"e",%progbits
+ 1843              	 .section .gnu.lto_POWER_DUccTrim.58.8b3988e63cbd269c,"e",%progbits
  1844 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337N\262\233\\\242\342\241\202\010"
  1844      4D681341 
  1844      147EDF4E 
@@ -2724,7 +2724,7 @@ ARM GAS   			page 1
  1873      EEC06F00 
  1873      A1DF8C
  1874              	 .text
- 1875              	 .section .gnu.lto_POWER_DUccStandby.59.cb1517a4e89871ed,"e",%progbits
+ 1875              	 .section .gnu.lto_POWER_DUccStandby.59.8b3988e63cbd269c,"e",%progbits
  1876 0000 789C5BC7 	 .ascii "x\234[\307\300\300P\007\304\312@\314\310\314\3008ib"
  1876      C0C05007 
  1876      C4CA40CC 
@@ -2800,7 +2800,7 @@ ARM GAS   			page 1
  1890      2F990100 
  1890      7DDC6B6F 
  1891              	 .text
- 1892              	 .section .gnu.lto_POWER_EnterSTANDBYMode.60.cb1517a4e89871ed,"e",%progbits
+ 1892              	 .section .gnu.lto_POWER_EnterSTANDBYMode.60.8b3988e63cbd269c,"e",%progbits
  1893 0000 789C5BC7 	 .ascii "x\234[\307\300\300P\007\304\312@\314\310\314\3008ib"
  1893      C0C05007 
  1893      C4CA40CC 
@@ -2876,7 +2876,7 @@ ARM GAS   			page 1
  1907      001F0D6C 
  1907      3B
  1908              	 .text
- 1909              	 .section .gnu.lto_POWER_SetFlagPOR.61.cb1517a4e89871ed,"e",%progbits
+ 1909              	 .section .gnu.lto_POWER_SetFlagPOR.61.8b3988e63cbd269c,"e",%progbits
  1910 0000 789C5BC7 	 .ascii "x\234[\307\300\300P\007\304\312@\314\310\314\3008ib"
 ARM GAS   			page 49
 
@@ -2955,7 +2955,7 @@ ARM GAS   			page 1
  1924      0041EC6B 
  1924      0E
  1925              	 .text
- 1926              	 .section .gnu.lto_POWER_FlagPORstatus.62.cb1517a4e89871ed,"e",%progbits
+ 1926              	 .section .gnu.lto_POWER_FlagPORstatus.62.8b3988e63cbd269c,"e",%progbits
  1927 0000 789C6590 	 .ascii "x\234e\220\317k\023A\024\307\337w\336\306\026\321\234"
  1927      CF6B1341 
  1927      14C7DF77 
@@ -3085,7 +3085,7 @@ ARM GAS   			page 1
  1951      7EC4
  1952 01ce BBEE     	 .ascii "\273\356"
  1953              	 .text
- 1954              	 .section .gnu.lto_POWER_EnterSTOPMode.63.cb1517a4e89871ed,"e",%progbits
+ 1954              	 .section .gnu.lto_POWER_EnterSTOPMode.63.8b3988e63cbd269c,"e",%progbits
  1955 0000 789C7552 	 .ascii "x\234uR]HTA\024\2363swW+\267^\204\240\010\243\207(\310"
  1955      5D485441 
  1955      149E3373 
@@ -3306,7 +3306,7 @@ ARM GAS   			page 1
  1997      3C62D1C8 
  1997      6F2B8B72 
  1998              	 .text
- 1999              	 .section .gnu.lto_POWER_PVDenable.64.cb1517a4e89871ed,"e",%progbits
+ 1999              	 .section .gnu.lto_POWER_PVDenable.64.8b3988e63cbd269c,"e",%progbits
  2000 0000 789C658F 	 .ascii "x\234e\217\277/CQ\024\307\317\271\267\365c0u\022K\023"
  2000      BF2F4351 
  2000      14C7CFB9 
@@ -3408,7 +3408,7 @@ ARM GAS   			page 1
  2019      3E0196F6 
  2019      8B38
  2020              	 .text
- 2021              	 .section .gnu.lto_POWER_PVDlevelConfig.65.cb1517a4e89871ed,"e",%progbits
+ 2021              	 .section .gnu.lto_POWER_PVDlevelConfig.65.8b3988e63cbd269c,"e",%progbits
  2022 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337Nv\323\034\232\034\304\026\361"
  2022      4D681341 
  2022      147EDF4E 
@@ -3561,7 +3561,7 @@ ARM GAS   			page 1
  2052 0219 76ACF16D 	 .ascii "v\254\361m'\270\342\313"
  2052      27B8E2CB 
  2053              	 .text
- 2054              	 .section .gnu.lto_POWER_PVBDlevelConfig.66.cb1517a4e89871ed,"e",%progbits
+ 2054              	 .section .gnu.lto_POWER_PVBDlevelConfig.66.8b3988e63cbd269c,"e",%progbits
  2055 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337Nv\323\034\332\234l\020/\001"
  2055      4D681341 
  2055      147EDF4E 
@@ -3711,7 +3711,7 @@ ARM GAS   			page 1
  2084      0296BAE3 
  2084      07
  2085              	 .text
- 2086              	 .section .gnu.lto_POWER_GetFlagStatus.67.cb1517a4e89871ed,"e",%progbits
+ 2086              	 .section .gnu.lto_POWER_GetFlagStatus.67.8b3988e63cbd269c,"e",%progbits
  2087 0000 789C6551 	 .ascii "x\234eQ\317k\023Q\020\236y\263I\245Do\022\301K.\"\036"
  2087      CF6B1351 
  2087      109E79B3 
@@ -3864,7 +3864,7 @@ ARM GAS   			page 1
  2116      09FB2F91 
  2116      30D9EE
  2117              	 .text
- 2118              	 .section .gnu.lto_POWER_ClearFlag.68.cb1517a4e89871ed,"e",%progbits
+ 2118              	 .section .gnu.lto_POWER_ClearFlag.68.8b3988e63cbd269c,"e",%progbits
  2119 0000 789C8B62 	 .ascii "x\234\213bd`X\312\300\300\240\014\304\214\314\014\214"
  2119      646058CA 
  2119      C0C0A00C 
@@ -3981,7 +3981,7 @@ ARM GAS   			page 1
  2141      007FE2A2 
  2141      33
  2142              	 .text
- 2143              	 .section .gnu.lto_POWER_PVD_ITconfig.69.cb1517a4e89871ed,"e",%progbits
+ 2143              	 .section .gnu.lto_POWER_PVD_ITconfig.69.8b3988e63cbd269c,"e",%progbits
  2144 0000 789C8550 	 .ascii "x\234\205PKh\023Q\024\275\367\335\231|$\2707\"\304\225"
  2144      4B681351 
  2144      14BDF7DD 
@@ -4142,7 +4142,7 @@ ARM GAS   			page 1
 
 
  2176              	 .text
- 2177              	 .section .gnu.lto_POWER_PVD_INVconfig.70.cb1517a4e89871ed,"e",%progbits
+ 2177              	 .section .gnu.lto_POWER_PVD_INVconfig.70.8b3988e63cbd269c,"e",%progbits
  2178 0000 789C8550 	 .ascii "x\234\205P=hSQ\024>\347\236\373\362c\213\273\004!N\342"
  2178      3D685351 
  2178      143EE79E 
@@ -4300,7 +4300,7 @@ ARM GAS   			page 1
  2208      05AE63F8 
  2208      37
  2209              	 .text
- 2210              	 .section .gnu.lto_.symbol_nodes.cb1517a4e89871ed,"e",%progbits
+ 2210              	 .section .gnu.lto_.symbol_nodes.8b3988e63cbd269c,"e",%progbits
  2211 0000 789C75C9 	 .ascii "x\234u\311\271\001\202P\000D\301\367\0019D\251\207\333"
  2211      B9018250 
  2211      0044C1F7 
@@ -4332,12 +4332,12 @@ ARM GAS   			page 1
  2216      1BFEFB64 
  2216      29
  2217              	 .text
- 2218              	 .section .gnu.lto_.refs.cb1517a4e89871ed,"e",%progbits
+ 2218              	 .section .gnu.lto_.refs.8b3988e63cbd269c,"e",%progbits
  2219 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  2219      00020000 
  2219      0A0002
  2220              	 .text
- 2221              	 .section .gnu.lto_.decls.cb1517a4e89871ed,"e",%progbits
+ 2221              	 .section .gnu.lto_.decls.8b3988e63cbd269c,"e",%progbits
  2222 0000 789CAD58 	 .ascii "x\234\255XiTTG\026~\267\252\233n\233\245\211\220e\266"
  2222      69545447 
  2222      167EB7AA 
@@ -5331,7 +5331,7 @@ ARM GAS   			page 1
  2420      69FF0364 
  2420      5D6763
  2421              	 .text
- 2422              	 .section .gnu.lto_.symtab.cb1517a4e89871ed,"e",%progbits
+ 2422              	 .section .gnu.lto_.symtab.8b3988e63cbd269c,"e",%progbits
  2423 0000 504F5745 	 .ascii "POWER_DeInit\000"
  2423      525F4465 
  2423      496E6974 
@@ -5502,7 +5502,7 @@ ARM GAS   			page 1
  2511      00000000 
  2512 01f0 12010000 	 .ascii "\022\001\000\000"
  2513              	 .text
- 2514              	 .section .gnu.lto_.ext_symtab.cb1517a4e89871ed,"e",%progbits
+ 2514              	 .section .gnu.lto_.ext_symtab.8b3988e63cbd269c,"e",%progbits
  2515 0000 01       	 .ascii "\001"
  2516 0001 01       	 .ascii "\001"
  2517 0002 00       	 .ascii "\000"

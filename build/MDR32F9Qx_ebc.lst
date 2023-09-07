@@ -1467,12 +1467,12 @@ ARM GAS   			page 1
  1078      63795F4B 
  1078      487A00
  1079              	 .text
- 1080              	 .section .gnu.lto_.profile.fa78d9821d262bf9,"e",%progbits
+ 1080              	 .section .gnu.lto_.profile.b1afa3e6d190be19,"e",%progbits
  1081 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1081      00010000 
  1081      120003
  1082              	 .text
- 1083              	 .section .gnu.lto_.inline.fa78d9821d262bf9,"e",%progbits
+ 1083              	 .section .gnu.lto_.inline.b1afa3e6d190be19,"e",%progbits
  1084 0000 789C3BC7 	 .ascii "x\234;\307\200\000l\014\014\254\015@\300\224\312\310"
  1084      80006C0C 
  1084      0CAC0D40 
@@ -1511,7 +1511,7 @@ ARM GAS   			page 1
  1091 007c 0000B7F4 	 .ascii "\000\000\267\3641k"
  1091      316B
  1092              	 .text
- 1093              	 .section .gnu.lto_.jmpfuncs.fa78d9821d262bf9,"e",%progbits
+ 1093              	 .section .gnu.lto_.jmpfuncs.b1afa3e6d190be19,"e",%progbits
  1094 0000 789C1361 	 .ascii "x\234\023a@\0006 fd``b``f``a``\005\362\001\003\220\000"
  1094      40003620 
  1094      66646060 
@@ -1519,7 +1519,7 @@ ARM GAS   			page 1
  1094      60606160 
  1095 001b 2A       	 .ascii "*"
  1096              	 .text
- 1097              	 .section .gnu.lto_.pureconst.fa78d9821d262bf9,"e",%progbits
+ 1097              	 .section .gnu.lto_.pureconst.b1afa3e6d190be19,"e",%progbits
  1098 0000 789C1366 	 .ascii "x\234\023f```c\230\305\3028\213\205i\026\013s\003\013"
  1098      60606063 
  1098      98C5C238 
@@ -1529,11 +1529,11 @@ ARM GAS   			page 1
  1099      2C160024 
  1099      6B03A9
  1100              	 .text
- 1101              	 .section .gnu.lto_.lto.fa78d9821d262bf9,"e",%progbits
+ 1101              	 .section .gnu.lto_.lto.b1afa3e6d190be19,"e",%progbits
  1102 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1102      01000000 
  1103              	 .text
- 1104              	 .section .gnu.lto_EBC_DeInit.56.fa78d9821d262bf9,"e",%progbits
+ 1104              	 .section .gnu.lto_EBC_DeInit.56.b1afa3e6d190be19,"e",%progbits
  1105 0000 789CFBC2 	 .ascii "x\234\373\302\300\300P\003\304\312@\314\310\314\300"
  1105      C0C05003 
  1105      C4CA40CC 
@@ -1623,7 +1623,7 @@ ARM GAS   			page 1
 
  1122      7DBA
  1123              	 .text
- 1124              	 .section .gnu.lto_EBC_Init.57.fa78d9821d262bf9,"e",%progbits
+ 1124              	 .section .gnu.lto_EBC_Init.57.b1afa3e6d190be19,"e",%progbits
  1125 0000 789C7D95 	 .ascii "x\234}\225mH\223Q\024\307\357y\356\266gS7\247i:_jZ\032"
  1125      6D489351 
  1125      14C7EF79 
@@ -1882,7 +1882,7 @@ ARM GAS   			page 1
  1175      2BFF036B 
  1175      502E6F
  1176              	 .text
- 1177              	 .section .gnu.lto_EBC_StructInit.58.fa78d9821d262bf9,"e",%progbits
+ 1177              	 .section .gnu.lto_EBC_StructInit.58.b1afa3e6d190be19,"e",%progbits
  1178 0000 789C8DD2 	 .ascii "x\234\215\322\317k\023Q\020\007\360\371\276\227d\023"
  1178      CF6B1351 
  1178      1007F0F9 
@@ -2015,7 +2015,7 @@ ARM GAS   			page 1
  1203      FE018BA8 
  1204 01dd 26FE     	 .ascii "&\376"
  1205              	 .text
- 1206              	 .section .gnu.lto_EBC_CalcWaitStates.59.fa78d9821d262bf9,"e",%progbits
+ 1206              	 .section .gnu.lto_EBC_CalcWaitStates.59.b1afa3e6d190be19,"e",%progbits
  1207 0000 789C6592 	 .ascii "x\234e\222_HSQ\034\307\317\357\236\273{\347\254\031"
  1207      5F485351 
  1207      1CC7CFEF 
@@ -2215,7 +2215,7 @@ ARM GAS   			page 1
  1246      BFF8714E 
  1246      38
  1247              	 .text
- 1248              	 .section .gnu.lto_EBC_CalcNandCycles.60.fa78d9821d262bf9,"e",%progbits
+ 1248              	 .section .gnu.lto_EBC_CalcNandCycles.60.b1afa3e6d190be19,"e",%progbits
  1249 0000 789C6592 	 .ascii "x\234e\222OH\024Q\034\307\337\357\2757\263\331\237-"
  1249      4F481451 
 ARM GAS   			page 38
@@ -2404,7 +2404,7 @@ ARM GAS   			page 1
  1286 0293 1AD65FA5 	 .ascii "\032\326_\245&(w"
  1286      262877
  1287              	 .text
- 1288              	 .section .gnu.lto_EBC_GetBusyStatus.61.fa78d9821d262bf9,"e",%progbits
+ 1288              	 .section .gnu.lto_EBC_GetBusyStatus.61.b1afa3e6d190be19,"e",%progbits
  1289 0000 789C5D90 	 .ascii "x\234]\220Mh\023A\030\206\277w\276M+\242\346\342Ao\271"
  1289      4D681341 
  1289      1886BF77 
@@ -2545,7 +2545,7 @@ ARM GAS   			page 1
  1315      D6C2
  1316 01ea A7       	 .ascii "\247"
  1317              	 .text
- 1318              	 .section .gnu.lto_.symbol_nodes.fa78d9821d262bf9,"e",%progbits
+ 1318              	 .section .gnu.lto_.symbol_nodes.b1afa3e6d190be19,"e",%progbits
  1319 0000 789C5BC5 	 .ascii "x\234[\305\000\004L\026\365\014\015@\300\3028\341\034"
  1319      00044C16 
  1319      F50C0D40 
@@ -2565,12 +2565,12 @@ ARM GAS   			page 1
  1322      18004CEF 
  1322      28D4
  1323              	 .text
- 1324              	 .section .gnu.lto_.refs.fa78d9821d262bf9,"e",%progbits
+ 1324              	 .section .gnu.lto_.refs.b1afa3e6d190be19,"e",%progbits
  1325 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  1325      00020000 
  1325      0A0002
  1326              	 .text
- 1327              	 .section .gnu.lto_.decls.fa78d9821d262bf9,"e",%progbits
+ 1327              	 .section .gnu.lto_.decls.b1afa3e6d190be19,"e",%progbits
  1328 0000 789C9556 	 .ascii "x\234\225V{PT\327\031?\337\271\273\354ry,\001\324\264"
  1328      7B5054D7 
  1328      193FDFB9 
@@ -3142,7 +3142,7 @@ ARM GAS   			page 1
  1442      F23F0003 
  1442      717A
  1443              	 .text
- 1444              	 .section .gnu.lto_.symtab.fa78d9821d262bf9,"e",%progbits
+ 1444              	 .section .gnu.lto_.symtab.b1afa3e6d190be19,"e",%progbits
  1445 0000 4542435F 	 .ascii "EBC_DeInit\000"
  1445      4465496E 
  1445      697400
@@ -3208,7 +3208,7 @@ ARM GAS   			page 1
  1479      00000000 
  1480 00b1 DF000000 	 .ascii "\337\000\000\000"
  1481              	 .text
- 1482              	 .section .gnu.lto_.ext_symtab.fa78d9821d262bf9,"e",%progbits
+ 1482              	 .section .gnu.lto_.ext_symtab.b1afa3e6d190be19,"e",%progbits
  1483 0000 01       	 .ascii "\001"
  1484 0001 01       	 .ascii "\001"
  1485 0002 00       	 .ascii "\000"

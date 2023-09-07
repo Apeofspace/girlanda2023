@@ -1,6 +1,4 @@
 #include "MDR32F9Qx_rst_clk.h"          // Keil::Drivers:RST_CLK
-//#include "time.h"
-//#include "stdlib.h"
 
 #define LEDS_NUMBER 200
 typedef enum {R, G, B, RG, RB, GB}COLORS;
@@ -18,3 +16,4 @@ void breath_colors2(double delta_time, uint8_t* data, uint16_t speed, uint8_t br
 void running_color2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
 void running_color3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
 void running_color4(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);
+void breath_colors3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness);

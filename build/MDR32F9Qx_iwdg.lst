@@ -906,12 +906,12 @@ ARM GAS   			page 1
  691 033f 52455345 	 .ascii "RESET\000"
  691      5400
  692              	 .text
- 693              	 .section .gnu.lto_.profile.ac3a87195c8d13d6,"e",%progbits
+ 693              	 .section .gnu.lto_.profile.def9525e99135954,"e",%progbits
  694 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  694      00010000 
  694      120003
  695              	 .text
- 696              	 .section .gnu.lto_.inline.ac3a87195c8d13d6,"e",%progbits
+ 696              	 .section .gnu.lto_.inline.def9525e99135954,"e",%progbits
  697 0000 789C85CD 	 .ascii "x\234\205\315\313\015\300 \014\003P\307\204O\367\351"
  697      CB0DC020 
  697      0C0350C7 
@@ -935,7 +935,7 @@ ARM GAS   			page 1
  701      60005281 
  701      41E0
  702              	 .text
- 703              	 .section .gnu.lto_.jmpfuncs.ac3a87195c8d13d6,"e",%progbits
+ 703              	 .section .gnu.lto_.jmpfuncs.def9525e99135954,"e",%progbits
  704 0000 789C9365 	 .ascii "x\234\223e@\000N fd``b``f``a``e``c``g`\340\000J\000"
  704      40004E20 
  704      66646060 
@@ -944,7 +944,7 @@ ARM GAS   			page 1
  705 0021 00075F00 	 .ascii "\000\007_\000K"
  705      4B
  706              	 .text
- 707              	 .section .gnu.lto_.pureconst.ac3a87195c8d13d6,"e",%progbits
+ 707              	 .section .gnu.lto_.pureconst.def9525e99135954,"e",%progbits
  708 0000 789C05C1 	 .ascii "x\234\005\301\011\001\000 \014\304\260\203\225g\036"
  708      09010020 
  708      0CC4B083 
@@ -955,14 +955,14 @@ ARM GAS   			page 1
  709      6C3972E5 
  709      0353A405 
  710              	 .text
- 711              	 .section .gnu.lto_.lto.ac3a87195c8d13d6,"e",%progbits
+ 711              	 .section .gnu.lto_.lto.def9525e99135954,"e",%progbits
  712 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  712      01000000 
 ARM GAS   			page 17
 
 
  713              	 .text
- 714              	 .section .gnu.lto_IWDG_WriteAccessEnable.56.ac3a87195c8d13d6,"e",%progbits
+ 714              	 .section .gnu.lto_IWDG_WriteAccessEnable.56.def9525e99135954,"e",%progbits
  715 0000 789C3BC8 	 .ascii "x\234;\310\300\300P\013\304\312@\314\310\314\3008ib"
  715      C0C0500B 
  715      C4CA40CC 
@@ -1047,7 +1047,7 @@ ARM GAS   			page 1
  731      C90C0036 
  731      366EA4
  732              	 .text
- 733              	 .section .gnu.lto_IWDG_WriteAccessDisable.57.ac3a87195c8d13d6,"e",%progbits
+ 733              	 .section .gnu.lto_IWDG_WriteAccessDisable.57.def9525e99135954,"e",%progbits
  734 0000 789C3BC8 	 .ascii "x\234;\310\300\300P\013\304\312@\314\310\314\3008ib"
  734      C0C0500B 
  734      C4CA40CC 
@@ -1132,7 +1132,7 @@ ARM GAS   			page 1
  750      19002D9D 
  750      6E2A
  751              	 .text
- 752              	 .section .gnu.lto_IWDG_SetPrescaler.58.ac3a87195c8d13d6,"e",%progbits
+ 752              	 .section .gnu.lto_IWDG_SetPrescaler.58.def9525e99135954,"e",%progbits
  753 0000 789C5D4F 	 .ascii "x\234]OM(DQ\024>\347\236\231\301\306\312BVS\026\262"
  753      4D284451 
  753      143EE79E 
@@ -1242,7 +1242,7 @@ ARM GAS   			page 1
  774      0DBE00A1 
  774      1790DA
  775              	 .text
- 776              	 .section .gnu.lto_IWDG_GetPrescaler.59.ac3a87195c8d13d6,"e",%progbits
+ 776              	 .section .gnu.lto_IWDG_GetPrescaler.59.def9525e99135954,"e",%progbits
  777 0000 789C5D4E 	 .ascii "x\234]N?K\303p\020\275\313E+\370\005\004\227L\005\007"
  777      3F4BC370 
  777      10BDCB45 
@@ -1334,7 +1334,7 @@ ARM GAS   			page 1
  794      FC9C0E3F 
  794      D42D7386 
  795              	 .text
- 796              	 .section .gnu.lto_IWDG_SetReload.60.ac3a87195c8d13d6,"e",%progbits
+ 796              	 .section .gnu.lto_IWDG_SetReload.60.def9525e99135954,"e",%progbits
  797 0000 789C5D4F 	 .ascii "x\234]O\273J\003Q\020\235\331\233\207i\354\004\021\204"
  797      BB4A0351 
  797      109DD99B 
@@ -1437,7 +1437,7 @@ ARM GAS   			page 1
  816      00A8
  817 0174 A08A9A   	 .ascii "\240\212\232"
  818              	 .text
- 819              	 .section .gnu.lto_IWDG_GetReload.61.ac3a87195c8d13d6,"e",%progbits
+ 819              	 .section .gnu.lto_IWDG_GetReload.61.def9525e99135954,"e",%progbits
 ARM GAS   			page 25
 
 
@@ -1532,7 +1532,7 @@ ARM GAS   			page 1
  837      000000D3 
  837      7B2D
  838              	 .text
- 839              	 .section .gnu.lto_IWDG_ReloadCounter.62.ac3a87195c8d13d6,"e",%progbits
+ 839              	 .section .gnu.lto_IWDG_ReloadCounter.62.def9525e99135954,"e",%progbits
  840 0000 789C3BCC 	 .ascii "x\234;\314\300\300P\013\304\312@\314\310\314\3008ib"
  840      C0C0500B 
  840      C4CA40CC 
@@ -1622,7 +1622,7 @@ ARM GAS   			page 1
 
 
  858              	 .text
- 859              	 .section .gnu.lto_IWDG_Enable.63.ac3a87195c8d13d6,"e",%progbits
+ 859              	 .section .gnu.lto_IWDG_Enable.63.def9525e99135954,"e",%progbits
  860 0000 789C3BCC 	 .ascii "x\234;\314\300\300P\013\304\312@\314\310\314\3008ib"
  860      C0C0500B 
  860      C4CA40CC 
@@ -1708,7 +1708,7 @@ ARM GAS   			page 1
  876      25330000 
  876      7D43709F 
  877              	 .text
- 878              	 .section .gnu.lto_IWDG_GetFlagStatus.64.ac3a87195c8d13d6,"e",%progbits
+ 878              	 .section .gnu.lto_IWDG_GetFlagStatus.64.def9525e99135954,"e",%progbits
  879 0000 789C5D51 	 .ascii "x\234]QKh\023Q\024\275\367\335\227V\343g'\210\253lD"
  879      4B681351 
  879      14BDF7DD 
@@ -1861,7 +1861,7 @@ ARM GAS   			page 1
 ARM GAS   			page 32
 
 
- 910              	 .section .gnu.lto_.symbol_nodes.ac3a87195c8d13d6,"e",%progbits
+ 910              	 .section .gnu.lto_.symbol_nodes.def9525e99135954,"e",%progbits
  911 0000 789C75C9 	 .ascii "x\234u\311\311\025@@\024D\321\372\264!$\263\320^\313"
  911      C9154040 
  911      1444D1FA 
@@ -1881,12 +1881,12 @@ ARM GAS   			page 1
  914      45EF521F 
  914      8ABA3AE0 
  915              	 .text
- 916              	 .section .gnu.lto_.refs.ac3a87195c8d13d6,"e",%progbits
+ 916              	 .section .gnu.lto_.refs.def9525e99135954,"e",%progbits
  917 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  917      00020000 
  917      0A0002
  918              	 .text
- 919              	 .section .gnu.lto_.decls.ac3a87195c8d13d6,"e",%progbits
+ 919              	 .section .gnu.lto_.decls.def9525e99135954,"e",%progbits
  920 0000 789C9D55 	 .ascii "x\234\235UkL\024W\024\276\347\336\205\035\006\004\212"
  920      6B4C1457 
  920      14BEE7DE 
@@ -2318,7 +2318,7 @@ ARM GAS   			page 1
  1005      8FFE01B8 
  1005      EF3595
  1006              	 .text
- 1007              	 .section .gnu.lto_.symtab.ac3a87195c8d13d6,"e",%progbits
+ 1007              	 .section .gnu.lto_.symtab.def9525e99135954,"e",%progbits
  1008 0000 49574447 	 .ascii "IWDG_WriteAccessEnable\000"
  1008      5F577269 
  1008      74654163 
@@ -2421,7 +2421,7 @@ ARM GAS   			page 1
  1060      00000000 
  1061 0126 E5000000 	 .ascii "\345\000\000\000"
  1062              	 .text
- 1063              	 .section .gnu.lto_.ext_symtab.ac3a87195c8d13d6,"e",%progbits
+ 1063              	 .section .gnu.lto_.ext_symtab.def9525e99135954,"e",%progbits
  1064 0000 01       	 .ascii "\001"
  1065 0001 01       	 .ascii "\001"
  1066 0002 00       	 .ascii "\000"

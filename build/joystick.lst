@@ -1546,12 +1546,12 @@ ARM GAS   			page 1
  1190      414C4F47 
  1190      00
  1191              	 .text
- 1192              	 .section .gnu.lto_.profile.13d9de7ae863ae1d,"e",%progbits
+ 1192              	 .section .gnu.lto_.profile.a6ff120761e1df9b,"e",%progbits
  1193 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1193      00010000 
  1193      120003
  1194              	 .text
- 1195              	 .section .gnu.lto_.inline.13d9de7ae863ae1d,"e",%progbits
+ 1195              	 .section .gnu.lto_.inline.a6ff120761e1df9b,"e",%progbits
  1196 0000 789CAB60 	 .ascii "x\234\253`@\000&\006\036\251\206\206\206=L\231\214\014"
  1196      40002606 
  1196      1EA98686 
@@ -1576,24 +1576,24 @@ ARM GAS   			page 1
  1199      0000826D 
  1199      131E
  1200              	 .text
- 1201              	 .section .gnu.lto_.jmpfuncs.13d9de7ae863ae1d,"e",%progbits
+ 1201              	 .section .gnu.lto_.jmpfuncs.a6ff120761e1df9b,"e",%progbits
  1202 0000 789CE363 	 .ascii "x\234\343c@\000&8\213\021\210\001\001\246\000\022"
  1202      40002638 
  1202      8B118801 
  1202      01A60012 
  1203              	 .text
- 1204              	 .section .gnu.lto_.pureconst.13d9de7ae863ae1d,"e",%progbits
+ 1204              	 .section .gnu.lto_.pureconst.a6ff120761e1df9b,"e",%progbits
  1205 0000 789C6367 	 .ascii "x\234cg```b\230\301\3028\213\005\000\004\251\001E"
  1205      60606062 
  1205      98C1C238 
  1205      8B050004 
  1205      A90145
  1206              	 .text
- 1207              	 .section .gnu.lto_.lto.13d9de7ae863ae1d,"e",%progbits
+ 1207              	 .section .gnu.lto_.lto.a6ff120761e1df9b,"e",%progbits
  1208 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1208      01000000 
  1209              	 .text
- 1210              	 .section .gnu.lto_init_joystick.56.13d9de7ae863ae1d,"e",%progbits
+ 1210              	 .section .gnu.lto_init_joystick.56.a6ff120761e1df9b,"e",%progbits
  1211 0000 789C5BC2 	 .ascii "x\234[\302\304\300P\303\300\300\240\014\304\214\314"
  1211      C4C050C3 
  1211      C0C0A00C 
@@ -1724,7 +1724,7 @@ ARM GAS   			page 1
  1237 01d7 A9690C00 	 .ascii "\251i\014\000\357&\375\377"
  1237      EF26FDFF 
  1238              	 .text
- 1239              	 .section .gnu.lto_joystick_get_key.57.13d9de7ae863ae1d,"e",%progbits
+ 1239              	 .section .gnu.lto_joystick_get_key.57.a6ff120761e1df9b,"e",%progbits
  1240 0000 789C8556 	 .ascii "x\234\205VmPTU\030>\357=w\227\205e\227\317\345sa/M\346"
  1240      6D505455 
  1240      183EEF3D 
@@ -2234,7 +2234,7 @@ ARM GAS   			page 1
  1341 0717 F350F92F 	 .ascii "\363P\371/[T{\030"
  1341      5B547B18 
  1342              	 .text
- 1343              	 .section .gnu.lto_.symbol_nodes.13d9de7ae863ae1d,"e",%progbits
+ 1343              	 .section .gnu.lto_.symbol_nodes.a6ff120761e1df9b,"e",%progbits
  1344 0000 789CDBC5 	 .ascii "x\234\333\305\000\004L\026\365\014\015@\300\3028\341"
  1344      00044C16 
  1344      F50C0D40 
@@ -2262,7 +2262,7 @@ ARM GAS   			page 1
  1349 0061 E5660000 	 .ascii "\345f\000\000\004\3568L"
  1349      04EE384C 
  1350              	 .text
- 1351              	 .section .gnu.lto_.refs.13d9de7ae863ae1d,"e",%progbits
+ 1351              	 .section .gnu.lto_.refs.a6ff120761e1df9b,"e",%progbits
  1352 0000 789C3367 	 .ascii "x\2343g``\340ed`bc`d\342```\022\005\322\342@Z\026H\313"
  1352      6060E065 
  1352      64606263 
@@ -2276,7 +2276,7 @@ ARM GAS   			page 1
  1354 002d 8A810100 	 .ascii "\212\201\001\0006\317\002*"
  1354      36CF022A 
  1355              	 .text
- 1356              	 .section .gnu.lto_.decls.13d9de7ae863ae1d,"e",%progbits
+ 1356              	 .section .gnu.lto_.decls.a6ff120761e1df9b,"e",%progbits
  1357 0000 789C9596 	 .ascii "x\234\225\226\177P\024G\026\307\373u/\3542\256,\302"
 ARM GAS   			page 39
 
@@ -2892,7 +2892,7 @@ ARM GAS   			page 1
  1478      1B77E03F 
  1479 08a3 C2       	 .ascii "\302"
  1480              	 .text
- 1481              	 .section .gnu.lto_.symtab.13d9de7ae863ae1d,"e",%progbits
+ 1481              	 .section .gnu.lto_.symtab.a6ff120761e1df9b,"e",%progbits
  1482 0000 696E6974 	 .ascii "init_joystick\000"
  1482      5F6A6F79 
  1482      73746963 
@@ -2934,7 +2934,7 @@ ARM GAS   			page 1
  1504      00000000 
  1505 0071 DF000000 	 .ascii "\337\000\000\000"
  1506              	 .text
- 1507              	 .section .gnu.lto_.ext_symtab.13d9de7ae863ae1d,"e",%progbits
+ 1507              	 .section .gnu.lto_.ext_symtab.a6ff120761e1df9b,"e",%progbits
  1508 0000 01       	 .ascii "\001"
  1509 0001 01       	 .ascii "\001"
  1510 0002 00       	 .ascii "\000"

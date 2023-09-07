@@ -1694,12 +1694,12 @@ ARM GAS   			page 1
  1411      5F524646 
  1411      00
  1412              	 .text
- 1413              	 .section .gnu.lto_.profile.f68901b07cac50ae,"e",%progbits
+ 1413              	 .section .gnu.lto_.profile.9576f00f2a14e749,"e",%progbits
  1414 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1414      00010000 
  1414      120003
  1415              	 .text
- 1416              	 .section .gnu.lto_.inline.f68901b07cac50ae,"e",%progbits
+ 1416              	 .section .gnu.lto_.inline.9576f00f2a14e749,"e",%progbits
  1417 0000 789CBBCE 	 .ascii "x\234\273\316\200\000l\014\014\202\273v\367\275d\316"
  1417      80006C0C 
  1417      0C82BB76 
@@ -1742,7 +1742,7 @@ ARM GAS   			page 1
 
 
  1426              	 .text
- 1427              	 .section .gnu.lto_.jmpfuncs.f68901b07cac50ae,"e",%progbits
+ 1427              	 .section .gnu.lto_.jmpfuncs.9576f00f2a14e749,"e",%progbits
  1428 0000 789C1365 	 .ascii "x\234\023e@\0006 fd``\002R,`\036\007\220\005\000\003"
  1428      40003620 
  1428      66646060 
@@ -1750,7 +1750,7 @@ ARM GAS   			page 1
  1428      1E079005 
  1429 0016 F30031   	 .ascii "\363\0001"
  1430              	 .text
- 1431              	 .section .gnu.lto_.pureconst.f68901b07cac50ae,"e",%progbits
+ 1431              	 .section .gnu.lto_.pureconst.9576f00f2a14e749,"e",%progbits
  1432 0000 789C1366 	 .ascii "x\234\023f```c\230\305\302\330\300\3024\213\205e\006"
  1432      60606063 
  1432      98C5C2D8 
@@ -1760,11 +1760,11 @@ ARM GAS   			page 1
  1433      8E192C00 
  1433      245B03C5 
  1434              	 .text
- 1435              	 .section .gnu.lto_.lto.f68901b07cac50ae,"e",%progbits
+ 1435              	 .section .gnu.lto_.lto.9576f00f2a14e749,"e",%progbits
  1436 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1436      01000000 
  1437              	 .text
- 1438              	 .section .gnu.lto_convert_array.60.f68901b07cac50ae,"e",%progbits
+ 1438              	 .section .gnu.lto_convert_array.60.9576f00f2a14e749,"e",%progbits
  1439 0000 789C5D53 	 .ascii "x\234]S]lTE\024\2363g\356o[\330fk\342\343\372@\214\232"
  1439      5D6C5445 
  1439      149E3367 
@@ -2029,7 +2029,7 @@ ARM GAS   			page 1
  1491 03ac CEFF01CA 	 .ascii "\316\377\001\312\262\270\224"
  1491      B2B894
  1492              	 .text
- 1493              	 .section .gnu.lto_clear_leds.61.f68901b07cac50ae,"e",%progbits
+ 1493              	 .section .gnu.lto_clear_leds.61.9576f00f2a14e749,"e",%progbits
  1494 0000 789C3BCD 	 .ascii "x\234;\315\300\300P\016\304*@\314\310\314\3008ib\027"
  1494      C0C0500E 
  1494      C42A40CC 
@@ -2114,7 +2114,7 @@ ARM GAS   			page 1
  1510 0122 13190072 	 .ascii "\023\031\000r<mb"
  1510      3C6D62
  1511              	 .text
- 1512              	 .section .gnu.lto_update_leds.62.f68901b07cac50ae,"e",%progbits
+ 1512              	 .section .gnu.lto_update_leds.62.9576f00f2a14e749,"e",%progbits
  1513 0000 789C5D52 	 .ascii "x\234]R\317KTQ\024>\347\236\373\346\227)A\021m\202i"
  1513      CF4B5451 
  1513      143EE79E 
@@ -2299,7 +2299,7 @@ ARM GAS   			page 1
  1549      BF01B600 
  1550 0294 0F54     	 .ascii "\017T"
  1551              	 .text
- 1552              	 .section .gnu.lto_reset_time.63.f68901b07cac50ae,"e",%progbits
+ 1552              	 .section .gnu.lto_reset_time.63.9576f00f2a14e749,"e",%progbits
  1553 0000 789C5BCE 	 .ascii "x\234[\316\300\300\020\003\304\312@\314\310\314\300"
  1553      C0C01003 
  1553      C4CA40CC 
@@ -2366,7 +2366,7 @@ ARM GAS   			page 1
  1565      3FA7582F 
  1565      990100B1 
  1566              	 .text
- 1567              	 .section .gnu.lto_get_delta_time.64.f68901b07cac50ae,"e",%progbits
+ 1567              	 .section .gnu.lto_get_delta_time.64.9576f00f2a14e749,"e",%progbits
  1568 0000 789C6D53 	 .ascii "x\234mS\335K\024Q\024?g\356|\354\252Y\021\230/\302\276"
  1568      DD4B1451 
  1568      143F67EE 
@@ -2575,7 +2575,7 @@ ARM GAS   			page 1
  1608      A745F21F 
  1608      6AFB6EE3 
  1609              	 .text
- 1610              	 .section .gnu.lto_register_alg.65.f68901b07cac50ae,"e",%progbits
+ 1610              	 .section .gnu.lto_register_alg.65.9576f00f2a14e749,"e",%progbits
  1611 0000 789C7591 	 .ascii "x\234u\221=K\034Q\024\206\317;gw\235\255,\204\260\345"
  1611      3D4B1C51 
 ARM GAS   			page 44
@@ -2696,7 +2696,7 @@ ARM GAS   			page 1
  1633      01C7
  1634 01ac 5BA979   	 .ascii "[\251y"
  1635              	 .text
- 1636              	 .section .gnu.lto_.symbol_nodes.f68901b07cac50ae,"e",%progbits
+ 1636              	 .section .gnu.lto_.symbol_nodes.9576f00f2a14e749,"e",%progbits
  1637 0000 789CFBC9 	 .ascii "x\234\373\311\000\004L6\365\014\037\216\236d`\234p\216"
 ARM GAS   			page 46
 
@@ -2734,7 +2734,7 @@ ARM GAS   			page 1
  1643      0600BED4 
  1643      3E7E
  1644              	 .text
- 1645              	 .section .gnu.lto_.refs.f68901b07cac50ae,"e",%progbits
+ 1645              	 .section .gnu.lto_.refs.9576f00f2a14e749,"e",%progbits
  1646 0000 789C0DC5 	 .ascii "x\234\015\305\261\015\000!\014\004\301=\2031&Az}@\033"
  1646      B10D0021 
  1646      0C04C13D 
@@ -2750,7 +2750,7 @@ ARM GAS   			page 1
  1648      0F1DF601 
  1648      08
  1649              	 .text
- 1650              	 .section .gnu.lto_.decls.f68901b07cac50ae,"e",%progbits
+ 1650              	 .section .gnu.lto_.decls.9576f00f2a14e749,"e",%progbits
  1651 0000 789CBD58 	 .ascii "x\234\275XmTT\325\032\336\357\3363\314\314\341\363\002"
  1651      6D5454D5 
  1651      1ADEEFDE 
@@ -3588,7 +3588,7 @@ ARM GAS   			page 1
  1816      8315F41F 
  1816      6E62D4FF 
  1817              	 .text
- 1818              	 .section .gnu.lto_.symtab.f68901b07cac50ae,"e",%progbits
+ 1818              	 .section .gnu.lto_.symtab.9576f00f2a14e749,"e",%progbits
  1819 0000 636F6E76 	 .ascii "convert_array\000"
  1819      6572745F 
  1819      61727261 
@@ -3702,7 +3702,7 @@ ARM GAS   			page 1
  1883      00000000 
  1884 0132 E6000000 	 .ascii "\346\000\000\000"
  1885              	 .text
- 1886              	 .section .gnu.lto_.ext_symtab.f68901b07cac50ae,"e",%progbits
+ 1886              	 .section .gnu.lto_.ext_symtab.9576f00f2a14e749,"e",%progbits
  1887 0000 01       	 .ascii "\001"
  1888 0001 01       	 .ascii "\001"
  1889 0002 00       	 .ascii "\000"

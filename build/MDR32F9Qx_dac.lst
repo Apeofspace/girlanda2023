@@ -954,7 +954,7 @@ ARM GAS   			page 1
  756      5F537263 
  756      00
  757              	 .text
- 758              	 .section .gnu.lto_.profile.1efeb6685f17eed6,"e",%progbits
+ 758              	 .section .gnu.lto_.profile.b185e498eff80e7f,"e",%progbits
  759 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  759      00010000 
  759      120003
@@ -962,7 +962,7 @@ ARM GAS   			page 1
 
 
  760              	 .text
- 761              	 .section .gnu.lto_.inline.1efeb6685f17eed6,"e",%progbits
+ 761              	 .section .gnu.lto_.inline.b185e498eff80e7f,"e",%progbits
  762 0000 789C85CF 	 .ascii "x\234\205\317\313\015\300 \010\006\340_\264>\032\347"
  762      CB0DC020 
  762      0806E05F 
@@ -991,7 +991,7 @@ ARM GAS   			page 1
  767      5E27A44A 
  767      D8
  768              	 .text
- 769              	 .section .gnu.lto_.jmpfuncs.1efeb6685f17eed6,"e",%progbits
+ 769              	 .section .gnu.lto_.jmpfuncs.b185e498eff80e7f,"e",%progbits
  770 0000 789C45C9 	 .ascii "x\234E\311\271\021\000 \014\3000\361\006\230\202\375"
  770      B9110020 
  770      0CC030F1 
@@ -1003,7 +1003,7 @@ ARM GAS   			page 1
  771      E77B
  772 0022 09080058 	 .ascii "\011\010\000X"
  773              	 .text
- 774              	 .section .gnu.lto_.pureconst.1efeb6685f17eed6,"e",%progbits
+ 774              	 .section .gnu.lto_.pureconst.b185e498eff80e7f,"e",%progbits
  775 0000 789C05C1 	 .ascii "x\234\005\301\201\001\000\020\020\304\260Cy,a\357N+"
  775      81010010 
  775      10C4B043 
@@ -1015,14 +1015,14 @@ ARM GAS   			page 1
  776      8E7C6707 
  776      0683
  777              	 .text
- 778              	 .section .gnu.lto_.lto.1efeb6685f17eed6,"e",%progbits
+ 778              	 .section .gnu.lto_.lto.b185e498eff80e7f,"e",%progbits
  779 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  779      01000000 
 ARM GAS   			page 18
 
 
  780              	 .text
- 781              	 .section .gnu.lto_DAC_DeInit.56.1efeb6685f17eed6,"e",%progbits
+ 781              	 .section .gnu.lto_DAC_DeInit.56.b185e498eff80e7f,"e",%progbits
  782 0000 789CD364 	 .ascii "x\234\323dd`\250a``P\006bFf\006\306I\023\273\230\030"
  782      6460A861 
  782      60605006 
@@ -1108,7 +1108,7 @@ ARM GAS   			page 1
  798      0006A68C 
  798      EB
  799              	 .text
- 800              	 .section .gnu.lto_DAC_Init.57.1efeb6685f17eed6,"e",%progbits
+ 800              	 .section .gnu.lto_DAC_Init.57.b185e498eff80e7f,"e",%progbits
  801 0000 789C6D52 	 .ascii "x\234mRMk\023A\030\236gg\223\335\244\245z\260\210\340"
  801      4D6B1341 
  801      189E6767 
@@ -1289,7 +1289,7 @@ ARM GAS   			page 1
  835      E2
  836 026d 12BA     	 .ascii "\022\272"
  837              	 .text
- 838              	 .section .gnu.lto_DAC1_Init.58.1efeb6685f17eed6,"e",%progbits
+ 838              	 .section .gnu.lto_DAC1_Init.58.b185e498eff80e7f,"e",%progbits
  839 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337\316f\033=\324\213\202\212"
  839      CF6B1341 
  839      147EDFCE 
@@ -1442,7 +1442,7 @@ ARM GAS   			page 1
 
 
  869              	 .text
- 870              	 .section .gnu.lto_DAC2_Init.59.1efeb6685f17eed6,"e",%progbits
+ 870              	 .section .gnu.lto_DAC2_Init.59.b185e498eff80e7f,"e",%progbits
  871 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337\316&\033=\324\213\202B\017"
  871      CF6B1341 
  871      147EDFCE 
@@ -1589,7 +1589,7 @@ ARM GAS   			page 1
  899      5FE82CD7 
  899      E7
  900              	 .text
- 901              	 .section .gnu.lto_DAC1_Cmd.60.1efeb6685f17eed6,"e",%progbits
+ 901              	 .section .gnu.lto_DAC1_Cmd.60.b185e498eff80e7f,"e",%progbits
  902 0000 789C6D52 	 .ascii "x\234mR\317k\023Q\020~\337\316n\022\203\324\213\202"
  902      CF6B1351 
  902      107EDFCE 
@@ -1757,7 +1757,7 @@ ARM GAS   			page 1
  934      7F005E46 
  934      0134
  935              	 .text
- 936              	 .section .gnu.lto_DAC2_Cmd.61.1efeb6685f17eed6,"e",%progbits
+ 936              	 .section .gnu.lto_DAC2_Cmd.61.b185e498eff80e7f,"e",%progbits
  937 0000 789C6D52 	 .ascii "x\234mRMHTQ\024\276\337;\357\315LS\330\246\240\240\305"
  937      4D485451 
  937      14BEDF3B 
@@ -1923,7 +1923,7 @@ ARM GAS   			page 1
 
  968      5867011A 
  969              	 .text
- 970              	 .section .gnu.lto_DAC1_SetData.62.1efeb6685f17eed6,"e",%progbits
+ 970              	 .section .gnu.lto_DAC1_SetData.62.b185e498eff80e7f,"e",%progbits
  971 0000 789C5D4F 	 .ascii "x\234]O\275K\002a\030\177\236{\325\022\241\271\240\341"
  971      BD4B0261 
  971      187F9E7B 
@@ -2028,7 +2028,7 @@ ARM GAS   			page 1
  990      ADA389
  991 0170 0E       	 .ascii "\016"
  992              	 .text
- 993              	 .section .gnu.lto_DAC2_SetData.63.1efeb6685f17eed6,"e",%progbits
+ 993              	 .section .gnu.lto_DAC2_SetData.63.b185e498eff80e7f,"e",%progbits
  994 0000 789C5D4F 	 .ascii "x\234]O\277K\002a\030~\337\373\324rq.h\020\032\242!"
  994      BF4B0261 
  994      187EDFFB 
@@ -2132,7 +2132,7 @@ ARM GAS   			page 1
  1014      26C10FDC 
  1014      6E880B
  1015              	 .text
- 1016              	 .section .gnu.lto_DAC1_GetData.64.1efeb6685f17eed6,"e",%progbits
+ 1016              	 .section .gnu.lto_DAC1_GetData.64.b185e498eff80e7f,"e",%progbits
  1017 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  1017      C0C05003 
  1017      C46A40CC 
@@ -2213,7 +2213,7 @@ ARM GAS   			page 1
  1032      31592F99 
  1032      01004F88 
  1033              	 .text
- 1034              	 .section .gnu.lto_DAC2_GetData.65.1efeb6685f17eed6,"e",%progbits
+ 1034              	 .section .gnu.lto_DAC2_GetData.65.b185e498eff80e7f,"e",%progbits
  1035 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  1035      C0C05003 
  1035      C46A40CC 
@@ -2298,7 +2298,7 @@ ARM GAS   			page 1
  1050      592F9901 
  1051 0138 7E187379 	 .ascii "~\030sy"
  1052              	 .text
- 1053              	 .section .gnu.lto_.symbol_nodes.1efeb6685f17eed6,"e",%progbits
+ 1053              	 .section .gnu.lto_.symbol_nodes.b185e498eff80e7f,"e",%progbits
  1054 0000 789C75C9 	 .ascii "x\234u\311\311\001@0\000E\301\027b\353A!v\245\375\350"
  1054      C9014030 
  1054      0045C117 
@@ -2321,12 +2321,12 @@ ARM GAS   			page 1
  1057      920FBF
  1058 004b F240E8   	 .ascii "\362@\350"
  1059              	 .text
- 1060              	 .section .gnu.lto_.refs.1efeb6685f17eed6,"e",%progbits
+ 1060              	 .section .gnu.lto_.refs.b185e498eff80e7f,"e",%progbits
  1061 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  1061      00020000 
  1061      0A0002
  1062              	 .text
- 1063              	 .section .gnu.lto_.decls.1efeb6685f17eed6,"e",%progbits
+ 1063              	 .section .gnu.lto_.decls.b185e498eff80e7f,"e",%progbits
  1064 0000 789C9D55 	 .ascii "x\234\235UkLTG\024\2363\263\260\227+\272D\261\266Ic"
  1064      6B4C5447 
  1064      149E33B3 
@@ -2786,7 +2786,7 @@ ARM GAS   			page 1
  1155 0660 F05FC985 	 .ascii "\360_\311\205v\326"
  1155      76D6
  1156              	 .text
- 1157              	 .section .gnu.lto_.symtab.1efeb6685f17eed6,"e",%progbits
+ 1157              	 .section .gnu.lto_.symtab.b185e498eff80e7f,"e",%progbits
  1158 0000 4441435F 	 .ascii "DAC_DeInit\000"
  1158      4465496E 
  1158      697400
@@ -2888,7 +2888,7 @@ ARM GAS   			page 1
  1216      00000000 
  1217 0100 EF000000 	 .ascii "\357\000\000\000"
  1218              	 .text
- 1219              	 .section .gnu.lto_.ext_symtab.1efeb6685f17eed6,"e",%progbits
+ 1219              	 .section .gnu.lto_.ext_symtab.b185e498eff80e7f,"e",%progbits
  1220 0000 01       	 .ascii "\001"
  1221 0001 01       	 .ascii "\001"
  1222 0002 00       	 .ascii "\000"

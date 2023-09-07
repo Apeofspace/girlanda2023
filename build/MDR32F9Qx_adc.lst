@@ -3404,12 +3404,12 @@ ARM GAS   			page 1
  2567      49545F44 
  2567      656600
  2568              	 .text
- 2569              	 .section .gnu.lto_.profile.f3a1b3c2e7701480,"e",%progbits
+ 2569              	 .section .gnu.lto_.profile.fee6054cd530b56a,"e",%progbits
  2570 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  2570      00010000 
  2570      120003
  2571              	 .text
- 2572              	 .section .gnu.lto_.inline.f3a1b3c2e7701480,"e",%progbits
+ 2572              	 .section .gnu.lto_.inline.fee6054cd530b56a,"e",%progbits
  2573 0000 789C85D4 	 .ascii "x\234\205\324\313Q\002A\020\006\340\237^\\\026XDQ\021"
  2573      CB510241 
  2573      1006E09F 
@@ -3499,7 +3499,7 @@ ARM GAS   			page 1
  2589      816F7013 
  2589      574A
  2590              	 .text
- 2591              	 .section .gnu.lto_.jmpfuncs.f3a1b3c2e7701480,"e",%progbits
+ 2591              	 .section .gnu.lto_.jmpfuncs.fee6054cd530b56a,"e",%progbits
  2592 0000 789C45CD 	 .ascii "x\234E\315G\022\202P\000\004\321\007*\006\024#fDE1\237"
  2592      47128250 
  2592      0004D107 
@@ -3523,7 +3523,7 @@ ARM GAS   			page 1
  2596      FE266B04 
  2596      97
  2597              	 .text
- 2598              	 .section .gnu.lto_.pureconst.f3a1b3c2e7701480,"e",%progbits
+ 2598              	 .section .gnu.lto_.pureconst.fee6054cd530b56a,"e",%progbits
  2599 0000 789C05C1 	 .ascii "x\234\005\301\207\021\202@\000\000\301WN\005\314`\302"
  2599      87118240 
  2599      0000C157 
@@ -3552,11 +3552,11 @@ ARM GAS   			page 1
  2603      5FF90374 
  2603      B82056
  2604              	 .text
- 2605              	 .section .gnu.lto_.lto.f3a1b3c2e7701480,"e",%progbits
+ 2605              	 .section .gnu.lto_.lto.fee6054cd530b56a,"e",%progbits
  2606 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  2606      01000000 
  2607              	 .text
- 2608              	 .section .gnu.lto_ADC_DeInit.56.f3a1b3c2e7701480,"e",%progbits
+ 2608              	 .section .gnu.lto_ADC_DeInit.56.fee6054cd530b56a,"e",%progbits
  2609 0000 789CE363 	 .ascii "x\234\343cf`\250a``P\006bFf\006\306I\023\273\230\030"
  2609      6660A861 
  2609      60605006 
@@ -3684,7 +3684,7 @@ ARM GAS   			page 1
  2633      00BD
  2634 01bd 882714   	 .ascii "\210'\024"
  2635              	 .text
- 2636              	 .section .gnu.lto_ADC_Init.57.f3a1b3c2e7701480,"e",%progbits
+ 2636              	 .section .gnu.lto_ADC_Init.57.fee6054cd530b56a,"e",%progbits
  2637 0000 789C7D54 	 .ascii "x\234}T\335KTA\024\237sg?\334UwMWi\301\207\205\222\350"
  2637      DD4B5441 
  2637      149F7367 
@@ -3909,7 +3909,7 @@ ARM GAS   			page 1
  2680      D13FAA
  2681 031e 2AA874   	 .ascii "*\250t"
  2682              	 .text
- 2683              	 .section .gnu.lto_ADC_StructInit.58.f3a1b3c2e7701480,"e",%progbits
+ 2683              	 .section .gnu.lto_ADC_StructInit.58.fee6054cd530b56a,"e",%progbits
  2684 0000 789C8DD2 	 .ascii "x\234\215\322\317K\024a\030\007\360\347\373\276\373"
  2684      CF4B1461 
  2684      1807F0E7 
@@ -4041,7 +4041,7 @@ ARM GAS   			page 1
  2709      013C
  2710 01c9 09F1F8   	 .ascii "\011\361\370"
  2711              	 .text
- 2712              	 .section .gnu.lto_ADC_SetTrim.59.f3a1b3c2e7701480,"e",%progbits
+ 2712              	 .section .gnu.lto_ADC_SetTrim.59.fee6054cd530b56a,"e",%progbits
  2713 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337\314\3566%POJs[\020\021\021\273"
  2713      4D681341 
  2713      147EDFCC 
@@ -4180,7 +4180,7 @@ ARM GAS   			page 1
  2740 01e9 EF4EFF05 	 .ascii "\357N\377\005~q\312\222"
  2740      7E71CA92 
  2741              	 .text
- 2742              	 .section .gnu.lto_ADC1_Init.60.f3a1b3c2e7701480,"e",%progbits
+ 2742              	 .section .gnu.lto_ADC1_Init.60.fee6054cd530b56a,"e",%progbits
  2743 0000 789C8D55 	 .ascii "x\234\215U\355O\233U\024\277\347\271}\245\364\015\012"
  2743      ED4F9B55 
  2743      14BFE7B9 
@@ -4490,7 +4490,7 @@ ARM GAS   			page 1
  2803      B7FE0302 
  2804 0451 E1C071   	 .ascii "\341\300q"
  2805              	 .text
- 2806              	 .section .gnu.lto_ADC2_Init.61.f3a1b3c2e7701480,"e",%progbits
+ 2806              	 .section .gnu.lto_ADC2_Init.61.fee6054cd530b56a,"e",%progbits
  2807 0000 789C8D95 	 .ascii "x\234\215\225\337k\034U\024\307\357\231\273?\263\311"
  2807      DF6B1C55 
  2807      14C7EF99 
@@ -4773,7 +4773,7 @@ ARM GAS   			page 1
  2862      008A3065 
  2862      A3
  2863              	 .text
- 2864              	 .section .gnu.lto_ADCx_StructInit.62.f3a1b3c2e7701480,"e",%progbits
+ 2864              	 .section .gnu.lto_ADCx_StructInit.62.fee6054cd530b56a,"e",%progbits
  2865 0000 789C8DD3 	 .ascii "x\234\215\323\317k\023A\024\007\360\367\335\311\357"
  2865      CF6B1341 
  2865      1407F0F7 
@@ -4923,7 +4923,7 @@ ARM GAS   			page 1
 
  2893      4ED1
  2894              	 .text
- 2895              	 .section .gnu.lto_ADC1_Cmd.63.f3a1b3c2e7701480,"e",%progbits
+ 2895              	 .section .gnu.lto_ADC1_Cmd.63.fee6054cd530b56a,"e",%progbits
  2896 0000 789C6D52 	 .ascii "x\234mRMh\023A\030\235\267\263\233\304\"\361\"\011\005"
  2896      4D681341 
  2896      189DB7B3 
@@ -5089,7 +5089,7 @@ ARM GAS   			page 1
  2928 024f 1FE1A602 	 .ascii "\037\341\246\002Q"
  2928      51
  2929              	 .text
- 2930              	 .section .gnu.lto_ADC2_Cmd.64.f3a1b3c2e7701480,"e",%progbits
+ 2930              	 .section .gnu.lto_ADC2_Cmd.64.fee6054cd530b56a,"e",%progbits
  2931 0000 789C6D52 	 .ascii "x\234mRMh\023A\030\235\267\263\233\304\"\361\",\005"
  2931      4D681341 
  2931      189DB7B3 
@@ -5257,7 +5257,7 @@ ARM GAS   			page 1
  2963      FF007323 
  2963      02BD
  2964              	 .text
- 2965              	 .section .gnu.lto_ADC1_SetChannel.65.f3a1b3c2e7701480,"e",%progbits
+ 2965              	 .section .gnu.lto_ADC1_SetChannel.65.fee6054cd530b56a,"e",%progbits
  2966 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337N\262\331\366P/BhP\010\210\210"
  2966      4D681341 
  2966      147EDF4E 
@@ -5408,7 +5408,7 @@ ARM GAS   			page 1
  2995      9DFE05C3 
  2995      43E35E
  2996              	 .text
- 2997              	 .section .gnu.lto_ADC2_SetChannel.66.f3a1b3c2e7701480,"e",%progbits
+ 2997              	 .section .gnu.lto_ADC2_SetChannel.66.fee6054cd530b56a,"e",%progbits
  2998 0000 789C6D51 	 .ascii "x\234mQMh\023A\024~\337N\262I{\250\027\251\264*\004"
  2998      4D681341 
  2998      147EDF4E 
@@ -5561,7 +5561,7 @@ ARM GAS   			page 1
  3028 021f 170FA3E5 	 .ascii "\027\017\243\345\326"
  3028      D6
  3029              	 .text
- 3030              	 .section .gnu.lto_ADC1_SetChannels.67.f3a1b3c2e7701480,"e",%progbits
+ 3030              	 .section .gnu.lto_ADC1_SetChannels.67.fee6054cd530b56a,"e",%progbits
  3031 0000 789C5D4F 	 .ascii "x\234]O=H\303P\020\276\313k\253Ep\024D\207\200\2038"
  3031      3D48C350 
  3031      10BECB6B 
@@ -5667,7 +5667,7 @@ ARM GAS   			page 1
  3051 0174 175F038C 	 .ascii "\027_\003\214\242"
  3051      A2
  3052              	 .text
- 3053              	 .section .gnu.lto_ADC2_SetChannels.68.f3a1b3c2e7701480,"e",%progbits
+ 3053              	 .section .gnu.lto_ADC2_SetChannels.68.fee6054cd530b56a,"e",%progbits
  3054 0000 789C5D4F 	 .ascii "x\234]O=H\303P\020\276\313k\253Ep\024\004\221\202\203"
  3054      3D48C350 
  3054      10BECB6B 
@@ -5769,7 +5769,7 @@ ARM GAS   			page 1
  3073 0171 2415F804 	 .ascii "$\025\370\004\016\033\214D"
  3073      0E1B8C44 
  3074              	 .text
- 3075              	 .section .gnu.lto_ADC1_OperationModeConfig.69.f3a1b3c2e7701480,"e",%progbits
+ 3075              	 .section .gnu.lto_ADC1_OperationModeConfig.69.fee6054cd530b56a,"e",%progbits
  3076 0000 789C6D52 	 .ascii "x\234mRMh\023A\030\235\267\223l\022\177j\017Z)H\011"
  3076      4D681341 
  3076      189DB793 
@@ -5936,7 +5936,7 @@ ARM GAS   			page 1
  3108      A1F8E1DF 
  3108      3D99027C 
  3109              	 .text
- 3110              	 .section .gnu.lto_ADC2_OperationModeConfig.70.f3a1b3c2e7701480,"e",%progbits
+ 3110              	 .section .gnu.lto_ADC2_OperationModeConfig.70.fee6054cd530b56a,"e",%progbits
  3111 0000 789C6D52 	 .ascii "x\234mR\317k\023A\030\235\267\223l\022\177\324\036\014"
 ARM GAS   			page 100
 
@@ -6102,7 +6102,7 @@ ARM GAS   			page 1
  3142      76EA3752 
  3142      D501BC
  3143              	 .text
- 3144              	 .section .gnu.lto_ADC1_SamplingModeConfig.71.f3a1b3c2e7701480,"e",%progbits
+ 3144              	 .section .gnu.lto_ADC1_SamplingModeConfig.71.fee6054cd530b56a,"e",%progbits
  3145 0000 789C6D51 	 .ascii "x\234mQ\315k\023A\034\375\275\235M\032E\352\305\"\005"
  3145      CD6B1341 
  3145      1CFDBD9D 
@@ -6253,7 +6253,7 @@ ARM GAS   			page 1
  3173      133FFB0B 
  3174 020a 65DEEE   	 .ascii "e\336\356"
  3175              	 .text
- 3176              	 .section .gnu.lto_ADC2_SamplingModeConfig.72.f3a1b3c2e7701480,"e",%progbits
+ 3176              	 .section .gnu.lto_ADC2_SamplingModeConfig.72.fee6054cd530b56a,"e",%progbits
  3177 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337\316&\215R\364RQ\301\303\202"
  3177      CF6B1341 
  3177      147EDFCE 
@@ -6401,7 +6401,7 @@ ARM GAS   			page 1
  3206      0B1AF9E0 
  3206      0C
  3207              	 .text
- 3208              	 .section .gnu.lto_ADC1_ChannelSwithingConfig.73.f3a1b3c2e7701480,"e",%progbits
+ 3208              	 .section .gnu.lto_ADC1_ChannelSwithingConfig.73.fee6054cd530b56a,"e",%progbits
  3209 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\030\235\267\263\233F\261\352!\240"
  3209      CF6B1341 
  3209      189DB7B3 
@@ -6558,7 +6558,7 @@ ARM GAS   			page 1
  3239 0218 D93F2348 	 .ascii "\331?#H\344N"
  3239      E44E
  3240              	 .text
- 3241              	 .section .gnu.lto_ADC2_ChannelSwithingConfig.74.f3a1b3c2e7701480,"e",%progbits
+ 3241              	 .section .gnu.lto_ADC2_ChannelSwithingConfig.74.fee6054cd530b56a,"e",%progbits
  3242 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337\316n\032\305\252\207\200"
  3242      CF6B1341 
  3242      147EDFCE 
@@ -6706,7 +6706,7 @@ ARM GAS   			page 1
  3270      03CB
  3271 021a F2E5E8   	 .ascii "\362\345\350"
  3272              	 .text
- 3273              	 .section .gnu.lto_ADC1_LevelsConfig.75.f3a1b3c2e7701480,"e",%progbits
+ 3273              	 .section .gnu.lto_ADC1_LevelsConfig.75.fee6054cd530b56a,"e",%progbits
  3274 0000 789C8D92 	 .ascii "x\234\215\222\357K\024A\030\307\347\273\263w\256\"%"
  3274      EF4B1441 
  3274      18C7E7BB 
@@ -6882,7 +6882,7 @@ ARM GAS   			page 1
  3308 026d D3BF0051 	 .ascii "\323\277\000Q\3350\031"
  3308      DD3019
  3309              	 .text
- 3310              	 .section .gnu.lto_ADC2_LevelsConfig.76.f3a1b3c2e7701480,"e",%progbits
+ 3310              	 .section .gnu.lto_ADC2_LevelsConfig.76.fee6054cd530b56a,"e",%progbits
  3311 0000 789C8D92 	 .ascii "x\234\215\222\335K\024Q\030\306\3173gv\035EJ\330\240"
  3311      DD4B1451 
  3311      18C6CF33 
@@ -7055,7 +7055,7 @@ ARM GAS   			page 1
  3345 026d 05A4882F 	 .ascii "\005\244\210/\031"
  3345      19
  3346              	 .text
- 3347              	 .section .gnu.lto_ADC1_SetLowLevel.77.f3a1b3c2e7701480,"e",%progbits
+ 3347              	 .section .gnu.lto_ADC1_SetLowLevel.77.fee6054cd530b56a,"e",%progbits
  3348 0000 789C5D4F 	 .ascii "x\234]O;/\004Q\024>g\356\356\332-(T\024\222I\024(\030"
  3348      3B2F0451 
  3348      143E67EE 
@@ -7159,7 +7159,7 @@ ARM GAS   			page 1
  3367      862F2B0D 
  3367      8C8A
  3368              	 .text
- 3369              	 .section .gnu.lto_ADC2_SetLowLevel.78.f3a1b3c2e7701480,"e",%progbits
+ 3369              	 .section .gnu.lto_ADC2_SetLowLevel.78.fee6054cd530b56a,"e",%progbits
  3370 0000 789C5D4F 	 .ascii "x\234]O;K\303P\024>'\267\326v\320\301I\007!\340\240"
  3370      3B4BC350 
  3370      143E27B7 
@@ -7267,7 +7267,7 @@ ARM GAS   			page 1
  3391 0175 327C0269 	 .ascii "2|\002i8\214\326"
  3391      388CD6
  3392              	 .text
- 3393              	 .section .gnu.lto_ADC1_SetHighLevel.79.f3a1b3c2e7701480,"e",%progbits
+ 3393              	 .section .gnu.lto_ADC1_SetHighLevel.79.fee6054cd530b56a,"e",%progbits
  3394 0000 789C5D4F 	 .ascii "x\234]O\275K\303P\020\277\313\253\325\014:8\351 \004"
  3394      BD4BC350 
  3394      10BFCBAB 
@@ -7371,7 +7371,7 @@ ARM GAS   			page 1
  3415 0174 220A7C03 	 .ascii "\"\012|\003sa\215\272"
  3415      73618DBA 
  3416              	 .text
- 3417              	 .section .gnu.lto_ADC2_SetHighLevel.80.f3a1b3c2e7701480,"e",%progbits
+ 3417              	 .section .gnu.lto_ADC2_SetHighLevel.80.fee6054cd530b56a,"e",%progbits
  3418 0000 789C5D4F 	 .ascii "x\234]O;K\303P\024>'\267\326v\320\301I\007!\340\240"
  3418      3B4BC350 
  3418      143E27B7 
@@ -7482,7 +7482,7 @@ ARM GAS   			page 1
  3439 0178 0C5FB154 	 .ascii "\014_\261T\214\356"
  3439      8CEE
  3440              	 .text
- 3441              	 .section .gnu.lto_ADC1_Start.81.f3a1b3c2e7701480,"e",%progbits
+ 3441              	 .section .gnu.lto_ADC1_Start.81.fee6054cd530b56a,"e",%progbits
  3442 0000 789C6361 	 .ascii "x\234cad`\250a``P\006bFf\006\306I\023\273\230\030\032"
  3442      6460A861 
  3442      60605006 
@@ -7580,7 +7580,7 @@ ARM GAS   			page 1
  3460      3300001D 
  3460      257E30
  3461              	 .text
- 3462              	 .section .gnu.lto_ADC2_Start.82.f3a1b3c2e7701480,"e",%progbits
+ 3462              	 .section .gnu.lto_ADC2_Start.82.fee6054cd530b56a,"e",%progbits
  3463 0000 789C758F 	 .ascii "x\234u\217=K\303P\024\206\317\271'\255up\326\261\342"
  3463      3D4BC350 
  3463      1486CFB9 
@@ -7673,7 +7673,7 @@ ARM GAS   			page 1
  3481      A9F00900 
  3481      1D7DE4
  3482              	 .text
- 3483              	 .section .gnu.lto_ADC1_GetResult.83.f3a1b3c2e7701480,"e",%progbits
+ 3483              	 .section .gnu.lto_ADC1_GetResult.83.fee6054cd530b56a,"e",%progbits
  3484 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3484      C0C05003 
  3484      C46A40CC 
@@ -7764,7 +7764,7 @@ ARM GAS   			page 1
  3501 0137 F5921900 	 .ascii "\365\222\031\000\301pu\026"
  3501      C1707516 
  3502              	 .text
- 3503              	 .section .gnu.lto_ADC2_GetResult.84.f3a1b3c2e7701480,"e",%progbits
+ 3503              	 .section .gnu.lto_ADC2_GetResult.84.fee6054cd530b56a,"e",%progbits
  3504 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3504      C0C05003 
  3504      C46A40CC 
@@ -7852,7 +7852,7 @@ ARM GAS   			page 1
  3521      92190015 
  3521      077561
  3522              	 .text
- 3523              	 .section .gnu.lto_ADC_GetStatus.85.f3a1b3c2e7701480,"e",%progbits
+ 3523              	 .section .gnu.lto_ADC_GetStatus.85.fee6054cd530b56a,"e",%progbits
  3524 0000 789C7D8E 	 .ascii "x\234}\216\277K\303P\020\307\357\362\232V\021\301\305"
  3524      BF4BC350 
  3524      10C7EFF2 
@@ -7958,7 +7958,7 @@ ARM GAS   			page 1
  3544      4C856F47 
  3544      218F37
  3545              	 .text
- 3546              	 .section .gnu.lto_ADC1_GetStatus.86.f3a1b3c2e7701480,"e",%progbits
+ 3546              	 .section .gnu.lto_ADC1_GetStatus.86.fee6054cd530b56a,"e",%progbits
  3547 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3547      C0C05003 
  3547      C46A40CC 
@@ -8051,7 +8051,7 @@ ARM GAS   			page 1
  3564      00F8A075 
  3564      3C
  3565              	 .text
- 3566              	 .section .gnu.lto_ADC2_GetStatus.87.f3a1b3c2e7701480,"e",%progbits
+ 3566              	 .section .gnu.lto_ADC2_GetStatus.87.fee6054cd530b56a,"e",%progbits
  3567 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3567      C0C05003 
  3567      C46A40CC 
@@ -8139,7 +8139,7 @@ ARM GAS   			page 1
  3584 0138 921900DE 	 .ascii "\222\031\000\336\357tK"
  3584      EF744B
  3585              	 .text
- 3586              	 .section .gnu.lto_ADC_GetFlagStatus.88.f3a1b3c2e7701480,"e",%progbits
+ 3586              	 .section .gnu.lto_ADC_GetFlagStatus.88.fee6054cd530b56a,"e",%progbits
  3587 0000 789C5D51 	 .ascii "x\234]QMh\023a\020\235\267\263I\350\245\320\203\007"
  3587      4D681361 
  3587      109DB7B3 
@@ -8285,7 +8285,7 @@ ARM GAS   			page 1
  3615 01fa 42E11F20 	 .ascii "B\341\037 H\316P"
  3615      48CE50
  3616              	 .text
- 3617              	 .section .gnu.lto_ADC1_GetFlagStatus.89.f3a1b3c2e7701480,"e",%progbits
+ 3617              	 .section .gnu.lto_ADC1_GetFlagStatus.89.fee6054cd530b56a,"e",%progbits
  3618 0000 789C5D51 	 .ascii "x\234]Q?h\023a\024\177\357{\227D\227\322A\007\267,\242"
  3618      3F681361 
  3618      147FEF7B 
@@ -8432,7 +8432,7 @@ ARM GAS   			page 1
  3646      E73F5073 
  3646      DD0C
  3647              	 .text
- 3648              	 .section .gnu.lto_ADC2_GetFlagStatus.90.f3a1b3c2e7701480,"e",%progbits
+ 3648              	 .section .gnu.lto_ADC2_GetFlagStatus.90.fee6054cd530b56a,"e",%progbits
  3649 0000 789C5D51 	 .ascii "x\234]Q?h\023a\024\177\357{\227D\227\322A\007\267,\242"
  3649      3F681361 
  3649      147FEF7B 
@@ -8587,7 +8587,7 @@ ARM GAS   			page 1
  3679 0215 8CB30FA2 	 .ascii "\214\263\017\242\305\333\307"
  3679      C5DBC7
  3680              	 .text
- 3681              	 .section .gnu.lto_ADC1_ClearOverwriteFlag.91.f3a1b3c2e7701480,"e",%progbits
+ 3681              	 .section .gnu.lto_ADC1_ClearOverwriteFlag.91.fee6054cd530b56a,"e",%progbits
  3682 0000 789CE360 	 .ascii "x\234\343`d`\250a``P\006bFf\006\306I\023\273\230\030"
  3682      6460A861 
  3682      60605006 
@@ -8684,7 +8684,7 @@ ARM GAS   			page 1
  3701 014e 97CC0000 	 .ascii "\227\314\000\000\217\362\201\315"
  3701      8FF281CD 
  3702              	 .text
- 3703              	 .section .gnu.lto_ADC2_ClearOverwriteFlag.92.f3a1b3c2e7701480,"e",%progbits
+ 3703              	 .section .gnu.lto_ADC2_ClearOverwriteFlag.92.fee6054cd530b56a,"e",%progbits
  3704 0000 789CE360 	 .ascii "x\234\343`d`\250a``P\006bFf\006\306I\023\273\230\030"
  3704      6460A861 
  3704      60605006 
@@ -8779,7 +8779,7 @@ ARM GAS   			page 1
  3721      00FCA081 
  3721      E5
  3722              	 .text
- 3723              	 .section .gnu.lto_ADC1_ClearOutOfRangeFlag.93.f3a1b3c2e7701480,"e",%progbits
+ 3723              	 .section .gnu.lto_ADC1_ClearOutOfRangeFlag.93.fee6054cd530b56a,"e",%progbits
  3724 0000 789CE360 	 .ascii "x\234\343`d`\250a``P\006bFf\006\306I\023\273\230\030"
  3724      6460A861 
  3724      60605006 
@@ -8876,7 +8876,7 @@ ARM GAS   			page 1
  3743 014e 97CC0000 	 .ascii "\227\314\000\000w\011\201\243"
  3743      770981A3 
  3744              	 .text
- 3745              	 .section .gnu.lto_ADC2_ClearOutOfRangeFlag.94.f3a1b3c2e7701480,"e",%progbits
+ 3745              	 .section .gnu.lto_ADC2_ClearOutOfRangeFlag.94.fee6054cd530b56a,"e",%progbits
  3746 0000 789CE360 	 .ascii "x\234\343`d`\250a``P\006bFf\006\306I\023\273\230\030"
 ARM GAS   			page 149
 
@@ -8970,7 +8970,7 @@ ARM GAS   			page 1
  3763      006CFB81 
  3763      60
  3764              	 .text
- 3765              	 .section .gnu.lto_ADC_ITConfig.95.f3a1b3c2e7701480,"e",%progbits
+ 3765              	 .section .gnu.lto_ADC_ITConfig.95.fee6054cd530b56a,"e",%progbits
  3766 0000 789C8D53 	 .ascii "x\234\215SKl\023W\024}g\336xfb\210M\022\025\265\022"
  3766      4B6C1357 
  3766      147D67DE 
@@ -9228,7 +9228,7 @@ ARM GAS   			page 1
  3816      EA
  3817 0394 EFD6     	 .ascii "\357\326"
  3818              	 .text
- 3819              	 .section .gnu.lto_ADC1_ITConfig.96.f3a1b3c2e7701480,"e",%progbits
+ 3819              	 .section .gnu.lto_ADC1_ITConfig.96.fee6054cd530b56a,"e",%progbits
  3820 0000 789C6D92 	 .ascii "x\234m\222ML\023Q\020\307\337\177\337\3663\206\336\214"
  3820      4D4C1351 
  3820      10C7DF7F 
@@ -9414,7 +9414,7 @@ ARM GAS   			page 1
  3855      FF02A1FB 
  3856 02a1 2B17     	 .ascii "+\027"
  3857              	 .text
- 3858              	 .section .gnu.lto_ADC2_ITConfig.97.f3a1b3c2e7701480,"e",%progbits
+ 3858              	 .section .gnu.lto_ADC2_ITConfig.97.fee6054cd530b56a,"e",%progbits
  3859 0000 789C6D92 	 .ascii "x\234m\222_HSq\024\307\177\337\373\273\373K\254\267"
  3859      5F485371 
  3859      14C77FDF 
@@ -9609,7 +9609,7 @@ ARM GAS   			page 1
  3895      FE05DB
  3896 02a0 642CCC   	 .ascii "d,\314"
  3897              	 .text
- 3898              	 .section .gnu.lto_ADC_GetITStatus.98.f3a1b3c2e7701480,"e",%progbits
+ 3898              	 .section .gnu.lto_ADC_GetITStatus.98.fee6054cd530b56a,"e",%progbits
  3899 0000 789C5D52 	 .ascii "x\234]RMH\024a\030~\237\357\033wW\017{\252C\267\275"
  3899      4D481461 
  3899      187E9FEF 
@@ -9783,7 +9783,7 @@ ARM GAS   			page 1
 
  3933      AEFBB4
  3934              	 .text
- 3935              	 .section .gnu.lto_ADC1_GetITStatus.99.f3a1b3c2e7701480,"e",%progbits
+ 3935              	 .section .gnu.lto_ADC1_GetITStatus.99.fee6054cd530b56a,"e",%progbits
  3936 0000 789C5D52 	 .ascii "x\234]R]H\024Q\030\375\316\275\263\273*\254O\025\364"
  3936      5D481451 
  3936      18FDCEBD 
@@ -9956,7 +9956,7 @@ ARM GAS   			page 1
  3970      7B52FF01 
  3970      1BF60BBF 
  3971              	 .text
- 3972              	 .section .gnu.lto_ADC2_GetITStatus.100.f3a1b3c2e7701480,"e",%progbits
+ 3972              	 .section .gnu.lto_ADC2_GetITStatus.100.fee6054cd530b56a,"e",%progbits
  3973 0000 789C5D52 	 .ascii "x\234]RMHTQ\030\375\316\275ofT\320U\005\355f\023\341"
 ARM GAS   			page 167
 
@@ -10130,7 +10130,7 @@ ARM GAS   			page 1
  4005      210A
  4006 026e FB       	 .ascii "\373"
  4007              	 .text
- 4008              	 .section .gnu.lto_.symbol_nodes.f3a1b3c2e7701480,"e",%progbits
+ 4008              	 .section .gnu.lto_.symbol_nodes.fee6054cd530b56a,"e",%progbits
  4009 0000 789C75D1 	 .ascii "x\234u\321GRBQ\000D\321\373\376\007#\346,\006\314\202"
  4009      47524251 
  4009      0044D1FB 
@@ -10195,7 +10195,7 @@ ARM GAS   			page 1
  4021      66E0171D 
  4021      8D3DAC
  4022              	 .text
- 4023              	 .section .gnu.lto_.refs.f3a1b3c2e7701480,"e",%progbits
+ 4023              	 .section .gnu.lto_.refs.fee6054cd530b56a,"e",%progbits
  4024 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  4024      00020000 
 ARM GAS   			page 171
@@ -10203,7 +10203,7 @@ ARM GAS   			page 1
 
  4024      0A0002
  4025              	 .text
- 4026              	 .section .gnu.lto_.decls.f3a1b3c2e7701480,"e",%progbits
+ 4026              	 .section .gnu.lto_.decls.fee6054cd530b56a,"e",%progbits
  4027 0000 789C9D59 	 .ascii "x\234\235YkT\024\307\266\356\352\3421\016\003\003\210"
  4027      6B5414C7 
  4027      B6EEEAE2 
@@ -11670,7 +11670,7 @@ ARM GAS   			page 1
  4319      F5FFE747 
  4319      236E
  4320              	 .text
- 4321              	 .section .gnu.lto_.symtab.f3a1b3c2e7701480,"e",%progbits
+ 4321              	 .section .gnu.lto_.symtab.fee6054cd530b56a,"e",%progbits
  4322 0000 4144435F 	 .ascii "ADC_DeInit\000"
  4322      4465496E 
  4322      697400
@@ -12160,7 +12160,7 @@ ARM GAS   			page 1
  4590      00000000 
  4591 059d 6C010000 	 .ascii "l\001\000\000"
  4592              	 .text
- 4593              	 .section .gnu.lto_.ext_symtab.f3a1b3c2e7701480,"e",%progbits
+ 4593              	 .section .gnu.lto_.ext_symtab.fee6054cd530b56a,"e",%progbits
  4594 0000 01       	 .ascii "\001"
  4595 0001 01       	 .ascii "\001"
  4596 0002 00       	 .ascii "\000"

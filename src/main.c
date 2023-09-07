@@ -1,7 +1,7 @@
 #include "main.h"
 
 //TODO: нормальные докстринги.
-//TODO: ридми.
+//TODO: ридми
 //TODO: более нормальное название и структура алгоритмов.
 //TODO: избавиться от статиков, пусть память выделяется динамично. в этом не должно быть проблем, так как одновременно запущен только 1 алоритм.
 //TODO: больше красивых цветастых
@@ -23,6 +23,7 @@ int main(){
 	/*!!Регистрация алгоритмов!!*/
 	register_alg(running_color2);
 	register_alg(running_color3);
+	register_alg(breath_colors3);
 	// register_alg(running_color4);
 	register_alg(breath_colors2);
 //	register_alg(running_red1);

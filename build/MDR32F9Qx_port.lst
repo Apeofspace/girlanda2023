@@ -1898,12 +1898,12 @@ ARM GAS   			page 1
  1482      414C4F47 
  1482      00
  1483              	 .text
- 1484              	 .section .gnu.lto_.profile.3b780e95290a9443,"e",%progbits
+ 1484              	 .section .gnu.lto_.profile.634fee65f67bd3bf,"e",%progbits
  1485 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1485      00010000 
  1485      120003
  1486              	 .text
- 1487              	 .section .gnu.lto_.inline.3b780e95290a9443,"e",%progbits
+ 1487              	 .section .gnu.lto_.inline.634fee65f67bd3bf,"e",%progbits
  1488 0000 789C3365 	 .ascii "x\2343ed\200\003N\006\006\356\206\206\206\003Li\214"
  1488      6480034E 
  1488      0606EE86 
@@ -1955,7 +1955,7 @@ ARM GAS   			page 1
  1497      00E1E14A 
  1497      0D
  1498              	 .text
- 1499              	 .section .gnu.lto_.jmpfuncs.3b780e95290a9443,"e",%progbits
+ 1499              	 .section .gnu.lto_.jmpfuncs.634fee65f67bd3bf,"e",%progbits
  1500 0000 789C9365 	 .ascii "x\234\223e@\000N fd``b``f``a``e``c``g`\340\000J\000"
  1500      40004E20 
  1500      66646060 
@@ -1964,7 +1964,7 @@ ARM GAS   			page 1
  1501 0021 00075F00 	 .ascii "\000\007_\000K"
  1501      4B
  1502              	 .text
- 1503              	 .section .gnu.lto_.pureconst.3b780e95290a9443,"e",%progbits
+ 1503              	 .section .gnu.lto_.pureconst.634fee65f67bd3bf,"e",%progbits
  1504 0000 789C05C1 	 .ascii "x\234\005\301\011\001\000 \014\304\260\203\225g\036"
  1504      09010020 
  1504      0CC4B083 
@@ -1975,14 +1975,14 @@ ARM GAS   			page 1
  1505      6C3972E5 
  1505      0353A405 
  1506              	 .text
- 1507              	 .section .gnu.lto_.lto.3b780e95290a9443,"e",%progbits
+ 1507              	 .section .gnu.lto_.lto.634fee65f67bd3bf,"e",%progbits
  1508 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1508      01000000 
 ARM GAS   			page 34
 
 
  1509              	 .text
- 1510              	 .section .gnu.lto_PORT_DeInit.56.3b780e95290a9443,"e",%progbits
+ 1510              	 .section .gnu.lto_PORT_DeInit.56.634fee65f67bd3bf,"e",%progbits
  1511 0000 789C8DD2 	 .ascii "x\234\215\322OH\024q\024\007\360\367\375\375\366O\213"
  1511      4F481471 
  1511      1407F0F7 
@@ -2113,7 +2113,7 @@ ARM GAS   			page 1
  1536      67E80FDB 
  1536      5004D7
  1537              	 .text
- 1538              	 .section .gnu.lto_PORT_Init.57.3b780e95290a9443,"e",%progbits
+ 1538              	 .section .gnu.lto_PORT_Init.57.634fee65f67bd3bf,"e",%progbits
  1539 0000 789C8D57 	 .ascii "x\234\215WiTU\327\025>\373\336\373x<f\203\363\210Fc"
  1539      695455D7 
  1539      153EFBDE 
@@ -2790,7 +2790,7 @@ ARM GAS   			page 1
  1673 0986 9F96F83F 	 .ascii "\237\226\370?\020\273\2317"
  1673      10BB9937 
  1674              	 .text
- 1675              	 .section .gnu.lto_PORT_StructInit.58.3b780e95290a9443,"e",%progbits
+ 1675              	 .section .gnu.lto_PORT_StructInit.58.634fee65f67bd3bf,"e",%progbits
  1676 0000 789C8DD2 	 .ascii "x\234\215\322Mh\023A\024\007\360\367\337\311\327\246"
  1676      4D681341 
  1676      1407F0F7 
@@ -2929,7 +2929,7 @@ ARM GAS   			page 1
  1703      0113EF2C 
  1703      83
  1704              	 .text
- 1705              	 .section .gnu.lto_PORT_ReadInputDataBit.59.3b780e95290a9443,"e",%progbits
+ 1705              	 .section .gnu.lto_PORT_ReadInputDataBit.59.634fee65f67bd3bf,"e",%progbits
  1706 0000 789C5D92 	 .ascii "x\234]\222MHTQ\024\307\317\377\3367_R\346&\210V\263"
  1706      4D485451 
  1706      14C7CFFF 
@@ -3093,7 +3093,7 @@ ARM GAS   			page 1
  1737      FFABECF0 
  1737      8E
  1738              	 .text
- 1739              	 .section .gnu.lto_PORT_ReadInputData.60.3b780e95290a9443,"e",%progbits
+ 1739              	 .section .gnu.lto_PORT_ReadInputData.60.634fee65f67bd3bf,"e",%progbits
  1740 0000 789C5D8F 	 .ascii "x\234]\217\277O\302P\020\307\357\372\212\312\304h\342"
  1740      BF4FC250 
  1740      10C7EFFA 
@@ -3201,7 +3201,7 @@ ARM GAS   			page 1
  1760      0E7E
  1761 0176 8B15     	 .ascii "\213\025"
  1762              	 .text
- 1763              	 .section .gnu.lto_PORT_SetBits.61.3b780e95290a9443,"e",%progbits
+ 1763              	 .section .gnu.lto_PORT_SetBits.61.634fee65f67bd3bf,"e",%progbits
  1764 0000 789C6D50 	 .ascii "x\234mP\315k\023A\024\177o\336$\351^\014\304\213x\312"
  1764      CD6B1341 
  1764      147F6FDE 
@@ -3349,7 +3349,7 @@ ARM GAS   			page 1
  1793      E6FF002D 
  1793      C4E417
  1794              	 .text
- 1795              	 .section .gnu.lto_PORT_ResetBits.62.3b780e95290a9443,"e",%progbits
+ 1795              	 .section .gnu.lto_PORT_ResetBits.62.634fee65f67bd3bf,"e",%progbits
  1796 0000 789C7550 	 .ascii "x\234uPMh\023A\024~o\336l\223x\360\320\202\240\027\343"
  1796      4D681341 
  1796      147E6FDE 
@@ -3502,7 +3502,7 @@ ARM GAS   			page 1
  1824      AC1A
  1825 021d DD0A     	 .ascii "\335\012"
  1826              	 .text
- 1827              	 .section .gnu.lto_PORT_WriteBit.63.3b780e95290a9443,"e",%progbits
+ 1827              	 .section .gnu.lto_PORT_WriteBit.63.634fee65f67bd3bf,"e",%progbits
  1828 0000 789C7552 	 .ascii "x\234uR_HSQ\030?\3379\347\376Y\313YHB\0214\237\"('i"
  1828      5F485351 
  1828      183FDF39 
@@ -3705,7 +3705,7 @@ ARM GAS   			page 1
  1867      F7178DBD 
  1867      63D7
  1868              	 .text
- 1869              	 .section .gnu.lto_PORT_Write.64.3b780e95290a9443,"e",%progbits
+ 1869              	 .section .gnu.lto_PORT_Write.64.634fee65f67bd3bf,"e",%progbits
  1870 0000 789C5D50 	 .ascii "x\234]PMh\223A\020\235\267\263i\222\213=x\010z\312M"
  1870      4D689341 
  1870      109DB7B3 
@@ -3850,7 +3850,7 @@ ARM GAS   			page 1
  1896      F41F18
  1897 01fb ADCC2D   	 .ascii "\255\314-"
  1898              	 .text
- 1899              	 .section .gnu.lto_.symbol_nodes.3b780e95290a9443,"e",%progbits
+ 1899              	 .section .gnu.lto_.symbol_nodes.634fee65f67bd3bf,"e",%progbits
  1900 0000 789CFBC7 	 .ascii "x\234\373\307\000\004L\026\365\014\015@\300\3028\341"
  1900      00044C16 
  1900      F50C0D40 
@@ -3874,12 +3874,12 @@ ARM GAS   			page 1
  1904      002ABC3B 
  1904      A5
  1905              	 .text
- 1906              	 .section .gnu.lto_.refs.3b780e95290a9443,"e",%progbits
+ 1906              	 .section .gnu.lto_.refs.634fee65f67bd3bf,"e",%progbits
  1907 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  1907      00020000 
  1907      0A0002
  1908              	 .text
- 1909              	 .section .gnu.lto_.decls.3b780e95290a9443,"e",%progbits
+ 1909              	 .section .gnu.lto_.decls.634fee65f67bd3bf,"e",%progbits
  1910 0000 789C9D57 	 .ascii "x\234\235WkPTG\032\355\257\357\000\303etP\320dwS.\025"
  1910      6B505447 
  1910      1AEDAFEF 
@@ -4636,7 +4636,7 @@ ARM GAS   			page 1
  2060      9541FE07 
  2060      0A3E79C6 
  2061              	 .text
- 2062              	 .section .gnu.lto_.symtab.3b780e95290a9443,"e",%progbits
+ 2062              	 .section .gnu.lto_.symtab.634fee65f67bd3bf,"e",%progbits
  2063 0000 504F5254 	 .ascii "PORT_DeInit\000"
  2063      5F446549 
  2063      6E697400 
@@ -4730,7 +4730,7 @@ ARM GAS   			page 1
  2115      00000000 
  2116 0107 FA000000 	 .ascii "\372\000\000\000"
  2117              	 .text
- 2118              	 .section .gnu.lto_.ext_symtab.3b780e95290a9443,"e",%progbits
+ 2118              	 .section .gnu.lto_.ext_symtab.634fee65f67bd3bf,"e",%progbits
  2119 0000 01       	 .ascii "\001"
  2120 0001 01       	 .ascii "\001"
  2121 0002 00       	 .ascii "\000"

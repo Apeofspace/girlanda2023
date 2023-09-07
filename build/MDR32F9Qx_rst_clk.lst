@@ -3438,12 +3438,12 @@ ARM GAS   			page 1
  2533      64506572 
  2534 0f0e 6B2E6300 	 .ascii "k.c\000"
  2535              	 .text
- 2536              	 .section .gnu.lto_.profile.937762c67714dcd,"e",%progbits
+ 2536              	 .section .gnu.lto_.profile.f621b40fd991ac13,"e",%progbits
  2537 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  2537      00010000 
  2537      120003
  2538              	 .text
- 2539              	 .section .gnu.lto_.inline.937762c67714dcd,"e",%progbits
+ 2539              	 .section .gnu.lto_.inline.f621b40fd991ac13,"e",%progbits
  2540 0000 789C9594 	 .ascii "x\234\225\224=R\3030\020\205\327+\3071\216\002\304\230"
  2540      3D52C330 
  2540      1085D72B 
@@ -3528,7 +3528,7 @@ ARM GAS   			page 1
  2556      79FA0656 
  2556      001AFF
  2557              	 .text
- 2558              	 .section .gnu.lto_.jmpfuncs.937762c67714dcd,"e",%progbits
+ 2558              	 .section .gnu.lto_.jmpfuncs.f621b40fd991ac13,"e",%progbits
  2559 0000 789C45CD 	 .ascii "x\234E\3159\022\202\000\020\004\300F\021E\021\004\305"
  2559      39128200 
  2559      1004C046 
@@ -3555,7 +3555,7 @@ ARM GAS   			page 1
  2563 004b 82712EBF 	 .ascii "\202q.\277\311\\\002\363"
  2563      C95C02F3 
  2564              	 .text
- 2565              	 .section .gnu.lto_.pureconst.937762c67714dcd,"e",%progbits
+ 2565              	 .section .gnu.lto_.pureconst.f621b40fd991ac13,"e",%progbits
  2566 0000 789C05C1 	 .ascii "x\234\005\301\207\001\202@\000\300\300G\202t\351\325"
  2566      87018240 
  2566      00C0C047 
@@ -3578,11 +3578,11 @@ ARM GAS   			page 1
  2570 0048 0108C518 	 .ascii "\001\010\305\030{"
  2570      7B
  2571              	 .text
- 2572              	 .section .gnu.lto_.lto.937762c67714dcd,"e",%progbits
+ 2572              	 .section .gnu.lto_.lto.f621b40fd991ac13,"e",%progbits
  2573 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  2573      01000000 
  2574              	 .text
- 2575              	 .section .gnu.lto_RST_CLK_DeInit.56.937762c67714dcd,"e",%progbits
+ 2575              	 .section .gnu.lto_RST_CLK_DeInit.56.f621b40fd991ac13,"e",%progbits
  2576 0000 789C8551 	 .ascii "x\234\205Q\317/\003Q\020\236y\263\252H\034\305\261\342"
  2576      CF2F0351 
  2576      109E79B3 
@@ -3698,7 +3698,7 @@ ARM GAS   			page 1
  2598      68F005FF 
  2598      1AB41D
  2599              	 .text
- 2600              	 .section .gnu.lto_RST_CLK_WarmDeInit.57.937762c67714dcd,"e",%progbits
+ 2600              	 .section .gnu.lto_RST_CLK_WarmDeInit.57.f621b40fd991ac13,"e",%progbits
  2601 0000 789C8594 	 .ascii "x\234\205\224\317k\023A\024\307\337\333I\232\244i\023"
  2601      CF6B1341 
  2601      14C7DFDB 
@@ -3867,7 +3867,7 @@ ARM GAS   			page 1
  2633      B4E02FA6 
  2634 024b 979C00   	 .ascii "\227\234\000"
  2635              	 .text
- 2636              	 .section .gnu.lto_RST_CLK_HSEconfig.58.937762c67714dcd,"e",%progbits
+ 2636              	 .section .gnu.lto_RST_CLK_HSEconfig.58.f621b40fd991ac13,"e",%progbits
  2637 0000 789C8553 	 .ascii "x\234\205S]HTA\030\2353\337\275\233X)\004A=\024\033"
  2637      5D485441 
  2637      189D33DF 
@@ -4050,7 +4050,7 @@ ARM GAS   			page 1
  2671      7F00
  2672 0282 288246C9 	 .ascii "(\202F\311"
  2673              	 .text
- 2674              	 .section .gnu.lto_RST_CLK_HSEstatus.59.937762c67714dcd,"e",%progbits
+ 2674              	 .section .gnu.lto_RST_CLK_HSEstatus.59.f621b40fd991ac13,"e",%progbits
  2675 0000 789C6D52 	 .ascii "x\234mR\355KSa\024?\347y\356\335\346R\211\242\020\242"
  2675      ED4B5361 
  2675      143FE779 
@@ -4250,7 +4250,7 @@ ARM GAS   			page 1
  2714 02cf 1EE52F31 	 .ascii "\036\345/1KH\224"
  2714      4B4894
  2715              	 .text
- 2716              	 .section .gnu.lto_RST_CLK_LSEconfig.60.937762c67714dcd,"e",%progbits
+ 2716              	 .section .gnu.lto_RST_CLK_LSEconfig.60.f621b40fd991ac13,"e",%progbits
  2717 0000 789C8553 	 .ascii "x\234\205SMh\023A\024~o\336n,\361\357\244UA\211x\020"
  2717      4D681341 
  2717      147E6FDE 
@@ -4431,7 +4431,7 @@ ARM GAS   			page 1
  2752      F80D76AD 
  2753 0285 4847     	 .ascii "HG"
  2754              	 .text
- 2755              	 .section .gnu.lto_RST_CLK_LSEstatus.61.937762c67714dcd,"e",%progbits
+ 2755              	 .section .gnu.lto_RST_CLK_LSEstatus.61.f621b40fd991ac13,"e",%progbits
  2756 0000 789C6D52 	 .ascii "x\234mR\355KSa\024?\347y\356\335\346\322\321\227J\222"
  2756      ED4B5361 
  2756      143FE779 
@@ -4639,7 +4639,7 @@ ARM GAS   			page 1
  2796      5EE52FE5 
  2796      794914
  2797              	 .text
- 2798              	 .section .gnu.lto_RST_CLK_HSIcmd.62.937762c67714dcd,"e",%progbits
+ 2798              	 .section .gnu.lto_RST_CLK_HSIcmd.62.f621b40fd991ac13,"e",%progbits
  2799 0000 789C6D8F 	 .ascii "x\234m\217\273K\003A\020\306gv/>\376\002\021Q\002\026"
  2799      BB4B0341 
  2799      10C66776 
@@ -4747,7 +4747,7 @@ ARM GAS   			page 1
  2819      8DC117A0 
  2819      4A8DFF
  2820              	 .text
- 2821              	 .section .gnu.lto_RST_CLK_HSIadjust.63.937762c67714dcd,"e",%progbits
+ 2821              	 .section .gnu.lto_RST_CLK_HSIadjust.63.f621b40fd991ac13,"e",%progbits
  2822 0000 789C6D51 	 .ascii "x\234mQKh\023Q\024\275g\336$M\241v\247\325\205u@D\\"
  2822      4B681351 
  2822      14BD67DE 
@@ -4891,7 +4891,7 @@ ARM GAS   			page 1
  2850      6F450EE0 
  2850      7F
  2851              	 .text
- 2852              	 .section .gnu.lto_RST_CLK_HSIstatus.64.937762c67714dcd,"e",%progbits
+ 2852              	 .section .gnu.lto_RST_CLK_HSIstatus.64.f621b40fd991ac13,"e",%progbits
  2853 0000 789C6D52 	 .ascii "x\234mR\337KSq\024?\347~\357\335\346\322\321K\032D\271"
  2853      DF4B5371 
  2853      143FE77E 
@@ -5092,7 +5092,7 @@ ARM GAS   			page 1
  2891      6F6F553D 
  2892 02d1 4AC1     	 .ascii "J\301"
  2893              	 .text
- 2894              	 .section .gnu.lto_RST_CLK_LSIcmd.65.937762c67714dcd,"e",%progbits
+ 2894              	 .section .gnu.lto_RST_CLK_LSIcmd.65.f621b40fd991ac13,"e",%progbits
  2895 0000 789C6D8F 	 .ascii "x\234m\217\315K\002Q\024\305\357\2357\226A\353h\023"
  2895      CD4B0251 
  2895      14C5EF9D 
@@ -5199,7 +5199,7 @@ ARM GAS   			page 1
  2916      05811D8E 
  2916      89
  2917              	 .text
- 2918              	 .section .gnu.lto_RST_CLK_LSIadjust.66.937762c67714dcd,"e",%progbits
+ 2918              	 .section .gnu.lto_RST_CLK_LSIadjust.66.f621b40fd991ac13,"e",%progbits
  2919 0000 789C6D51 	 .ascii "x\234mQKh\023Q\024\275g\336$M\241~6\0067\302\200\210"
  2919      4B681351 
  2919      14BD67DE 
@@ -5348,7 +5348,7 @@ ARM GAS   			page 1
  2947      0DEBF1E3 
  2947      3E
  2948              	 .text
- 2949              	 .section .gnu.lto_RST_CLK_LSIstatus.67.937762c67714dcd,"e",%progbits
+ 2949              	 .section .gnu.lto_RST_CLK_LSIstatus.67.f621b40fd991ac13,"e",%progbits
  2950 0000 789C6D52 	 .ascii "x\234mR\335K\024Q\024?g\356\314\254nf\275\350K\024\373"
  2950      DD4B1451 
  2950      143F67EE 
@@ -5549,7 +5549,7 @@ ARM GAS   			page 1
  2989      FB03EBE0 
  2989      5170
  2990              	 .text
- 2991              	 .section .gnu.lto_RST_CLK_CPU_PLLconfig.68.937762c67714dcd,"e",%progbits
+ 2991              	 .section .gnu.lto_RST_CLK_CPU_PLLconfig.68.f621b40fd991ac13,"e",%progbits
  2992 0000 789C7D53 	 .ascii "x\234}SmHSQ\030>\357=w_\272\255\220F\375\211\366'*0"
  2992      6D485351 
  2992      183EEF3D 
@@ -5764,7 +5764,7 @@ ARM GAS   			page 1
  3034      CB17F80B 
  3034      DD089678 
  3035              	 .text
- 3036              	 .section .gnu.lto_RST_CLK_CPU_PLLuse.69.937762c67714dcd,"e",%progbits
+ 3036              	 .section .gnu.lto_RST_CLK_CPU_PLLuse.69.f621b40fd991ac13,"e",%progbits
  3037 0000 789C6D8F 	 .ascii "x\234m\217O(\004q\024\307\337\373\375f\027\007G\345"
  3037      4F280471 
  3037      14C7DFFB 
@@ -5869,7 +5869,7 @@ ARM GAS   			page 1
  3057      027A2C8D 
  3057      93
  3058              	 .text
- 3059              	 .section .gnu.lto_RST_CLK_CPU_PLLcmd.70.937762c67714dcd,"e",%progbits
+ 3059              	 .section .gnu.lto_RST_CLK_CPU_PLLcmd.70.f621b40fd991ac13,"e",%progbits
  3060 0000 789C6D8F 	 .ascii "x\234m\217\273K\303P\024\306\317\311M}\014\216\202\213"
  3060      BB4BC350 
  3060      14C6CFC9 
@@ -5978,7 +5978,7 @@ ARM GAS   			page 1
  3081 0173 27F0A58F 	 .ascii "'\360\245\217\250"
  3081      A8
  3082              	 .text
- 3083              	 .section .gnu.lto_RST_CLK_CPU_PLLstatus.71.937762c67714dcd,"e",%progbits
+ 3083              	 .section .gnu.lto_RST_CLK_CPU_PLLstatus.71.f621b40fd991ac13,"e",%progbits
  3084 0000 789C6D52 	 .ascii "x\234mR]K\024a\024>g\336\231Y\335\322\272\260n\242\330"
  3084      5D4B1461 
  3084      143E67DE 
@@ -6186,7 +6186,7 @@ ARM GAS   			page 1
  3124 02d7 F2077E51 	 .ascii "\362\007~QU\200"
  3124      5580
  3125              	 .text
- 3126              	 .section .gnu.lto_RST_CLK_CPUclkPrescaler.72.937762c67714dcd,"e",%progbits
+ 3126              	 .section .gnu.lto_RST_CLK_CPUclkPrescaler.72.f621b40fd991ac13,"e",%progbits
  3127 0000 789C6D51 	 .ascii "x\234mQMh\023A\030\235\267\263\273I\016V\220\200^\224"
  3127      4D681341 
  3127      189DB7B3 
@@ -6340,7 +6340,7 @@ ARM GAS   			page 1
  3157 021b 657E0369 	 .ascii "e~\003i\017\351l"
  3157      0FE96C
  3158              	 .text
- 3159              	 .section .gnu.lto_RST_CLK_CPUclkSelection.73.937762c67714dcd,"e",%progbits
+ 3159              	 .section .gnu.lto_RST_CLK_CPUclkSelection.73.f621b40fd991ac13,"e",%progbits
  3160 0000 789C6D51 	 .ascii "x\234mQKh\023Q\024\275g\336L\022\027V\301\202n\224\001"
  3160      4B681351 
  3160      14BD67DE 
@@ -6489,7 +6489,7 @@ ARM GAS   			page 1
  3188      66FF00C5 
  3188      2BE34E
  3189              	 .text
- 3190              	 .section .gnu.lto_RST_CLK_USB_PLLconfig.74.937762c67714dcd,"e",%progbits
+ 3190              	 .section .gnu.lto_RST_CLK_USB_PLLconfig.74.f621b40fd991ac13,"e",%progbits
  3191 0000 789C7D93 	 .ascii "x\234}\223]HSa\030\307\337\347\274g\236M\347\212,\352"
  3191      5D485361 
  3191      18C7DFE7 
@@ -6703,7 +6703,7 @@ ARM GAS   			page 1
  3233      EF1F1BE3 
  3233      95B7
  3234              	 .text
- 3235              	 .section .gnu.lto_RST_CLK_USB_PLLuse.75.937762c67714dcd,"e",%progbits
+ 3235              	 .section .gnu.lto_RST_CLK_USB_PLLuse.75.f621b40fd991ac13,"e",%progbits
  3236 0000 789C6D8F 	 .ascii "x\234m\217=,CQ\024\307\317\271\267U\026\213\305\"ib"
  3236      3D2C4351 
  3236      14C7CFB9 
@@ -6810,7 +6810,7 @@ ARM GAS   			page 1
  3256      4F8E798E 
  3256      87
  3257              	 .text
- 3258              	 .section .gnu.lto_RST_CLK_USB_PLLcmd.76.937762c67714dcd,"e",%progbits
+ 3258              	 .section .gnu.lto_RST_CLK_USB_PLLcmd.76.f621b40fd991ac13,"e",%progbits
  3259 0000 789C6D8F 	 .ascii "x\234m\217=K\303P\024\206\317\311M\375\230\034\\\\\204"
  3259      3D4BC350 
  3259      1486CFC9 
@@ -6918,7 +6918,7 @@ ARM GAS   			page 1
  3279      020DE88E 
  3279      2A
  3280              	 .text
- 3281              	 .section .gnu.lto_RST_CLK_USB_PLLstatus.77.937762c67714dcd,"e",%progbits
+ 3281              	 .section .gnu.lto_RST_CLK_USB_PLLstatus.77.f621b40fd991ac13,"e",%progbits
  3282 0000 789C6D52 	 .ascii "x\234mR\317K\024q\024\177o\2763;\272\225\206P\227(\366"
  3282      CF4B1471 
  3282      147F6FBE 
@@ -7120,7 +7120,7 @@ ARM GAS   			page 1
  3322      DCEA1FE3 
  3322      AE54E7
  3323              	 .text
- 3324              	 .section .gnu.lto_RST_CLK_USBclkPrescaler.78.937762c67714dcd,"e",%progbits
+ 3324              	 .section .gnu.lto_RST_CLK_USBclkPrescaler.78.f621b40fd991ac13,"e",%progbits
  3325 0000 789C6D8F 	 .ascii "x\234m\217\273K\303P\024\306\317\311Mm\235\004'\027"
  3325      BB4BC350 
  3325      14C6CFC9 
@@ -7228,7 +7228,7 @@ ARM GAS   			page 1
  3345      00BE00F1 
  3345      498EE3
  3346              	 .text
- 3347              	 .section .gnu.lto_RST_CLK_USBclkEnable.79.937762c67714dcd,"e",%progbits
+ 3347              	 .section .gnu.lto_RST_CLK_USBclkEnable.79.f621b40fd991ac13,"e",%progbits
  3348 0000 789C6D8F 	 .ascii "x\234m\217\277KBQ\024\307\317yW\323\246\240\251%\020"
  3348      BF4B4251 
  3348      14C7CF79 
@@ -7335,7 +7335,7 @@ ARM GAS   			page 1
  3368      F005D4E4 
  3368      8F92
  3369              	 .text
- 3370              	 .section .gnu.lto_RST_CLK_ADCclkSelection.80.937762c67714dcd,"e",%progbits
+ 3370              	 .section .gnu.lto_RST_CLK_ADCclkSelection.80.f621b40fd991ac13,"e",%progbits
  3371 0000 789C6D51 	 .ascii "x\234mQKk\023Q\024>_\356L\222\012\"\205\202n\204\200"
  3371      4B6B1351 
  3371      143E5FEE 
@@ -7481,7 +7481,7 @@ ARM GAS   			page 1
  3399      E57E01AE 
  3400 020c 38DDBF   	 .ascii "8\335\277"
  3401              	 .text
- 3402              	 .section .gnu.lto_RST_CLK_ADCclkPrescaler.81.937762c67714dcd,"e",%progbits
+ 3402              	 .section .gnu.lto_RST_CLK_ADCclkPrescaler.81.f621b40fd991ac13,"e",%progbits
  3403 0000 789C6D51 	 .ascii "x\234mQMh\023A\030\235\267\263\233\037A\245\020\320"
  3403      4D681341 
  3403      189DB7B3 
@@ -7637,7 +7637,7 @@ ARM GAS   			page 1
  3433 021d 0D688BE7 	 .ascii "\015h\213\347\011"
  3433      09
  3434              	 .text
- 3435              	 .section .gnu.lto_RST_CLK_ADCclkEnable.82.937762c67714dcd,"e",%progbits
+ 3435              	 .section .gnu.lto_RST_CLK_ADCclkEnable.82.f621b40fd991ac13,"e",%progbits
  3436 0000 789C6D8F 	 .ascii "x\234m\217\313/\003Q\024\306\3177\267\365\332I,l$M,"
  3436      CB2F0351 
  3436      14C6CF37 
@@ -7743,7 +7743,7 @@ ARM GAS   			page 1
 
  3456      BEE68E8D 
  3457              	 .text
- 3458              	 .section .gnu.lto_RST_CLK_HSIclkPrescaler.83.937762c67714dcd,"e",%progbits
+ 3458              	 .section .gnu.lto_RST_CLK_HSIclkPrescaler.83.f621b40fd991ac13,"e",%progbits
  3459 0000 789C6D51 	 .ascii "x\234mQ]k\023A\024\275gg7i\004\277 \240/J@D\372`\267"
  3459      5D6B1341 
  3459      14BD6767 
@@ -7893,7 +7893,7 @@ ARM GAS   			page 1
  3488      1B180F
  3489 0220 E84B     	 .ascii "\350K"
  3490              	 .text
- 3491              	 .section .gnu.lto_RST_CLK_RTC_HSIclkEnable.84.937762c67714dcd,"e",%progbits
+ 3491              	 .section .gnu.lto_RST_CLK_RTC_HSIclkEnable.84.f621b40fd991ac13,"e",%progbits
  3492 0000 789C6D8F 	 .ascii "x\234m\217\315+Da\024\306\317s\337\031_+\033e\243\246"
  3492      CD2B4461 
  3492      14C6CF73 
@@ -8002,7 +8002,7 @@ ARM GAS   			page 1
  3512      0417D5
  3513 0176 8EAD     	 .ascii "\216\255"
  3514              	 .text
- 3515              	 .section .gnu.lto_RST_CLK_HSEclkPrescaler.85.937762c67714dcd,"e",%progbits
+ 3515              	 .section .gnu.lto_RST_CLK_HSEclkPrescaler.85.f621b40fd991ac13,"e",%progbits
  3516 0000 789C6D51 	 .ascii "x\234mQ\317k\023A\024~\337\316n\232\012j\017\212^\224"
  3516      CF6B1341 
  3516      147EDFCE 
@@ -8149,7 +8149,7 @@ ARM GAS   			page 1
  3545      46D39BD6 
  3545      8FE22A
  3546              	 .text
- 3547              	 .section .gnu.lto_RST_CLK_RTC_HSEclkEnable.86.937762c67714dcd,"e",%progbits
+ 3547              	 .section .gnu.lto_RST_CLK_RTC_HSEclkEnable.86.f621b40fd991ac13,"e",%progbits
  3548 0000 789C6D8F 	 .ascii "x\234m\217\315+Da\024\306\317s\337\031_+\033e\243\246"
  3548      CD2B4461 
  3548      14C6CF73 
@@ -8259,7 +8259,7 @@ ARM GAS   			page 1
  3569 0172 3E010729 	 .ascii ">\001\007)\216\203"
  3569      8E83
  3570              	 .text
- 3571              	 .section .gnu.lto_RST_CLK_CPUclkSelectionC1.87.937762c67714dcd,"e",%progbits
+ 3571              	 .section .gnu.lto_RST_CLK_CPUclkSelectionC1.87.f621b40fd991ac13,"e",%progbits
  3572 0000 789C6D51 	 .ascii "x\234mQKk\023Q\024>_\356\344QA\262Qt\243\004D\244\013"
  3572      4B6B1351 
  3572      143E5FEE 
@@ -8409,7 +8409,7 @@ ARM GAS   			page 1
  3601      7F013B38 
  3601      E06B
  3602              	 .text
- 3603              	 .section .gnu.lto_RST_CLK_PCLKcmd.88.937762c67714dcd,"e",%progbits
+ 3603              	 .section .gnu.lto_RST_CLK_PCLKcmd.88.f621b40fd991ac13,"e",%progbits
  3604 0000 789C8550 	 .ascii "x\234\205PMh\023Q\020~\337\316n~\264\330\233x\021\""
  3604      4D681351 
  3604      107EDFCE 
@@ -8566,7 +8566,7 @@ ARM GAS   			page 1
  3635 0233 AC5F9481 	 .ascii "\254_\224\201\375>"
  3635      FD3E
  3636              	 .text
- 3637              	 .section .gnu.lto_RST_CLK_GetClocksFreq.89.937762c67714dcd,"e",%progbits
+ 3637              	 .section .gnu.lto_RST_CLK_GetClocksFreq.89.f621b40fd991ac13,"e",%progbits
  3638 0000 789C8D58 	 .ascii "x\234\215XyT\025\347\025\237;\363\036\253\354\373\352"
  3638      795415E7 
  3638      159F3BF3 
@@ -9363,7 +9363,7 @@ ARM GAS   			page 1
 
  3797      D6923C
  3798              	 .text
- 3799              	 .section .gnu.lto_RST_CLK_GetFlagStatus.90.937762c67714dcd,"e",%progbits
+ 3799              	 .section .gnu.lto_RST_CLK_GetFlagStatus.90.f621b40fd991ac13,"e",%progbits
  3800 0000 789C6D52 	 .ascii "x\234mR[HTQ\024=\353\236\373\030\307\234?\211\240\307"
  3800      5B485451 
  3800      143DEB9E 
@@ -9578,7 +9578,7 @@ ARM GAS   			page 1
  3843      FD0B4260 
  3843      6DB0
  3844              	 .text
- 3845              	 .section .gnu.lto_.symbol_nodes.937762c67714dcd,"e",%progbits
+ 3845              	 .section .gnu.lto_.symbol_nodes.f621b40fd991ac13,"e",%progbits
  3846 0000 789C75D3 	 .ascii "x\234u\323GR\3030\030\305\361'\313\264\320B\017\304"
  3846      4752C330 
  3846      18C5F127 
@@ -9657,7 +9657,7 @@ ARM GAS   			page 1
  3860      00EEA22E 
  3860      88
  3861              	 .text
- 3862              	 .section .gnu.lto_.refs.937762c67714dcd,"e",%progbits
+ 3862              	 .section .gnu.lto_.refs.f621b40fd991ac13,"e",%progbits
 ARM GAS   			page 162
 
 
@@ -9665,7 +9665,7 @@ ARM GAS   			page 1
  3863      00020000 
  3863      0A0002
  3864              	 .text
- 3865              	 .section .gnu.lto_.decls.937762c67714dcd,"e",%progbits
+ 3865              	 .section .gnu.lto_.decls.f621b40fd991ac13,"e",%progbits
  3866 0000 789CAD58 	 .ascii "x\234\255XiTUG\266>\373\024\303\3452\2528$\253_\026"
  3866      69545547 
  3866      B63EFB14 
@@ -10878,7 +10878,7 @@ ARM GAS   			page 1
  4108      A5FF0373 
  4108      FBA083
  4109              	 .text
- 4110              	 .section .gnu.lto_.symtab.937762c67714dcd,"e",%progbits
+ 4110              	 .section .gnu.lto_.symtab.f621b40fd991ac13,"e",%progbits
  4111 0000 5253545F 	 .ascii "RST_CLK_HSEconfig\000"
  4111      434C4B5F 
  4111      48534563 
@@ -11282,7 +11282,7 @@ ARM GAS   			page 1
 
 
  4321              	 .text
- 4322              	 .section .gnu.lto_.ext_symtab.937762c67714dcd,"e",%progbits
+ 4322              	 .section .gnu.lto_.ext_symtab.f621b40fd991ac13,"e",%progbits
  4323 0000 01       	 .ascii "\001"
  4324 0001 01       	 .ascii "\001"
  4325 0002 00       	 .ascii "\000"

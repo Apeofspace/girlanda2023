@@ -3641,12 +3641,12 @@ ARM GAS   			page 1
  2918      4F4E5452 
  2918      4F4C00
  2919              	 .text
- 2920              	 .section .gnu.lto_.profile.b97c7913bdef395e,"e",%progbits
+ 2920              	 .section .gnu.lto_.profile.e45d02a3203ad945,"e",%progbits
  2921 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  2921      00010000 
  2921      120003
  2922              	 .text
- 2923              	 .section .gnu.lto_.inline.b97c7913bdef395e,"e",%progbits
+ 2923              	 .section .gnu.lto_.inline.e45d02a3203ad945,"e",%progbits
  2924 0000 789C85D2 	 .ascii "x\234\205\322\271N\303@\020\006\340?\263\220\323\344"
  2924      B94EC340 
  2924      1006E03F 
@@ -3756,7 +3756,7 @@ ARM GAS   			page 1
  2944      7BFBC00F 
  2944      06F4DA5B 
  2945              	 .text
- 2946              	 .section .gnu.lto_.jmpfuncs.b97c7913bdef395e,"e",%progbits
+ 2946              	 .section .gnu.lto_.jmpfuncs.e45d02a3203ad945,"e",%progbits
  2947 0000 789C45CC 	 .ascii "x\234E\314\307\015\2000\000\300\300\243wBoS\261\377"
  2947      C70D8030 
  2947      00C0C0A3 
@@ -3774,7 +3774,7 @@ ARM GAS   			page 1
  2950 0033 3BBE3E48 	 .ascii ";\276>H\310\001\260"
  2950      C801B0
  2951              	 .text
- 2952              	 .section .gnu.lto_.pureconst.b97c7913bdef395e,"e",%progbits
+ 2952              	 .section .gnu.lto_.pureconst.e45d02a3203ad945,"e",%progbits
  2953 0000 789C05C1 	 .ascii "x\234\005\301\007\001\2000\000\300\260\001\035\377\177"
  2953      07018030 
  2953      00C0B001 
@@ -3796,11 +3796,11 @@ ARM GAS   			page 1
  2956      03C8C011 
  2956      FD
  2957              	 .text
- 2958              	 .section .gnu.lto_.lto.b97c7913bdef395e,"e",%progbits
+ 2958              	 .section .gnu.lto_.lto.e45d02a3203ad945,"e",%progbits
  2959 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  2959      01000000 
  2960              	 .text
- 2961              	 .section .gnu.lto_CAN_DeInit.56.b97c7913bdef395e,"e",%progbits
+ 2961              	 .section .gnu.lto_CAN_DeInit.56.e45d02a3203ad945,"e",%progbits
  2962 0000 789C8D93 	 .ascii "x\234\215\223\337K\024Q\024\307\317\2313;[\240\333K"
  2962      DF4B1451 
  2962      14C7CF99 
@@ -3984,7 +3984,7 @@ ARM GAS   			page 1
  2997      7D80C1FF 
  2997      CE7860D6 
  2998              	 .text
- 2999              	 .section .gnu.lto_CAN_Init.57.b97c7913bdef395e,"e",%progbits
+ 2999              	 .section .gnu.lto_CAN_Init.57.e45d02a3203ad945,"e",%progbits
  3000 0000 789C8555 	 .ascii "x\234\205Ukl\024U\024\276g\356\354\316\276\267O\350"
  3000      6B6C1455 
  3000      14BE67EE 
@@ -4366,7 +4366,7 @@ ARM GAS   			page 1
  3075      2D5DFC2F 
  3075      6D4F4BAB 
  3076              	 .text
- 3077              	 .section .gnu.lto_CAN_StructInit.58.b97c7913bdef395e,"e",%progbits
+ 3077              	 .section .gnu.lto_CAN_StructInit.58.e45d02a3203ad945,"e",%progbits
  3078 0000 789C8DD3 	 .ascii "x\234\215\323\317k\324P\020\007\360\371\346\355\357"
  3078      CF6BD450 
  3078      1007F0F9 
@@ -4516,7 +4516,7 @@ ARM GAS   			page 1
  3106      B4013FFD 
  3106      3DFF
  3107              	 .text
- 3108              	 .section .gnu.lto_CAN_FilterInit.59.b97c7913bdef395e,"e",%progbits
+ 3108              	 .section .gnu.lto_CAN_FilterInit.59.e45d02a3203ad945,"e",%progbits
  3109 0000 789C7D92 	 .ascii "x\234}\222Kk\023Q\030\206\277w\316L\332h\011.\\(d\021"
  3109      4B6B1351 
  3109      1886BF77 
@@ -4672,7 +4672,7 @@ ARM GAS   			page 1
  3139 0223 3F0146DA 	 .ascii "?\001F\332\372U"
  3139      FA55
  3140              	 .text
- 3141              	 .section .gnu.lto_CAN_ITConfig.60.b97c7913bdef395e,"e",%progbits
+ 3141              	 .section .gnu.lto_CAN_ITConfig.60.e45d02a3203ad945,"e",%progbits
  3142 0000 789C8550 	 .ascii "x\234\205P\317k\023A\030\235\267\337n~\241\321\233J"
  3142      CF6B1341 
  3142      189DB7DF 
@@ -4834,7 +4834,7 @@ ARM GAS   			page 1
  3172      6CC3B6FE 
  3172      0231DA01 
  3173              	 .text
- 3174              	 .section .gnu.lto_CAN_GetDisabledBuffer.61.b97c7913bdef395e,"e",%progbits
+ 3174              	 .section .gnu.lto_CAN_GetDisabledBuffer.61.e45d02a3203ad945,"e",%progbits
  3175 0000 789C5D52 	 .ascii "x\234]R\335KTA\024\2373\347\336\335\"\322\347\222h_"
  3175      DD4B5441 
  3175      149F33E7 
@@ -5016,7 +5016,7 @@ ARM GAS   			page 1
  3211 0280 1FB02C0E 	 .ascii "\037\260,\016\346"
  3211      E6
  3212              	 .text
- 3213              	 .section .gnu.lto_CAN_GetEmptyTransferBuffer.62.b97c7913bdef395e,"e",%progbits
+ 3213              	 .section .gnu.lto_CAN_GetEmptyTransferBuffer.62.e45d02a3203ad945,"e",%progbits
  3214 0000 789C5D52 	 .ascii "x\234]R\335K\024Q\024\277\347\236\231\335\"\362A\"\010"
  3214      DD4B1451 
  3214      14BFE79E 
@@ -5194,7 +5194,7 @@ ARM GAS   			page 1
  3247      FB0FED70 
  3248 0284 EA       	 .ascii "\352"
  3249              	 .text
- 3250              	 .section .gnu.lto_CAN_Transmit.63.b97c7913bdef395e,"e",%progbits
+ 3250              	 .section .gnu.lto_CAN_Transmit.63.e45d02a3203ad945,"e",%progbits
  3251 0000 789C9554 	 .ascii "x\234\225T]l\223U\030>\317w\276\237\266\353\272\021"
  3251      5D6C9355 
  3251      183ECF77 
@@ -5488,7 +5488,7 @@ ARM GAS   			page 1
  3308      EB7F7BA4 
  3308      56A0
  3309              	 .text
- 3310              	 .section .gnu.lto_CAN_SendRTR.64.b97c7913bdef395e,"e",%progbits
+ 3310              	 .section .gnu.lto_CAN_SendRTR.64.e45d02a3203ad945,"e",%progbits
  3311 0000 789C7D53 	 .ascii "x\234}S]hTG\024\236of\356\335\354\232\215>TK\362\264"
  3311      5D685447 
  3311      149E6F66 
@@ -5730,7 +5730,7 @@ ARM GAS   			page 1
  3358      BD86575D 
  3358      10BE3F
  3359              	 .text
- 3360              	 .section .gnu.lto_CAN_RTRReply.65.b97c7913bdef395e,"e",%progbits
+ 3360              	 .section .gnu.lto_CAN_RTRReply.65.e45d02a3203ad945,"e",%progbits
  3361 0000 789C9554 	 .ascii "x\234\225T]l\024U\024\276\337\334\231\375i\267[\037"
  3361      5D6C1455 
  3361      14BEDFDC 
@@ -5988,7 +5988,7 @@ ARM GAS   			page 1
  3412      1BFF0326 
  3412      5A0748
  3413              	 .text
- 3414              	 .section .gnu.lto_CAN_Receive.66.b97c7913bdef395e,"e",%progbits
+ 3414              	 .section .gnu.lto_CAN_Receive.66.e45d02a3203ad945,"e",%progbits
  3415 0000 789C5D92 	 .ascii "x\234]\222OH\024Q\034\307\337\367\275\331u7D\272\004"
  3415      4F481451 
  3415      1CC7DFF7 
@@ -6165,7 +6165,7 @@ ARM GAS   			page 1
  3449      E70709
  3450 0272 66       	 .ascii "f"
  3451              	 .text
- 3452              	 .section .gnu.lto_CAN_GetReceivedData.67.b97c7913bdef395e,"e",%progbits
+ 3452              	 .section .gnu.lto_CAN_GetReceivedData.67.e45d02a3203ad945,"e",%progbits
  3453 0000 789C9D54 	 .ascii "x\234\235TkL\034U\024\276g\356\354\013H\323\372H\332"
  3453      6B4C1C55 
  3453      14BE67EE 
@@ -6511,7 +6511,7 @@ ARM GAS   			page 1
  3520      0BC818F8 
  3520      078C5B21 
  3521              	 .text
- 3522              	 .section .gnu.lto_CAN_GetRawReceivedData.68.b97c7913bdef395e,"e",%progbits
+ 3522              	 .section .gnu.lto_CAN_GetRawReceivedData.68.e45d02a3203ad945,"e",%progbits
  3523 0000 789C9D97 	 .ascii "x\234\235\227\375ST\327\031\307\357s\317\262o\274\032"
  3523      FD5354D7 
  3523      19C7EF73 
@@ -7145,7 +7145,7 @@ ARM GAS   			page 1
  3650 08bf FF01FAFE 	 .ascii "\377\001\372\376X}"
  3650      587D
  3651              	 .text
- 3652              	 .section .gnu.lto_CAN_BufferRelease.69.b97c7913bdef395e,"e",%progbits
+ 3652              	 .section .gnu.lto_CAN_BufferRelease.69.e45d02a3203ad945,"e",%progbits
  3653 0000 789C6D51 	 .ascii "x\234mQMk\023Q\024\275g\336\344\243\020\354J\252\013"
  3653      4D6B1351 
  3653      14BD67DE 
@@ -7295,7 +7295,7 @@ ARM GAS   			page 1
  3682 0215 00F10EE4 	 .ascii "\000\361\016\3448"
  3682      38
  3683              	 .text
- 3684              	 .section .gnu.lto_CAN_Cmd.70.b97c7913bdef395e,"e",%progbits
+ 3684              	 .section .gnu.lto_CAN_Cmd.70.e45d02a3203ad945,"e",%progbits
  3685 0000 789C6D52 	 .ascii "x\234mRMHTQ\024\276\337\273\357\315\214!\266J\013\012"
  3685      4D485451 
  3685      14BEDFBB 
@@ -7470,7 +7470,7 @@ ARM GAS   			page 1
  3719 0272 005E0015 	 .ascii "\000^\000\025\251"
  3719      A9
  3720              	 .text
- 3721              	 .section .gnu.lto_CAN_GetStatus.71.b97c7913bdef395e,"e",%progbits
+ 3721              	 .section .gnu.lto_CAN_GetStatus.71.e45d02a3203ad945,"e",%progbits
  3722 0000 789C6366 	 .ascii "x\234cfd`\230\315\300\300\240\006\304\214\314\014\214"
  3722      646098CD 
  3722      C0C0A006 
@@ -7578,7 +7578,7 @@ ARM GAS   			page 1
  3742      00A26889 
  3743 0176 24       	 .ascii "$"
  3744              	 .text
- 3745              	 .section .gnu.lto_CAN_GetBufferStatus.72.b97c7913bdef395e,"e",%progbits
+ 3745              	 .section .gnu.lto_CAN_GetBufferStatus.72.e45d02a3203ad945,"e",%progbits
  3746 0000 789C5D90 	 .ascii "x\234]\220\301O\023Q\020\306\347\333\331\026H8\032\022"
  3746      C14F1351 
  3746      10C6E7DB 
@@ -7703,7 +7703,7 @@ ARM GAS   			page 1
  3770      FF01FB8F 
  3770      A5E4
  3771              	 .text
- 3772              	 .section .gnu.lto_CAN_GetITState.73.b97c7913bdef395e,"e",%progbits
+ 3772              	 .section .gnu.lto_CAN_GetITState.73.e45d02a3203ad945,"e",%progbits
  3773 0000 789C5D51 	 .ascii "x\234]QMH\024a\030~\237ygg\025\242N\033t\333KT\207\034"
  3773      4D481461 
  3773      187E9F79 
@@ -7864,7 +7864,7 @@ ARM GAS   			page 1
  3804 0239 E63F9A4F 	 .ascii "\346?\232O\355/"
  3804      ED2F
  3805              	 .text
- 3806              	 .section .gnu.lto_CAN_ITClearErrorPendingBit.74.b97c7913bdef395e,"e",%progbits
+ 3806              	 .section .gnu.lto_CAN_ITClearErrorPendingBit.74.e45d02a3203ad945,"e",%progbits
  3807 0000 789C7550 	 .ascii "x\234uP\317k\023A\024~\337\276\3156E\004/\001\275Ez"
  3807      CF6B1341 
  3807      147EDFBE 
@@ -7992,7 +7992,7 @@ ARM GAS   			page 1
  3831      674DEC02 
  3831      2811AFCD 
  3832              	 .text
- 3833              	 .section .gnu.lto_CAN_RxITConfig.75.b97c7913bdef395e,"e",%progbits
+ 3833              	 .section .gnu.lto_CAN_RxITConfig.75.e45d02a3203ad945,"e",%progbits
  3834 0000 789C6D92 	 .ascii "x\234m\222OH\024Q\034\307\337w\336\314\376\351\217t"
  3834      4F481451 
  3834      1CC7DF77 
@@ -8177,7 +8177,7 @@ ARM GAS   			page 1
  3869      34FC017D 
  3869      7E2565
  3870              	 .text
- 3871              	 .section .gnu.lto_CAN_GetRxITStatus.76.b97c7913bdef395e,"e",%progbits
+ 3871              	 .section .gnu.lto_CAN_GetRxITStatus.76.e45d02a3203ad945,"e",%progbits
  3872 0000 789C7D52 	 .ascii "x\234}RMHTQ\024>\337;o\2363\321\317\306\240\240\305"
  3872      4D485451 
  3872      143EDF3B 
@@ -8348,7 +8348,7 @@ ARM GAS   			page 1
  3904      548A
  3905 0262 0763     	 .ascii "\007c"
  3906              	 .text
- 3907              	 .section .gnu.lto_CAN_GetRx.77.b97c7913bdef395e,"e",%progbits
+ 3907              	 .section .gnu.lto_CAN_GetRx.77.e45d02a3203ad945,"e",%progbits
  3908 0000 789C5D8F 	 .ascii "x\234]\217\273K\303P\024\306\317\311M\325\016n]\334"
  3908      BB4BC350 
  3908      14C6CFC9 
@@ -8453,7 +8453,7 @@ ARM GAS   			page 1
  3928      5F810E
  3929 0173 89E3     	 .ascii "\211\343"
  3930              	 .text
- 3931              	 .section .gnu.lto_CAN_TxITConfig.78.b97c7913bdef395e,"e",%progbits
+ 3931              	 .section .gnu.lto_CAN_TxITConfig.78.e45d02a3203ad945,"e",%progbits
  3932 0000 789C6D92 	 .ascii "x\234m\222ML\023A\024\307\347\277\263\333\017?\210\011"
  3932      4D4C1341 
  3932      14C7E7BF 
@@ -8644,7 +8644,7 @@ ARM GAS   			page 1
  3969 028e B3F50FE7 	 .ascii "\263\365\017\347\032%\364"
  3969      1A25F4
  3970              	 .text
- 3971              	 .section .gnu.lto_CAN_GetTxITStatus.79.b97c7913bdef395e,"e",%progbits
+ 3971              	 .section .gnu.lto_CAN_GetTxITStatus.79.e45d02a3203ad945,"e",%progbits
  3972 0000 789C7D52 	 .ascii "x\234}RMHTQ\024>\337;o\376\"l!AA\213\331D\265\310'N"
  3972      4D485451 
  3972      143EDF3B 
@@ -8811,7 +8811,7 @@ ARM GAS   			page 1
  4004      051D2506 
  4004      DC
  4005              	 .text
- 4006              	 .section .gnu.lto_CAN_ITClearRxTxPendingBit.80.b97c7913bdef395e,"e",%progbits
+ 4006              	 .section .gnu.lto_CAN_ITClearRxTxPendingBit.80.e45d02a3203ad945,"e",%progbits
  4007 0000 789C6D52 	 .ascii "x\234mR\313O\023A\030\237og\037\345\0214(Q\017&=hD\023"
  4007      CB4F1341 
  4007      189F6F67 
@@ -9017,7 +9017,7 @@ ARM GAS   			page 1
  4045      5EF707
  4046 02d0 60B9587C 	 .ascii "`\271X|"
  4047              	 .text
- 4048              	 .section .gnu.lto_CAN_BRGInit.81.b97c7913bdef395e,"e",%progbits
+ 4048              	 .section .gnu.lto_CAN_BRGInit.81.e45d02a3203ad945,"e",%progbits
  4049 0000 789C7552 	 .ascii "x\234uR\355K\223Q\024\277\347\271\317\313\346t\226\371"
  4049      ED4B9351 
  4049      14BFE7B9 
@@ -9243,7 +9243,7 @@ ARM GAS   			page 1
 
  4093 0332 AA       	 .ascii "\252"
  4094              	 .text
- 4095              	 .section .gnu.lto_.symbol_nodes.b97c7913bdef395e,"e",%progbits
+ 4095              	 .section .gnu.lto_.symbol_nodes.e45d02a3203ad945,"e",%progbits
  4096 0000 789C75CC 	 .ascii "x\234u\314\307\025\202P\000D\321\371\037\314\001sh\301"
  4096      C7158250 
  4096      0044D1F9 
@@ -9288,12 +9288,12 @@ ARM GAS   			page 1
  4104      E207FA2C 
  4104      B542
  4105              	 .text
- 4106              	 .section .gnu.lto_.refs.b97c7913bdef395e,"e",%progbits
+ 4106              	 .section .gnu.lto_.refs.e45d02a3203ad945,"e",%progbits
  4107 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  4107      00020000 
  4107      0A0002
  4108              	 .text
- 4109              	 .section .gnu.lto_.decls.b97c7913bdef395e,"e",%progbits
+ 4109              	 .section .gnu.lto_.decls.e45d02a3203ad945,"e",%progbits
  4110 0000 789CAD5A 	 .ascii "x\234\255ZyTU\327\271?\337\336\007\356\345\002\242\242"
  4110      795455D7 
  4110      B93FDFDE 
@@ -11077,7 +11077,7 @@ ARM GAS   			page 1
  4468 18f3 FD1F1007 	 .ascii "\375\037\020\007\357\256"
  4468      EFAE
  4469              	 .text
- 4470              	 .section .gnu.lto_.symtab.b97c7913bdef395e,"e",%progbits
+ 4470              	 .section .gnu.lto_.symtab.e45d02a3203ad945,"e",%progbits
  4471 0000 43414E5F 	 .ascii "CAN_DeInit\000"
  4471      4465496E 
  4471      697400
@@ -11356,7 +11356,7 @@ ARM GAS   			page 1
  4625      00000000 
  4626 0327 5B010000 	 .ascii "[\001\000\000"
  4627              	 .text
- 4628              	 .section .gnu.lto_.ext_symtab.b97c7913bdef395e,"e",%progbits
+ 4628              	 .section .gnu.lto_.ext_symtab.e45d02a3203ad945,"e",%progbits
  4629 0000 01       	 .ascii "\001"
  4630 0001 01       	 .ascii "\001"
  4631 0002 00       	 .ascii "\000"

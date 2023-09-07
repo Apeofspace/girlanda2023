@@ -1386,12 +1386,12 @@ ARM GAS   			page 1
  1107 0445 454E4142 	 .ascii "ENABLE\000"
  1107      4C4500
  1108              	 .text
- 1109              	 .section .gnu.lto_.profile.d9d0a53e45f91699,"e",%progbits
+ 1109              	 .section .gnu.lto_.profile.dbee3d74cdd2bc17,"e",%progbits
  1110 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1110      00010000 
  1110      120003
  1111              	 .text
- 1112              	 .section .gnu.lto_.inline.d9d0a53e45f91699,"e",%progbits
+ 1112              	 .section .gnu.lto_.inline.dbee3d74cdd2bc17,"e",%progbits
  1113 0000 789C8D91 	 .ascii "x\234\215\221\335\015\2030\014\204\017'\204\000)\274"
  1113      DD0D8330 
  1113      0C840F27 
@@ -1433,7 +1433,7 @@ ARM GAS   			page 1
  1120      F4278737 
  1121 0098 9D70E0   	 .ascii "\235p\340"
  1122              	 .text
- 1123              	 .section .gnu.lto_.jmpfuncs.d9d0a53e45f91699,"e",%progbits
+ 1123              	 .section .gnu.lto_.jmpfuncs.dbee3d74cdd2bc17,"e",%progbits
  1124 0000 789C45CB 	 .ascii "x\234E\313\301\015\200 \000\300\300CA\004\004fq\377"
  1124      C10D8020 
  1124      00C0C043 
@@ -1450,7 +1450,7 @@ ARM GAS   			page 1
  1126 0028 6E7CC302 	 .ascii "n|\303\002\026\206\000\252"
  1126      168600AA 
  1127              	 .text
- 1128              	 .section .gnu.lto_.pureconst.d9d0a53e45f91699,"e",%progbits
+ 1128              	 .section .gnu.lto_.pureconst.dbee3d74cdd2bc17,"e",%progbits
  1129 0000 789C05C1 	 .ascii "x\234\005\301\201\021\200 \014\000\261\202\217 \212"
  1129      81118020 
  1129      0C00B182 
@@ -1465,11 +1465,11 @@ ARM GAS   			page 1
  1131      C99B6CE7 
  1131      1409E5
  1132              	 .text
- 1133              	 .section .gnu.lto_.lto.d9d0a53e45f91699,"e",%progbits
+ 1133              	 .section .gnu.lto_.lto.dbee3d74cdd2bc17,"e",%progbits
  1134 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1134      01000000 
  1135              	 .text
- 1136              	 .section .gnu.lto_I2C_DeInit.56.d9d0a53e45f91699,"e",%progbits
+ 1136              	 .section .gnu.lto_I2C_DeInit.56.dbee3d74cdd2bc17,"e",%progbits
  1137 0000 789C9BCE 	 .ascii "x\234\233\316\310\300P\303\300\300\240\014\304\214\314"
  1137      C8C050C3 
  1137      C0C0A00C 
@@ -1571,7 +1571,7 @@ ARM GAS   			page 1
  1156      1F
  1157 015e AFE3     	 .ascii "\257\343"
  1158              	 .text
- 1159              	 .section .gnu.lto_I2C_Init.57.d9d0a53e45f91699,"e",%progbits
+ 1159              	 .section .gnu.lto_I2C_Init.57.dbee3d74cdd2bc17,"e",%progbits
  1160 0000 789C8592 	 .ascii "x\234\205\222]H\223Q\030\307\317s\316\273o\233\335D"
  1160      5D489351 
  1160      18C7CF73 
@@ -1786,7 +1786,7 @@ ARM GAS   			page 1
  1201      B2
  1202 02f4 71DC     	 .ascii "q\334"
  1203              	 .text
- 1204              	 .section .gnu.lto_I2C_StructInit.58.d9d0a53e45f91699,"e",%progbits
+ 1204              	 .section .gnu.lto_I2C_StructInit.58.dbee3d74cdd2bc17,"e",%progbits
  1205 0000 789C7550 	 .ascii "x\234uP=K\003A\024|s\233\017m\354\004\005\213\200\202"
  1205      3D4B0341 
  1205      147C739B 
@@ -1898,7 +1898,7 @@ ARM GAS   			page 1
  1226      0505B396 
  1226      E5
  1227              	 .text
- 1228              	 .section .gnu.lto_I2C_Cmd.59.d9d0a53e45f91699,"e",%progbits
+ 1228              	 .section .gnu.lto_I2C_Cmd.59.dbee3d74cdd2bc17,"e",%progbits
  1229 0000 789C6D52 	 .ascii "x\234mRMh\023A\024\236og7\033\203\304\213\202\202B."
  1229      4D681341 
  1229      149E6F67 
@@ -2068,7 +2068,7 @@ ARM GAS   			page 1
  1261      27237F00 
  1261      4D7F00DD 
  1262              	 .text
- 1263              	 .section .gnu.lto_I2C_ITConfig.60.d9d0a53e45f91699,"e",%progbits
+ 1263              	 .section .gnu.lto_I2C_ITConfig.60.dbee3d74cdd2bc17,"e",%progbits
  1264 0000 789C6D52 	 .ascii "x\234mRMh\023A\030\235\267\263\233\304(\361\242\240"
  1264      4D681341 
  1264      189DB7B3 
@@ -2238,7 +2238,7 @@ ARM GAS   			page 1
  1296      FC015F28 
  1296      012F
  1297              	 .text
- 1298              	 .section .gnu.lto_I2C_GetITStatus.61.d9d0a53e45f91699,"e",%progbits
+ 1298              	 .section .gnu.lto_I2C_GetITStatus.61.dbee3d74cdd2bc17,"e",%progbits
  1299 0000 789C5D50 	 .ascii "x\234]P=hSQ\024>\337=/m\265\352\344\240[\026A\207\366"
  1299      3D685351 
  1299      143EDF3D 
@@ -2376,7 +2376,7 @@ ARM GAS   			page 1
  1325      FD07F1
  1326 01df 5FC07A   	 .ascii "_\300z"
  1327              	 .text
- 1328              	 .section .gnu.lto_I2C_ClearITPendingBit.62.d9d0a53e45f91699,"e",%progbits
+ 1328              	 .section .gnu.lto_I2C_ClearITPendingBit.62.dbee3d74cdd2bc17,"e",%progbits
  1329 0000 789C6364 	 .ascii "x\234cdd`\250a``P\006bFf\006\306I\023\273\230\030\032"
  1329      6460A861 
  1329      60605006 
@@ -2472,7 +2472,7 @@ ARM GAS   			page 1
  1347      0C002D09 
  1347      7B60
  1348              	 .text
- 1349              	 .section .gnu.lto_I2C_Send7bitAddress.63.d9d0a53e45f91699,"e",%progbits
+ 1349              	 .section .gnu.lto_I2C_Send7bitAddress.63.dbee3d74cdd2bc17,"e",%progbits
  1350 0000 789C7D51 	 .ascii "x\234}QMk\023Q\024\275g^2\265.\242\033Aw\001\027\342"
  1350      4D6B1351 
  1350      14BD675E 
@@ -2604,7 +2604,7 @@ ARM GAS   			page 1
  1375      FF00
  1376 01dc A228C329 	 .ascii "\242(\303)"
  1377              	 .text
- 1378              	 .section .gnu.lto_I2C_SendByte.64.d9d0a53e45f91699,"e",%progbits
+ 1378              	 .section .gnu.lto_I2C_SendByte.64.dbee3d74cdd2bc17,"e",%progbits
  1379 0000 789C3363 	 .ascii "x\2343cd`X\310\300\300\240\014\304\214\314\014\214\223"
  1379      646058C8 
  1379      C0C0A00C 
@@ -2720,7 +2720,7 @@ ARM GAS   			page 1
  1401      0000
  1402 0193 795F9BFB 	 .ascii "y_\233\373"
  1403              	 .text
- 1404              	 .section .gnu.lto_I2C_SendSTOP.65.d9d0a53e45f91699,"e",%progbits
+ 1404              	 .section .gnu.lto_I2C_SendSTOP.65.dbee3d74cdd2bc17,"e",%progbits
  1405 0000 789C3BC4 	 .ascii "x\234;\304\300\300P\003\304\312@\314\310\314\3008ib"
  1405      C0C05003 
  1405      C4CA40CC 
@@ -2805,7 +2805,7 @@ ARM GAS   			page 1
  1421      92190003 
  1421      3E6EBB
  1422              	 .text
- 1423              	 .section .gnu.lto_I2C_StartReceiveData.66.d9d0a53e45f91699,"e",%progbits
+ 1423              	 .section .gnu.lto_I2C_StartReceiveData.66.dbee3d74cdd2bc17,"e",%progbits
  1424 0000 789C9365 	 .ascii "x\234\223ed`X\304\300\300\240\014\304\214\314\014\214"
  1424      646058C4 
  1424      C0C0A00C 
@@ -2922,7 +2922,7 @@ ARM GAS   			page 1
  1445      00
  1446 0191 137D93BB 	 .ascii "\023}\223\273"
  1447              	 .text
- 1448              	 .section .gnu.lto_I2C_GetReceivedData.67.d9d0a53e45f91699,"e",%progbits
+ 1448              	 .section .gnu.lto_I2C_GetReceivedData.67.dbee3d74cdd2bc17,"e",%progbits
  1449 0000 789CBBC2 	 .ascii "x\234\273\302\300\300P\003\304j@\314\310\314\3008ib"
  1449      C0C05003 
  1449      C46A40CC 
@@ -3017,7 +3017,7 @@ ARM GAS   			page 1
  1466      33000042 
  1466      7B7384
  1467              	 .text
- 1468              	 .section .gnu.lto_I2C_CheckEvent.68.d9d0a53e45f91699,"e",%progbits
+ 1468              	 .section .gnu.lto_I2C_CheckEvent.68.dbee3d74cdd2bc17,"e",%progbits
  1469 0000 789C5D51 	 .ascii "x\234]QMh\023Q\020\236y\263\033\255\250\207\212\240"
  1469      4D681351 
  1469      109E79B3 
@@ -3165,7 +3165,7 @@ ARM GAS   			page 1
  1497      FE01948C 
  1498 0206 CA91     	 .ascii "\312\221"
  1499              	 .text
- 1500              	 .section .gnu.lto_I2C_GetLastEvent.69.d9d0a53e45f91699,"e",%progbits
+ 1500              	 .section .gnu.lto_I2C_GetLastEvent.69.dbee3d74cdd2bc17,"e",%progbits
  1501 0000 789C7D50 	 .ascii "x\234}P\301K\024a\024\177\277\371f\234\355\022\201\020"
  1501      C14B1461 
  1501      147FBFF9 
@@ -3305,7 +3305,7 @@ ARM GAS   			page 1
  1528      079A1FCA 
  1528      A0
  1529              	 .text
- 1530              	 .section .gnu.lto_I2C_GetFlagStatus.70.d9d0a53e45f91699,"e",%progbits
+ 1530              	 .section .gnu.lto_I2C_GetFlagStatus.70.dbee3d74cdd2bc17,"e",%progbits
  1531 0000 789C5D51 	 .ascii "x\234]QMh\023Q\020\236y\363\222ZQ\217Ao{\021\361`\327"
  1531      4D681351 
  1531      109E79F3 
@@ -3449,7 +3449,7 @@ ARM GAS   			page 1
  1558      FD7FCE
  1559 01fb 6EC923   	 .ascii "n\311#"
  1560              	 .text
- 1561              	 .section .gnu.lto_.symbol_nodes.d9d0a53e45f91699,"e",%progbits
+ 1561              	 .section .gnu.lto_.symbol_nodes.dbee3d74cdd2bc17,"e",%progbits
  1562 0000 789C75CC 	 .ascii "x\234u\314\315\015\202P\030D\321\373\361\360\007\025"
  1562      CD0D8250 
  1562      1844D1FB 
@@ -3485,12 +3485,12 @@ ARM GAS   			page 1
  1568 006c 0202FB69 	 .ascii "\002\002\373i\210"
  1568      88
  1569              	 .text
- 1570              	 .section .gnu.lto_.refs.d9d0a53e45f91699,"e",%progbits
+ 1570              	 .section .gnu.lto_.refs.dbee3d74cdd2bc17,"e",%progbits
  1571 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  1571      00020000 
  1571      0A0002
  1572              	 .text
- 1573              	 .section .gnu.lto_.decls.d9d0a53e45f91699,"e",%progbits
+ 1573              	 .section .gnu.lto_.decls.dbee3d74cdd2bc17,"e",%progbits
  1574 0000 789C9D57 	 .ascii "x\234\235W}p\025\325\025\277\347\336\367\225%_JP;*\215"
  1574      7D7015D5 
  1574      15BFE7DE 
@@ -4197,7 +4197,7 @@ ARM GAS   			page 1
  1716      0AC97F00 
  1716      9CC4802B 
  1717              	 .text
- 1718              	 .section .gnu.lto_.symtab.d9d0a53e45f91699,"e",%progbits
+ 1718              	 .section .gnu.lto_.symtab.dbee3d74cdd2bc17,"e",%progbits
 ARM GAS   			page 71
 
 
@@ -4360,7 +4360,7 @@ ARM GAS   			page 1
  1807      00000000 
  1808 01c4 0D010000 	 .ascii "\015\001\000\000"
  1809              	 .text
- 1810              	 .section .gnu.lto_.ext_symtab.d9d0a53e45f91699,"e",%progbits
+ 1810              	 .section .gnu.lto_.ext_symtab.dbee3d74cdd2bc17,"e",%progbits
  1811 0000 01       	 .ascii "\001"
  1812 0001 01       	 .ascii "\001"
  1813 0002 00       	 .ascii "\000"

@@ -2168,12 +2168,12 @@ ARM GAS   			page 1
  1683      5F544E46 
  1683      00
  1684              	 .text
- 1685              	 .section .gnu.lto_.profile.a4ed61b494a076fd,"e",%progbits
+ 1685              	 .section .gnu.lto_.profile.28544fa8193db546,"e",%progbits
  1686 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  1686      00010000 
  1686      120003
  1687              	 .text
- 1688              	 .section .gnu.lto_.inline.a4ed61b494a076fd,"e",%progbits
+ 1688              	 .section .gnu.lto_.inline.28544fa8193db546,"e",%progbits
  1689 0000 789C85D0 	 .ascii "x\234\205\320;\016\3020\020\004\320\361:\344k\020HH"
  1689      3B0EC230 
  1689      1004D0F1 
@@ -2228,7 +2228,7 @@ ARM GAS   			page 1
  1698      9E
  1699 00ba 0767EF   	 .ascii "\007g\357"
  1700              	 .text
- 1701              	 .section .gnu.lto_.jmpfuncs.a4ed61b494a076fd,"e",%progbits
+ 1701              	 .section .gnu.lto_.jmpfuncs.28544fa8193db546,"e",%progbits
  1702 0000 789C45CA 	 .ascii "x\234E\312\311\015\300 \000\3000s\266\\\203\260\377"
  1702      C90DC020 
  1702      00C03073 
@@ -2242,7 +2242,7 @@ ARM GAS   			page 1
  1704      1D0F5900 
  1704      85
  1705              	 .text
- 1706              	 .section .gnu.lto_.pureconst.a4ed61b494a076fd,"e",%progbits
+ 1706              	 .section .gnu.lto_.pureconst.28544fa8193db546,"e",%progbits
  1707 0000 789C05C1 	 .ascii "x\234\005\301\211\001\000\020\020\300\260C\375\354a"
  1707      89010010 
  1707      10C0B043 
@@ -2254,11 +2254,11 @@ ARM GAS   			page 1
  1708      94255B8E 
  1709 0026 088A     	 .ascii "\010\212"
  1710              	 .text
- 1711              	 .section .gnu.lto_.lto.a4ed61b494a076fd,"e",%progbits
+ 1711              	 .section .gnu.lto_.lto.28544fa8193db546,"e",%progbits
  1712 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  1712      01000000 
  1713              	 .text
- 1714              	 .section .gnu.lto_SSP_DeInit.56.a4ed61b494a076fd,"e",%progbits
+ 1714              	 .section .gnu.lto_SSP_DeInit.56.28544fa8193db546,"e",%progbits
  1715 0000 789CE363 	 .ascii "x\234\343cb`\230\315\300\300\240\014\304\214\314\014"
  1715      626098CD 
  1715      C0C0A00C 
@@ -2381,7 +2381,7 @@ ARM GAS   			page 1
  1738      0C00FAF2 
  1738      E14C
  1739              	 .text
- 1740              	 .section .gnu.lto_SSP_Init.57.a4ed61b494a076fd,"e",%progbits
+ 1740              	 .section .gnu.lto_SSP_Init.57.28544fa8193db546,"e",%progbits
  1741 0000 789C8D94 	 .ascii "x\234\215\224\333K\024Q\030\300\3177g\366\252\316\256"
  1741      DB4B1451 
  1741      18C0CF37 
@@ -2614,7 +2614,7 @@ ARM GAS   			page 1
  1785      C8C8
  1786 032f 7B       	 .ascii "{"
  1787              	 .text
- 1788              	 .section .gnu.lto_SSP_StructInit.58.a4ed61b494a076fd,"e",%progbits
+ 1788              	 .section .gnu.lto_SSP_StructInit.58.28544fa8193db546,"e",%progbits
  1789 0000 789C8DD2 	 .ascii "x\234\215\322\317k\324@\024\007\360\367\235\331\335"
  1789      CF6BD440 
  1789      1407F0F7 
@@ -2751,7 +2751,7 @@ ARM GAS   			page 1
  1816 01e2 1F8B3D06 	 .ascii "\037\213=\006\322"
  1816      D2
  1817              	 .text
- 1818              	 .section .gnu.lto_SSP_Cmd.59.a4ed61b494a076fd,"e",%progbits
+ 1818              	 .section .gnu.lto_SSP_Cmd.59.28544fa8193db546,"e",%progbits
  1819 0000 789C8550 	 .ascii "x\234\205P\315k\023Q\020\237y\3636I\215\355M\320[<\211"
  1819      CD6B1351 
  1819      109F79F3 
@@ -2900,7 +2900,7 @@ ARM GAS   			page 1
  1847      6BFD01ED 
  1847      90ECD6
  1848              	 .text
- 1849              	 .section .gnu.lto_SSP_ITConfig.60.a4ed61b494a076fd,"e",%progbits
+ 1849              	 .section .gnu.lto_SSP_ITConfig.60.28544fa8193db546,"e",%progbits
  1850 0000 789C8550 	 .ascii "x\234\205PKh\023Q\024}g\356L~\230\350Jt\027W\342\302"
  1850      4B681351 
  1850      147D67EE 
@@ -3057,7 +3057,7 @@ ARM GAS   			page 1
  1880      B78CBF43 
  1880      5801E7
  1881              	 .text
- 1882              	 .section .gnu.lto_SSP_GetITStatus.61.a4ed61b494a076fd,"e",%progbits
+ 1882              	 .section .gnu.lto_SSP_GetITStatus.61.28544fa8193db546,"e",%progbits
 ARM GAS   			page 52
 
 
@@ -3217,7 +3217,7 @@ ARM GAS   			page 1
  1913 0239 019E24EA 	 .ascii "\001\236$\352\016"
  1913      0E
  1914              	 .text
- 1915              	 .section .gnu.lto_SSP_GetITStatusMasked.62.a4ed61b494a076fd,"e",%progbits
+ 1915              	 .section .gnu.lto_SSP_GetITStatusMasked.62.28544fa8193db546,"e",%progbits
  1916 0000 789C5D51 	 .ascii "x\234]QML\023A\030\375\336\314\266\005S\321p\322[/\306"
  1916      4D4C1341 
  1916      18FDDECC 
@@ -3377,7 +3377,7 @@ ARM GAS   			page 1
  1946      1FCF
  1947 023a EBE843   	 .ascii "\353\350C"
  1948              	 .text
- 1949              	 .section .gnu.lto_SSP_ClearITPendingBit.63.a4ed61b494a076fd,"e",%progbits
+ 1949              	 .section .gnu.lto_SSP_ClearITPendingBit.63.28544fa8193db546,"e",%progbits
  1950 0000 789C7550 	 .ascii "x\234uP1k\024Q\020\236ogo\223\240\240pU\272\023\013"
  1950      316B1451 
  1950      109E6F67 
@@ -3504,7 +3504,7 @@ ARM GAS   			page 1
  1974 01bc F53F3C4F 	 .ascii "\365?<O\254|"
  1974      AC7C
  1975              	 .text
- 1976              	 .section .gnu.lto_SSP_DMACmd.64.a4ed61b494a076fd,"e",%progbits
+ 1976              	 .section .gnu.lto_SSP_DMACmd.64.28544fa8193db546,"e",%progbits
  1977 0000 789C8551 	 .ascii "x\234\205QKh\023Q\024}g\356L\3224E]\005\272\213+qa'"
  1977      4B681351 
  1977      147D67EE 
@@ -3669,7 +3669,7 @@ ARM GAS   			page 1
  2008 024f 2F09930D 	 .ascii "/\011\223\015\240"
  2008      A0
  2009              	 .text
- 2010              	 .section .gnu.lto_SSP_SendData.65.a4ed61b494a076fd,"e",%progbits
+ 2010              	 .section .gnu.lto_SSP_SendData.65.28544fa8193db546,"e",%progbits
  2011 0000 789C5D50 	 .ascii "x\234]P=H\034Q\020\236\357\275\2753\242E:\261;H\021"
  2011      3D481C51 
  2011      109EEFBD 
@@ -3791,7 +3791,7 @@ ARM GAS   			page 1
  2034      1FDFD19D 
  2034      34
  2035              	 .text
- 2036              	 .section .gnu.lto_SSP_ReceiveData.66.a4ed61b494a076fd,"e",%progbits
+ 2036              	 .section .gnu.lto_SSP_ReceiveData.66.28544fa8193db546,"e",%progbits
  2037 0000 789C5D4F 	 .ascii "x\234]OMK\002Q\024\275w\336\330\327\252\235\264\211"
  2037      4D4B0251 
  2037      14BD77DE 
@@ -3905,7 +3905,7 @@ ARM GAS   			page 1
  2058      92
  2059 018b CF       	 .ascii "\317"
  2060              	 .text
- 2061              	 .section .gnu.lto_SSP_GetFlagStatus.67.a4ed61b494a076fd,"e",%progbits
+ 2061              	 .section .gnu.lto_SSP_GetFlagStatus.67.28544fa8193db546,"e",%progbits
  2062 0000 789C5D51 	 .ascii "x\234]QKh\023Q\024\275\347\275I\322\006\255.\265\253"
  2062      4B681351 
  2062      14BDE7BD 
@@ -4065,7 +4065,7 @@ ARM GAS   			page 1
  2093      25E9
  2094 023c 50       	 .ascii "P"
  2095              	 .text
- 2096              	 .section .gnu.lto_SSP_BRGInit.68.a4ed61b494a076fd,"e",%progbits
+ 2096              	 .section .gnu.lto_SSP_BRGInit.68.28544fa8193db546,"e",%progbits
  2097 0000 789C6D52 	 .ascii "x\234mR\337K\323Q\024\277\347{\277\373\356\207\333\222"
  2097      DF4BD351 
  2097      14BFE77B 
@@ -4287,7 +4287,7 @@ ARM GAS   			page 1
  2140      636FFA0F 
  2140      D4A48E21 
  2141              	 .text
- 2142              	 .section .gnu.lto_.symbol_nodes.a4ed61b494a076fd,"e",%progbits
+ 2142              	 .section .gnu.lto_.symbol_nodes.28544fa8193db546,"e",%progbits
  2143 0000 789C75C9 	 .ascii "x\234u\311\311\001@@\020\004\300\036\326- \267\240\004"
  2143      C9014040 
  2143      1004C01E 
@@ -4313,7 +4313,7 @@ ARM GAS   			page 1
  2148      2AF10142 
  2148      C55609
  2149              	 .text
- 2150              	 .section .gnu.lto_.refs.a4ed61b494a076fd,"e",%progbits
+ 2150              	 .section .gnu.lto_.refs.28544fa8193db546,"e",%progbits
  2151 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  2151      00020000 
  2151      0A0002
@@ -4321,7 +4321,7 @@ ARM GAS   			page 1
 ARM GAS   			page 73
 
 
- 2153              	 .section .gnu.lto_.decls.a4ed61b494a076fd,"e",%progbits
+ 2153              	 .section .gnu.lto_.decls.28544fa8193db546,"e",%progbits
  2154 0000 789C9558 	 .ascii "x\234\225XiT\024W\026\256\373^C7E\003&jLrrr\310LN\302"
  2154      69541457 
  2154      16AEFB5E 
@@ -5257,7 +5257,7 @@ ARM GAS   			page 1
  2341      846AE57F 
  2341      839D1BC4 
  2342              	 .text
- 2343              	 .section .gnu.lto_.symtab.a4ed61b494a076fd,"e",%progbits
+ 2343              	 .section .gnu.lto_.symtab.28544fa8193db546,"e",%progbits
  2344 0000 5353505F 	 .ascii "SSP_DeInit\000"
  2344      4465496E 
  2344      697400
@@ -5392,7 +5392,7 @@ ARM GAS   			page 1
  2420      00000000 
  2421 0179 19010000 	 .ascii "\031\001\000\000"
  2422              	 .text
- 2423              	 .section .gnu.lto_.ext_symtab.a4ed61b494a076fd,"e",%progbits
+ 2423              	 .section .gnu.lto_.ext_symtab.28544fa8193db546,"e",%progbits
  2424 0000 01       	 .ascii "\001"
  2425 0001 01       	 .ascii "\001"
  2426 0002 00       	 .ascii "\000"

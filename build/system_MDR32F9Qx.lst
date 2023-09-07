@@ -1115,12 +1115,12 @@ ARM GAS   			page 1
  907      3951782E 
  907      6300
  908              	 .text
- 909              	 .section .gnu.lto_.profile.2c1e3f14e496ad13,"e",%progbits
+ 909              	 .section .gnu.lto_.profile.1a782b51535f80b2,"e",%progbits
  910 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  910      00010000 
  910      120003
  911              	 .text
- 912              	 .section .gnu.lto_.inline.2c1e3f14e496ad13,"e",%progbits
+ 912              	 .section .gnu.lto_.inline.1a782b51535f80b2,"e",%progbits
  913 0000 789CF361 	 .ascii "x\234\363a@\000&\006\006\325\206\206\206\011\314\351"
  913      40002606 
  913      06D58686 
@@ -1137,7 +1137,7 @@ ARM GAS   			page 1
  916 0032 6C1600CF 	 .ascii "l\026\000\317\021\017\371"
  916      110FF9
  917              	 .text
- 918              	 .section .gnu.lto_.jmpfuncs.2c1e3f14e496ad13,"e",%progbits
+ 918              	 .section .gnu.lto_.jmpfuncs.1a782b51535f80b2,"e",%progbits
 ARM GAS   			page 20
 
 
@@ -1146,18 +1146,18 @@ ARM GAS   			page 1
  919      66000000 
  919      EE000E
  920              	 .text
- 921              	 .section .gnu.lto_.pureconst.2c1e3f14e496ad13,"e",%progbits
+ 921              	 .section .gnu.lto_.pureconst.1a782b51535f80b2,"e",%progbits
  922 0000 789C6367 	 .ascii "x\234cg```b\230\305\3024\213\005\000\004\266\001H"
  922      60606062 
  922      98C5C234 
  922      8B050004 
  922      B60148
  923              	 .text
- 924              	 .section .gnu.lto_.lto.2c1e3f14e496ad13,"e",%progbits
+ 924              	 .section .gnu.lto_.lto.1a782b51535f80b2,"e",%progbits
  925 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  925      01000000 
  926              	 .text
- 927              	 .section .gnu.lto_SystemCoreClockUpdate.57.2c1e3f14e496ad13,"e",%progbits
+ 927              	 .section .gnu.lto_SystemCoreClockUpdate.57.1a782b51535f80b2,"e",%progbits
  928 0000 789C7D54 	 .ascii "x\234}T\353O\034U\024\277g\356\354\314>(\217\244\004"
  928      EB4F1C55 
  928      14BF67EE 
@@ -1486,7 +1486,7 @@ ARM GAS   			page 1
  994      61A9FF0F 
  994      1759A5B8 
  995              	 .text
- 996              	 .section .gnu.lto_SystemInit.58.2c1e3f14e496ad13,"e",%progbits
+ 996              	 .section .gnu.lto_SystemInit.58.1a782b51535f80b2,"e",%progbits
  997 0000 789C8592 	 .ascii "x\234\205\222\317k\324P\020\307g2\3314.\305^\005\241"
  997      CF6BD450 
  997      10C76732 
@@ -1626,7 +1626,7 @@ ARM GAS   			page 1
  1023      071A991E 
  1023      AC
  1024              	 .text
- 1025              	 .section .gnu.lto_.symbol_nodes.2c1e3f14e496ad13,"e",%progbits
+ 1025              	 .section .gnu.lto_.symbol_nodes.1a782b51535f80b2,"e",%progbits
  1026 0000 789CF365 	 .ascii "x\234\363e\000\002&\313z\206\006 `a\234p\216\201\241"
  1026      000226CB 
  1026      7A860620 
@@ -1643,7 +1643,7 @@ ARM GAS   			page 1
  1028      0C00B6
  1029 0034 3110B9   	 .ascii "1\020\271"
  1030              	 .text
- 1031              	 .section .gnu.lto_.refs.2c1e3f14e496ad13,"e",%progbits
+ 1031              	 .section .gnu.lto_.refs.1a782b51535f80b2,"e",%progbits
  1032 0000 789C1366 	 .ascii "x\234\023f```a`dT\003bC 6\005bK\006\006\000\010\337"
  1032      60606061 
  1032      60645403 
@@ -1651,7 +1651,7 @@ ARM GAS   			page 1
  1032      05624B06 
  1033 0018 00E5     	 .ascii "\000\345"
  1034              	 .text
- 1035              	 .section .gnu.lto_.decls.2c1e3f14e496ad13,"e",%progbits
+ 1035              	 .section .gnu.lto_.decls.1a782b51535f80b2,"e",%progbits
  1036 0000 789CAD56 	 .ascii "x\234\255VmPT\327\031>\3579\013\273\\\2600\202M\247"
  1036      6D5054D7 
  1036      193EEF39 
@@ -2241,7 +2241,7 @@ ARM GAS   			page 1
  1153      02F572B7 
  1153      4C
  1154              	 .text
- 1155              	 .section .gnu.lto_.symtab.2c1e3f14e496ad13,"e",%progbits
+ 1155              	 .section .gnu.lto_.symtab.1a782b51535f80b2,"e",%progbits
  1156 0000 53797374 	 .ascii "SystemCoreClockUpdate\000"
  1156      656D436F 
  1156      7265436C 
@@ -2273,7 +2273,7 @@ ARM GAS   			page 1
  1172      00000000 
  1173 005a BE000000 	 .ascii "\276\000\000\000"
  1174              	 .text
- 1175              	 .section .gnu.lto_.ext_symtab.2c1e3f14e496ad13,"e",%progbits
+ 1175              	 .section .gnu.lto_.ext_symtab.1a782b51535f80b2,"e",%progbits
  1176 0000 01       	 .ascii "\001"
  1177 0001 01       	 .ascii "\001"
  1178 0002 00       	 .ascii "\000"

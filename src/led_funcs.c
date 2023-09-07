@@ -147,7 +147,7 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t bri
 	double rc_scratch_threshold2=0.6;
 	uint8_t rc_scratch_reset_value = 7;
 	static uint8_t rc_scratch_countdown = 0;	
-	static uint8_t rc_scratching_now = 4;
+	static uint8_t rc_scratching_phase = 4;
 	static uint16_t rc_speed_temp;
 	
 	if (rc_k>1) 
@@ -168,22 +168,26 @@ void running_color(double delta_time, uint8_t* data, uint16_t speed, uint8_t bri
 		if ((rc_phase==PHASE_UP)&(rc_k>rc_scratch_threshold1))
 		{
 			rc_phase=PHASE_DOWN;
-			if (rc_scratching_now==0) rc_speed_temp*=2;
-			rc_scratching_now++;
+			if (rc_scratching_phase==0) rc_speed_temp*=2;
+			rc_scratching_phase++;
 			
 		}
 		if ((rc_phase==PHASE_DOWN)&(rc_k<(rc_scratch_threshold2)))
 		{
 			rc_phase=PHASE_UP;
-			if (rc_scratching_now==0) rc_speed_temp*=2;
-			rc_scratching_now++;
+			if (rc_scratching_phase==0) rc_speed_temp*=2;
+			rc_scratching_phase++;
 		}
-		if (rc_scratching_now>=4) // скрэтч офф =(
+		if (rc_scratching_phase>=4) // скрэтч офф =(
 		{
 			rc_scratch_countdown = rc_scratch_reset_value;
-			rc_scratching_now = 0;
+			rc_scratching_phase = 0;
 			rc_speed_temp=speed;
 		}
+	}
+	else
+	{
+		rc_speed_temp=speed; //скорость меняется только не в фазу скретча
 	}
 	
 	
@@ -228,7 +232,7 @@ void running_color2(double delta_time, uint8_t* data, uint16_t speed, uint8_t br
 //-----------------------------------------------------------------------
 void running_color3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
-	breath_colors2(delta_time, data, speed/2, brightness/3);
+	breath_colors3(delta_time, data, speed/2, brightness/3);
 	running_color(delta_time,data,speed, brightness);
 }
 //-----------------------------------------------------------------------
@@ -238,8 +242,67 @@ void running_color4(double delta_time, uint8_t* data, uint16_t speed, uint8_t br
 	running_color(delta_time,data,speed,brightness);
 }
 //-----------------------------------------------------------------------
-void breath_color3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
+void breath_colors3(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
-	clear(delta_time, data, speed, brightness/3);
-	running_color(delta_time, data, speed, brightness);
+	//цвета меняют друг друга волной
+	static double bc3_k1 = 0; //это количество периодов для первой синусоиды
+	static double bc3_k2 = 0.33; // достаточно запомнить один, другие сдвинуты
+	static double bc3_k3 = 0.66; // достаточно запомнить один, другие сдвинуты
+
+	double s1, s2, s3, sm1, sm2, sm3;
+
+	double temp = delta_time * speed/300; //т.е. при базовой скорости в 100, полная смена происходит за 3 сек
+
+	bc3_k1 += temp;
+	bc3_k2 += temp;
+	bc3_k3 += temp;
+
+	while (bc3_k1>1) bc3_k1--;
+	while (bc3_k2>1) bc3_k2--;
+	while (bc3_k3>1) bc3_k3--;
+	
+	s1 = brightness/3 * sin(2 * M_PI * bc3_k1)+brightness/2;
+	s2 = brightness * sin(2 * M_PI * bc3_k2)+brightness/2;
+	s3 = brightness/2 * sin(2 * M_PI * bc3_k3)+brightness/2;
+
+	if (s1 < 0) s1 = 0;
+	if (s2 < 0) s2 = 0;
+	if (s3 < 0) s3 = 0;
+
+	uint16_t j = 0;
+	for (uint16_t i = 0; i< LEDS_NUMBER*3; i+=3)
+	{
+		j++;
+
+		if (((uint16_t)(s1 + j)/brightness) % 2 == 0)
+		{
+			sm1 = (uint16_t)(s1 + j) % brightness;
+		}
+		else
+		{
+			sm1 = brightness - (uint16_t)(s1 + j) % brightness;
+		}
+
+		if (((uint16_t)(s2 + j)/brightness) % 2 == 0)
+		{
+			sm2 = (uint16_t)(s2 + j) % brightness;
+		}
+		else
+		{
+			sm2 = brightness - (uint16_t)(s2 + j) % brightness;
+		}
+
+		if (((uint16_t)(s3 + j)/brightness) % 2 == 0)
+		{
+			sm3 = (uint16_t)(s3 + j) % brightness;
+		}
+		else
+		{
+			sm3 = brightness - (uint16_t)(s3 + j) % brightness;
+		}
+
+		data[i] = (uint8_t)sm1;
+		data[i+1] = (uint8_t)sm2; 
+		data[i+2] = (uint8_t)sm3; 
+	}
 }

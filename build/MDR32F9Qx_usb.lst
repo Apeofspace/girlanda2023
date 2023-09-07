@@ -3230,12 +3230,12 @@ ARM GAS   			page 1
  2637 08bb 4354524C 	 .ascii "CTRL\000"
  2637      00
  2638              	 .text
- 2639              	 .section .gnu.lto_.profile.c4822a3fcb4cf23d,"e",%progbits
+ 2639              	 .section .gnu.lto_.profile.75fd7105081ad591,"e",%progbits
  2640 0000 789C6362 	 .ascii "x\234cb\000\001\000\000\022\000\003"
  2640      00010000 
  2640      120003
  2641              	 .text
- 2642              	 .section .gnu.lto_.inline.c4822a3fcb4cf23d,"e",%progbits
+ 2642              	 .section .gnu.lto_.inline.75fd7105081ad591,"e",%progbits
  2643 0000 789C85D5 	 .ascii "x\234\205\325KN\302P\024\306\361\303i)\265EDP|\343\003"
  2643      4B4EC250 
 ARM GAS   			page 55
@@ -3319,7 +3319,7 @@ ARM GAS   			page 1
  2658      45FE00CB 
  2658      BEC421
  2659              	 .text
- 2660              	 .section .gnu.lto_.jmpfuncs.c4822a3fcb4cf23d,"e",%progbits
+ 2660              	 .section .gnu.lto_.jmpfuncs.75fd7105081ad591,"e",%progbits
  2661 0000 789C45CE 	 .ascii "x\234E\3165\262\002\001\000\300\320\207\273\273\273"
  2661      35B20201 
  2661      00C0D087 
@@ -3348,7 +3348,7 @@ ARM GAS   			page 1
  2666      03659A07 
  2666      DF
  2667              	 .text
- 2668              	 .section .gnu.lto_.pureconst.c4822a3fcb4cf23d,"e",%progbits
+ 2668              	 .section .gnu.lto_.pureconst.75fd7105081ad591,"e",%progbits
  2669 0000 789C05C1 	 .ascii "x\234\005\301\205\021\002\001\000\300\260\007\212\273"
  2669      85110201 
  2669      00C0B007 
@@ -3384,11 +3384,11 @@ ARM GAS   			page 1
  2675      7F69A52C 
  2675      E2
  2676              	 .text
- 2677              	 .section .gnu.lto_.lto.c4822a3fcb4cf23d,"e",%progbits
+ 2677              	 .section .gnu.lto_.lto.75fd7105081ad591,"e",%progbits
  2678 0000 09000400 	 .ascii "\011\000\004\000\001\000\000\000"
  2678      01000000 
  2679              	 .text
- 2680              	 .section .gnu.lto_USB_BRGInit.56.c4822a3fcb4cf23d,"e",%progbits
+ 2680              	 .section .gnu.lto_USB_BRGInit.56.75fd7105081ad591,"e",%progbits
  2681 0000 789C7D53 	 .ascii "x\234}S_H\223Q\024\277\347\273\337\276M\347\306&>h\364"
  2681      5F489351 
  2681      14BFE7BB 
@@ -3608,7 +3608,7 @@ ARM GAS   			page 1
  2724      1B534D9B 
  2724      0F
  2725              	 .text
- 2726              	 .section .gnu.lto_USB_Reset.57.c4822a3fcb4cf23d,"e",%progbits
+ 2726              	 .section .gnu.lto_USB_Reset.57.75fd7105081ad591,"e",%progbits
  2727 0000 789C6D51 	 .ascii "x\234mQ\315k\023A\024\177o\336n\266 \364(\026<\354\305"
  2727      CD6B1341 
  2727      147F6FDE 
@@ -3754,7 +3754,7 @@ ARM GAS   			page 1
  2755      C11F9BE2 
  2756 0204 78       	 .ascii "x"
  2757              	 .text
- 2758              	 .section .gnu.lto_USB_GetHSCR.58.c4822a3fcb4cf23d,"e",%progbits
+ 2758              	 .section .gnu.lto_USB_GetHSCR.58.75fd7105081ad591,"e",%progbits
  2759 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  2759      C0C05003 
  2759      C46A40CC 
@@ -3846,7 +3846,7 @@ ARM GAS   			page 1
  2776      97
  2777 013a 72C3     	 .ascii "r\303"
  2778              	 .text
- 2779              	 .section .gnu.lto_USB_SetHSCR.59.c4822a3fcb4cf23d,"e",%progbits
+ 2779              	 .section .gnu.lto_USB_SetHSCR.59.75fd7105081ad591,"e",%progbits
  2780 0000 789C7D51 	 .ascii "x\234}Q1l\323@\024\375\317\347\330\016\023#\231\210"
  2780      316CD340 
  2780      14FDCFE7 
@@ -3992,7 +3992,7 @@ ARM GAS   			page 1
  2808      066E7E17 
  2808      9C3AD9DD 
  2809              	 .text
- 2810              	 .section .gnu.lto_USB_GetHSVR.60.c4822a3fcb4cf23d,"e",%progbits
+ 2810              	 .section .gnu.lto_USB_GetHSVR.60.75fd7105081ad591,"e",%progbits
  2811 0000 789C6D91 	 .ascii "x\234m\221\317kSA\020\307gv_\222\032$z\020ioA\250\350"
  2811      CF6B5341 
  2811      10C76776 
@@ -4153,7 +4153,7 @@ ARM GAS   			page 1
  2841      FC0FD734 
  2841      F43B
  2842              	 .text
- 2843              	 .section .gnu.lto_USB_GetHTXC.61.c4822a3fcb4cf23d,"e",%progbits
+ 2843              	 .section .gnu.lto_USB_GetHTXC.61.75fd7105081ad591,"e",%progbits
  2844 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  2844      C0C05003 
  2844      C46A40CC 
@@ -4237,7 +4237,7 @@ ARM GAS   			page 1
  2859      46922E2D 
  2860 0138 8EB772BE 	 .ascii "\216\267r\276"
  2861              	 .text
- 2862              	 .section .gnu.lto_USB_SetHTXC.62.c4822a3fcb4cf23d,"e",%progbits
+ 2862              	 .section .gnu.lto_USB_SetHTXC.62.75fd7105081ad591,"e",%progbits
  2863 0000 789C7D51 	 .ascii "x\234}Q=hSQ\024>\337\273\357/vq\214[\360\007\021\264"
  2863      3D685351 
  2863      143EDFBB 
@@ -4384,7 +4384,7 @@ ARM GAS   			page 1
  2891      0190C9D9 
  2891      04
  2892              	 .text
- 2893              	 .section .gnu.lto_USB_GetHTXT.63.c4822a3fcb4cf23d,"e",%progbits
+ 2893              	 .section .gnu.lto_USB_GetHTXT.63.75fd7105081ad591,"e",%progbits
  2894 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  2894      C0C05003 
  2894      C46A40CC 
@@ -4473,7 +4473,7 @@ ARM GAS   			page 1
  2911      CB
  2912 013a 7307     	 .ascii "s\007"
  2913              	 .text
- 2914              	 .section .gnu.lto_USB_SetHTXT.64.c4822a3fcb4cf23d,"e",%progbits
+ 2914              	 .section .gnu.lto_USB_SetHTXT.64.75fd7105081ad591,"e",%progbits
  2915 0000 789C5D4F 	 .ascii "x\234]O;H\303`\020\276\313_kK\301M\250[\300A\0344R\007"
  2915      3B48C360 
  2915      10BECB5F 
@@ -4578,7 +4578,7 @@ ARM GAS   			page 1
  2935      046232
  2936 0176 8B47     	 .ascii "\213G"
  2937              	 .text
- 2938              	 .section .gnu.lto_USB_GetHTXLC.65.c4822a3fcb4cf23d,"e",%progbits
+ 2938              	 .section .gnu.lto_USB_GetHTXLC.65.75fd7105081ad591,"e",%progbits
  2939 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  2939      C0C05003 
  2939      C46A40CC 
@@ -4666,7 +4666,7 @@ ARM GAS   			page 1
  2956      CC0000
  2957 0138 1D2E7333 	 .ascii "\035.s3"
  2958              	 .text
- 2959              	 .section .gnu.lto_USB_SetHTXLC.66.c4822a3fcb4cf23d,"e",%progbits
+ 2959              	 .section .gnu.lto_USB_SetHTXLC.66.75fd7105081ad591,"e",%progbits
  2960 0000 789C7D51 	 .ascii "x\234}QMh\023A\024~\337N\262\273\361P\274Eo\301\037"
  2960      4D681341 
  2960      147EDF4E 
@@ -4813,7 +4813,7 @@ ARM GAS   			page 1
  2987      FB0B
  2988 0207 761EDA18 	 .ascii "v\036\332\030"
  2989              	 .text
- 2990              	 .section .gnu.lto_USB_GetHTXSE.67.c4822a3fcb4cf23d,"e",%progbits
+ 2990              	 .section .gnu.lto_USB_GetHTXSE.67.75fd7105081ad591,"e",%progbits
  2991 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  2991      C0C05003 
  2991      C46A40CC 
@@ -4901,7 +4901,7 @@ ARM GAS   			page 1
  3008      CC0000
  3009 0138 3BC7733D 	 .ascii ";\307s="
  3010              	 .text
- 3011              	 .section .gnu.lto_USB_SetHTXSE.68.c4822a3fcb4cf23d,"e",%progbits
+ 3011              	 .section .gnu.lto_USB_SetHTXSE.68.75fd7105081ad591,"e",%progbits
  3012 0000 789C7D51 	 .ascii "x\234}Q=l\323@\024~\237/\261\035\226\262\0056\213\037"
  3012      3D6CD340 
  3012      147E9F2F 
@@ -5048,7 +5048,7 @@ ARM GAS   			page 1
  3040      F85EE62F 
  3040      CB7AD98D 
  3041              	 .text
- 3042              	 .section .gnu.lto_USB_GetHTXA.69.c4822a3fcb4cf23d,"e",%progbits
+ 3042              	 .section .gnu.lto_USB_GetHTXA.69.75fd7105081ad591,"e",%progbits
  3043 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3043      C0C05003 
  3043      C46A40CC 
@@ -5137,7 +5137,7 @@ ARM GAS   			page 1
  3060      CC0000
  3061 0138 72247377 	 .ascii "r$sw"
  3062              	 .text
- 3063              	 .section .gnu.lto_USB_SetHTXA.70.c4822a3fcb4cf23d,"e",%progbits
+ 3063              	 .section .gnu.lto_USB_SetHTXA.70.75fd7105081ad591,"e",%progbits
  3064 0000 789C5D4F 	 .ascii "x\234]O=K\303`\020\276\313[k]\034\012\242n\005\007q"
  3064      3D4BC360 
  3064      10BECB5B 
@@ -5244,7 +5244,7 @@ ARM GAS   			page 1
  3084      9FC4DD8A 
  3084      5B
  3085              	 .text
- 3086              	 .section .gnu.lto_USB_GetHTXE.71.c4822a3fcb4cf23d,"e",%progbits
+ 3086              	 .section .gnu.lto_USB_GetHTXE.71.75fd7105081ad591,"e",%progbits
  3087 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3087      C0C05003 
  3087      C46A40CC 
@@ -5332,7 +5332,7 @@ ARM GAS   			page 1
  3104      CC0000
  3105 0138 C7E172E5 	 .ascii "\307\341r\345"
  3106              	 .text
- 3107              	 .section .gnu.lto_USB_SetHTXE.72.c4822a3fcb4cf23d,"e",%progbits
+ 3107              	 .section .gnu.lto_USB_SetHTXE.72.75fd7105081ad591,"e",%progbits
  3108 0000 789C5D4F 	 .ascii "x\234]O\277K\303P\020\276\313k\253.\016\005\005\267"
  3108      BF4BC350 
  3108      10BECB6B 
@@ -5440,7 +5440,7 @@ ARM GAS   			page 1
  3128 0175 00E46E8B 	 .ascii "\000\344n\213\261"
  3128      B1
  3129              	 .text
- 3130              	 .section .gnu.lto_USB_GetHFN.73.c4822a3fcb4cf23d,"e",%progbits
+ 3130              	 .section .gnu.lto_USB_GetHFN.73.75fd7105081ad591,"e",%progbits
  3131 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3131      C0C05003 
  3131      C46A40CC 
@@ -5531,7 +5531,7 @@ ARM GAS   			page 1
  3148      CC00008E 
  3148      5F72B0
  3149              	 .text
- 3150              	 .section .gnu.lto_USB_GetHIS.74.c4822a3fcb4cf23d,"e",%progbits
+ 3150              	 .section .gnu.lto_USB_GetHIS.74.75fd7105081ad591,"e",%progbits
  3151 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3151      C0C05003 
  3151      C46A40CC 
@@ -5619,7 +5619,7 @@ ARM GAS   			page 1
  3168      CC0000
  3169 0138 04F97318 	 .ascii "\004\371s\030"
  3170              	 .text
- 3171              	 .section .gnu.lto_USB_SetHIS.75.c4822a3fcb4cf23d,"e",%progbits
+ 3171              	 .section .gnu.lto_USB_SetHIS.75.75fd7105081ad591,"e",%progbits
  3172 0000 789C7D51 	 .ascii "x\234}Q\317k\023A\024~\337\316fw\343I(\004z[\374\201"
  3172      CF6B1341 
  3172      147EDFCE 
@@ -5766,7 +5766,7 @@ ARM GAS   			page 1
  3200      FD055F5E 
  3200      DA37
  3201              	 .text
- 3202              	 .section .gnu.lto_USB_GetHIM.76.c4822a3fcb4cf23d,"e",%progbits
+ 3202              	 .section .gnu.lto_USB_GetHIM.76.75fd7105081ad591,"e",%progbits
  3203 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3203      C0C05003 
  3203      C46A40CC 
@@ -5854,7 +5854,7 @@ ARM GAS   			page 1
  3220      CC0000
  3221 0138 F4027305 	 .ascii "\364\002s\005"
  3222              	 .text
- 3223              	 .section .gnu.lto_USB_SetHIM.77.c4822a3fcb4cf23d,"e",%progbits
+ 3223              	 .section .gnu.lto_USB_SetHIM.77.75fd7105081ad591,"e",%progbits
  3224 0000 789C7D51 	 .ascii "x\234}Q=LSQ\024>\337\273}?ur)\011[\343O\214\203<\002"
  3224      3D4C5351 
  3224      143EDFBB 
@@ -6002,7 +6002,7 @@ ARM GAS   			page 1
 
 
  3254              	 .text
- 3255              	 .section .gnu.lto_USB_GetHRXS.78.c4822a3fcb4cf23d,"e",%progbits
+ 3255              	 .section .gnu.lto_USB_GetHRXS.78.75fd7105081ad591,"e",%progbits
  3256 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3256      C0C05003 
  3256      C46A40CC 
@@ -6090,7 +6090,7 @@ ARM GAS   			page 1
  3273      CC00003A 
  3273      8E734F
  3274              	 .text
- 3275              	 .section .gnu.lto_USB_GetHRXP.79.c4822a3fcb4cf23d,"e",%progbits
+ 3275              	 .section .gnu.lto_USB_GetHRXP.79.75fd7105081ad591,"e",%progbits
  3276 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3276      C0C05003 
  3276      C46A40CC 
@@ -6181,7 +6181,7 @@ ARM GAS   			page 1
 ARM GAS   			page 104
 
 
- 3295              	 .section .gnu.lto_USB_GetHRXA.80.c4822a3fcb4cf23d,"e",%progbits
+ 3295              	 .section .gnu.lto_USB_GetHRXA.80.75fd7105081ad591,"e",%progbits
  3296 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3296      C0C05003 
  3296      C46A40CC 
@@ -6269,7 +6269,7 @@ ARM GAS   			page 1
  3313      CC00005F 
  3313      AA7371
  3314              	 .text
- 3315              	 .section .gnu.lto_USB_GetHRXE.81.c4822a3fcb4cf23d,"e",%progbits
+ 3315              	 .section .gnu.lto_USB_GetHRXE.81.75fd7105081ad591,"e",%progbits
  3316 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3316      C0C05003 
  3316      C46A40CC 
@@ -6353,7 +6353,7 @@ ARM GAS   			page 1
  3331      46922E2D 
  3332 0138 FD54731C 	 .ascii "\375Ts\034"
  3333              	 .text
- 3334              	 .section .gnu.lto_USB_GetHRXCS.82.c4822a3fcb4cf23d,"e",%progbits
+ 3334              	 .section .gnu.lto_USB_GetHRXCS.82.75fd7105081ad591,"e",%progbits
  3335 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3335      C0C05003 
  3335      C46A40CC 
@@ -6446,7 +6446,7 @@ ARM GAS   			page 1
  3352      89
  3353 013a 7327     	 .ascii "s'"
  3354              	 .text
- 3355              	 .section .gnu.lto_USB_GetHSTM.83.c4822a3fcb4cf23d,"e",%progbits
+ 3355              	 .section .gnu.lto_USB_GetHSTM.83.75fd7105081ad591,"e",%progbits
  3356 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3356      C0C05003 
  3356      C46A40CC 
@@ -6535,7 +6535,7 @@ ARM GAS   			page 1
  3373      14
  3374 013a 738F     	 .ascii "s\217"
  3375              	 .text
- 3376              	 .section .gnu.lto_USB_GetHRXFD.84.c4822a3fcb4cf23d,"e",%progbits
+ 3376              	 .section .gnu.lto_USB_GetHRXFD.84.75fd7105081ad591,"e",%progbits
  3377 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3377      C0C05003 
 ARM GAS   			page 110
@@ -6627,7 +6627,7 @@ ARM GAS   			page 1
  3394      CC0000
  3395 0138 C1A473C8 	 .ascii "\301\244s\310"
  3396              	 .text
- 3397              	 .section .gnu.lto_USB_GetHRXFDC.85.c4822a3fcb4cf23d,"e",%progbits
+ 3397              	 .section .gnu.lto_USB_GetHRXFDC.85.75fd7105081ad591,"e",%progbits
  3398 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3398      C0C05003 
  3398      C46A40CC 
@@ -6716,7 +6716,7 @@ ARM GAS   			page 1
  3415      1A
  3416 013a 7316     	 .ascii "s\026"
  3417              	 .text
- 3418              	 .section .gnu.lto_USB_GetHRXFC.86.c4822a3fcb4cf23d,"e",%progbits
+ 3418              	 .section .gnu.lto_USB_GetHRXFC.86.75fd7105081ad591,"e",%progbits
  3419 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
 ARM GAS   			page 113
 
@@ -6807,7 +6807,7 @@ ARM GAS   			page 1
  3436      CC0000
  3437 0138 7EA5737E 	 .ascii "~\245s~"
  3438              	 .text
- 3439              	 .section .gnu.lto_USB_SetHRXFC.87.c4822a3fcb4cf23d,"e",%progbits
+ 3439              	 .section .gnu.lto_USB_SetHRXFC.87.75fd7105081ad591,"e",%progbits
  3440 0000 789C5D4F 	 .ascii "x\234]O\277K\303P\020\276\313\253\265]\234D(]\002\016"
  3440      BF4BC350 
  3440      10BECBAB 
@@ -6913,7 +6913,7 @@ ARM GAS   			page 1
  3460      F00D321F 
  3460      8BD8
  3461              	 .text
- 3462              	 .section .gnu.lto_USB_GetHTXFD.88.c4822a3fcb4cf23d,"e",%progbits
+ 3462              	 .section .gnu.lto_USB_GetHTXFD.88.75fd7105081ad591,"e",%progbits
  3463 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3463      C0C05003 
  3463      C46A40CC 
@@ -7001,7 +7001,7 @@ ARM GAS   			page 1
  3480      CC0000
  3481 0138 BF3573AF 	 .ascii "\2775s\257"
  3482              	 .text
- 3483              	 .section .gnu.lto_USB_SetHTXFD.89.c4822a3fcb4cf23d,"e",%progbits
+ 3483              	 .section .gnu.lto_USB_SetHTXFD.89.75fd7105081ad591,"e",%progbits
  3484 0000 789C5D4F 	 .ascii "x\234]O=K\303`\020\276\313[\253]\234D\350\"\001\007"
  3484      3D4BC360 
  3484      10BECB5B 
@@ -7109,7 +7109,7 @@ ARM GAS   			page 1
  3505      F00DE286 
  3505      8B79
  3506              	 .text
- 3507              	 .section .gnu.lto_USB_GetHTXFC.90.c4822a3fcb4cf23d,"e",%progbits
+ 3507              	 .section .gnu.lto_USB_GetHTXFC.90.75fd7105081ad591,"e",%progbits
  3508 0000 789CBBCE 	 .ascii "x\234\273\316\300\300P\003\304j@\314\310\314\3008ib"
  3508      C0C05003 
  3508      C46A40CC 
@@ -7197,7 +7197,7 @@ ARM GAS   			page 1
  3525      CC0000
  3526 0138 05C173F9 	 .ascii "\005\301s\371"
  3527              	 .text
- 3528              	 .section .gnu.lto_USB_SetHTXFC.91.c4822a3fcb4cf23d,"e",%progbits
+ 3528              	 .section .gnu.lto_USB_SetHTXFC.91.75fd7105081ad591,"e",%progbits
 ARM GAS   			page 121
 
 
@@ -7304,7 +7304,7 @@ ARM GAS   			page 1
  3549      27B6D28B 
  3549      39
  3550              	 .text
- 3551              	 .section .gnu.lto_USB_GetSEPxCTRL.92.c4822a3fcb4cf23d,"e",%progbits
+ 3551              	 .section .gnu.lto_USB_GetSEPxCTRL.92.75fd7105081ad591,"e",%progbits
  3552 0000 789C5D8F 	 .ascii "x\234]\217\275O\024a\020\306\347\331\271\343\243\261"
  3552      BD4F1461 
  3552      10C6E7D9 
@@ -7425,7 +7425,7 @@ ARM GAS   			page 1
  3575      6317E90F 
  3576 01b1 E9E4A15E 	 .ascii "\351\344\241^"
  3577              	 .text
- 3578              	 .section .gnu.lto_USB_SetSEPxCTRL.93.c4822a3fcb4cf23d,"e",%progbits
+ 3578              	 .section .gnu.lto_USB_SetSEPxCTRL.93.75fd7105081ad591,"e",%progbits
  3579 0000 789C8552 	 .ascii "x\234\205R\277O\024Q\020\236o\337\335\336\355I\210\221"
  3579      BF4F1451 
  3579      109E6FDF 
@@ -7597,7 +7597,7 @@ ARM GAS   			page 1
  3613 0259 709DDE3F 	 .ascii "p\235\336?\001O\006\377"
  3613      014F06FF 
  3614              	 .text
- 3615              	 .section .gnu.lto_USB_GetSEPxSTS.94.c4822a3fcb4cf23d,"e",%progbits
+ 3615              	 .section .gnu.lto_USB_GetSEPxSTS.94.75fd7105081ad591,"e",%progbits
  3616 0000 789C5D8F 	 .ascii "x\234]\217\315k\023a\020\306\347\331I\322\006\304\203"
  3616      CD6B1361 
  3616      10C6E7D9 
@@ -7724,7 +7724,7 @@ ARM GAS   			page 1
  3640      1F58D4A2 
  3640      2D
  3641              	 .text
- 3642              	 .section .gnu.lto_USB_GetSEPxTS.95.c4822a3fcb4cf23d,"e",%progbits
+ 3642              	 .section .gnu.lto_USB_GetSEPxTS.95.75fd7105081ad591,"e",%progbits
  3643 0000 789C5D8F 	 .ascii "x\234]\217\315k\023a\020\306\347\331I\322\006\304\203"
  3643      CD6B1361 
  3643      10C6E7D9 
@@ -7849,7 +7849,7 @@ ARM GAS   			page 1
  3667      75FA0310 
  3667      23A141
  3668              	 .text
- 3669              	 .section .gnu.lto_USB_GetSEPxNTS.96.c4822a3fcb4cf23d,"e",%progbits
+ 3669              	 .section .gnu.lto_USB_GetSEPxNTS.96.75fd7105081ad591,"e",%progbits
  3670 0000 789C5D8F 	 .ascii "x\234]\217?hSq\020\307\357\373.I\033\020\007\301\301"
  3670      3F685371 
  3670      10C7EFFB 
@@ -7970,7 +7970,7 @@ ARM GAS   			page 1
  3693      70ABF407 
  3693      389FA175 
  3694              	 .text
- 3695              	 .section .gnu.lto_USB_GetSC.97.c4822a3fcb4cf23d,"e",%progbits
+ 3695              	 .section .gnu.lto_USB_GetSC.97.75fd7105081ad591,"e",%progbits
  3696 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3696      C0C05003 
  3696      C46A40CC 
@@ -8063,7 +8063,7 @@ ARM GAS   			page 1
  3714      0600AAEB 
  3714      744B
  3715              	 .text
- 3716              	 .section .gnu.lto_USB_SetSC.98.c4822a3fcb4cf23d,"e",%progbits
+ 3716              	 .section .gnu.lto_USB_SetSC.98.75fd7105081ad591,"e",%progbits
  3717 0000 789C7D51 	 .ascii "x\234}Q=hSQ\024>\337\273y?\021\021\263\351\026\024\261"
  3717      3D685351 
  3717      143EDFBB 
@@ -8208,7 +8208,7 @@ ARM GAS   			page 1
  3745      69DB
  3746 0209 BF       	 .ascii "\277"
  3747              	 .text
- 3748              	 .section .gnu.lto_USB_GetSLS.99.c4822a3fcb4cf23d,"e",%progbits
+ 3748              	 .section .gnu.lto_USB_GetSLS.99.75fd7105081ad591,"e",%progbits
  3749 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3749      C0C05003 
  3749      C46A40CC 
@@ -8301,7 +8301,7 @@ ARM GAS   			page 1
  3767      06008C8F 
  3767      7424
  3768              	 .text
- 3769              	 .section .gnu.lto_USB_GetSIS.100.c4822a3fcb4cf23d,"e",%progbits
+ 3769              	 .section .gnu.lto_USB_GetSIS.100.75fd7105081ad591,"e",%progbits
  3770 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3770      C0C05003 
  3770      C46A40CC 
@@ -8392,7 +8392,7 @@ ARM GAS   			page 1
  3787      00246474 
  3787      AC
  3788              	 .text
- 3789              	 .section .gnu.lto_USB_SetSIS.101.c4822a3fcb4cf23d,"e",%progbits
+ 3789              	 .section .gnu.lto_USB_SetSIS.101.75fd7105081ad591,"e",%progbits
  3790 0000 789C5D4F 	 .ascii "x\234]O\275K\303P\020\277\313kk\013\"8\010\272\005\034"
  3790      BD4BC350 
  3790      10BFCB6B 
@@ -8500,7 +8500,7 @@ ARM GAS   			page 1
  3810      015F0D7E 
  3810      8C67
  3811              	 .text
- 3812              	 .section .gnu.lto_USB_GetSIM.102.c4822a3fcb4cf23d,"e",%progbits
+ 3812              	 .section .gnu.lto_USB_GetSIM.102.75fd7105081ad591,"e",%progbits
  3813 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3813      C0C05003 
  3813      C46A40CC 
@@ -8593,7 +8593,7 @@ ARM GAS   			page 1
  3830      003F1674 
  3830      C4
  3831              	 .text
- 3832              	 .section .gnu.lto_USB_SetSIM.103.c4822a3fcb4cf23d,"e",%progbits
+ 3832              	 .section .gnu.lto_USB_SetSIM.103.75fd7105081ad591,"e",%progbits
  3833 0000 789C7D51 	 .ascii "x\234}QAk\023A\024~\337N\262\273\021\224\034\365\026"
  3833      416B1341 
  3833      147EDF4E 
@@ -8740,7 +8740,7 @@ ARM GAS   			page 1
  3862 0201 7B6EFA2F 	 .ascii "{n\372/4\004\333\262"
  3862      3404DBB2 
  3863              	 .text
- 3864              	 .section .gnu.lto_USB_GetSA.104.c4822a3fcb4cf23d,"e",%progbits
+ 3864              	 .section .gnu.lto_USB_GetSA.104.75fd7105081ad591,"e",%progbits
  3865 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3865      C0C05003 
  3865      C46A40CC 
@@ -8832,7 +8832,7 @@ ARM GAS   			page 1
  3882      7AC90C00 
  3882      D97A745D 
  3883              	 .text
- 3884              	 .section .gnu.lto_USB_SetSA.105.c4822a3fcb4cf23d,"e",%progbits
+ 3884              	 .section .gnu.lto_USB_SetSA.105.75fd7105081ad591,"e",%progbits
  3885 0000 789C5D4F 	 .ascii "x\234]O=H\303P\020\276\313kk;(\016\016\272\025\034\324"
  3885      3D48C350 
  3885      10BECB6B 
@@ -8941,7 +8941,7 @@ ARM GAS   			page 1
 ARM GAS   			page 150
 
 
- 3908              	 .section .gnu.lto_USB_GetSFN.106.c4822a3fcb4cf23d,"e",%progbits
+ 3908              	 .section .gnu.lto_USB_GetSFN.106.75fd7105081ad591,"e",%progbits
  3909 0000 789CBBC5 	 .ascii "x\234\273\305\300\300P\003\304j@\314\310\314\3008ib"
  3909      C0C05003 
  3909      C46A40CC 
@@ -9030,7 +9030,7 @@ ARM GAS   			page 1
  3927      640600AC 
  3927      BC7435
  3928              	 .text
- 3929              	 .section .gnu.lto_USB_GetSEPxRXFD.107.c4822a3fcb4cf23d,"e",%progbits
+ 3929              	 .section .gnu.lto_USB_GetSEPxRXFD.107.75fd7105081ad591,"e",%progbits
  3930 0000 789C5D8F 	 .ascii "x\234]\217?L\023q\024\307\337\367^)t\320\2708\260\335"
  3930      3F4C1371 
  3930      14C7DFF7 
@@ -9153,7 +9153,7 @@ ARM GAS   			page 1
  3953      0CA8DBA3 
  3953      28
  3954              	 .text
- 3955              	 .section .gnu.lto_USB_GetSEPxRXFDC.108.c4822a3fcb4cf23d,"e",%progbits
+ 3955              	 .section .gnu.lto_USB_GetSEPxRXFDC.108.75fd7105081ad591,"e",%progbits
  3956 0000 789C5D8F 	 .ascii "x\234]\2171L\023a\024\307\337\377^)t@'\007\267\033\010"
  3956      314C1361 
  3956      14C7DFFF 
@@ -9278,7 +9278,7 @@ ARM GAS   			page 1
  3980      6339BB4C 
  3981 01b0 A693A309 	 .ascii "\246\223\243\011"
  3982              	 .text
- 3983              	 .section .gnu.lto_USB_GetSEPxRXFC.109.c4822a3fcb4cf23d,"e",%progbits
+ 3983              	 .section .gnu.lto_USB_GetSEPxRXFC.109.75fd7105081ad591,"e",%progbits
  3984 0000 789C5D8F 	 .ascii "x\234]\217?h\023q\024\307\337\367^\2326\203:9\270\335"
  3984      3F681371 
  3984      14C7DFF7 
@@ -9402,7 +9402,7 @@ ARM GAS   			page 1
  4007      39A3
  4008 01b7 33       	 .ascii "3"
  4009              	 .text
- 4010              	 .section .gnu.lto_USB_SetSEPxRXFC.110.c4822a3fcb4cf23d,"e",%progbits
+ 4010              	 .section .gnu.lto_USB_SetSEPxRXFC.110.75fd7105081ad591,"e",%progbits
  4011 0000 789C5D50 	 .ascii "x\234]PMh\023Q\020\236og\223&\202\355U\017B\300\203"
  4011      4D681351 
  4011      109E6F67 
@@ -9531,7 +9531,7 @@ ARM GAS   			page 1
  4035      36ECBF4B 
  4035      84B22A
  4036              	 .text
- 4037              	 .section .gnu.lto_USB_GetSEPxTXFD.111.c4822a3fcb4cf23d,"e",%progbits
+ 4037              	 .section .gnu.lto_USB_GetSEPxTXFD.111.75fd7105081ad591,"e",%progbits
  4038 0000 789C5D8F 	 .ascii "x\234]\217?h\023q\024\307\337\367^\2326\203:9\270\335"
  4038      3F681371 
  4038      14C7DFF7 
@@ -9654,7 +9654,7 @@ ARM GAS   			page 1
  4061      5D7DDEA3 
  4062 01b7 0A       	 .ascii "\012"
  4063              	 .text
- 4064              	 .section .gnu.lto_USB_SetSEPxTXFD.112.c4822a3fcb4cf23d,"e",%progbits
+ 4064              	 .section .gnu.lto_USB_SetSEPxTXFD.112.75fd7105081ad591,"e",%progbits
  4065 0000 789C5D50 	 .ascii "x\234]PMh\023Q\020\236og\323$\036\366\254\007!\340A"
  4065      4D681351 
  4065      109E6F67 
@@ -9788,7 +9788,7 @@ ARM GAS   			page 1
  4089      FE02D2
  4090 01d3 1FB1F4   	 .ascii "\037\261\364"
  4091              	 .text
- 4092              	 .section .gnu.lto_USB_GetSEPxTXFDC.113.c4822a3fcb4cf23d,"e",%progbits
+ 4092              	 .section .gnu.lto_USB_GetSEPxTXFDC.113.75fd7105081ad591,"e",%progbits
  4093 0000 789C5D8F 	 .ascii "x\234]\217?L\023q\024\307\337\367^i\351\322\315\201"
  4093      3F4C1371 
  4093      14C7DFF7 
@@ -9912,7 +9912,7 @@ ARM GAS   			page 1
  4117      D845FA0D 
  4117      D46CA2A7 
  4118              	 .text
- 4119              	 .section .gnu.lto_USB_SetSEPxTXFDC.114.c4822a3fcb4cf23d,"e",%progbits
+ 4119              	 .section .gnu.lto_USB_SetSEPxTXFDC.114.75fd7105081ad591,"e",%progbits
  4120 0000 789C5D50 	 .ascii "x\234]PMh\023Q\020\236og\323$\036\366\254\007!\340A"
  4120      4D681351 
  4120      109E6F67 
@@ -10042,7 +10042,7 @@ ARM GAS   			page 1
  4145      024CCF
  4146 01d3 B1C0     	 .ascii "\261\300"
  4147              	 .text
- 4148              	 .section .gnu.lto_USB_SEPxToggleEPDATASEQ.115.c4822a3fcb4cf23d,"e",%progbits
+ 4148              	 .section .gnu.lto_USB_SEPxToggleEPDATASEQ.115.75fd7105081ad591,"e",%progbits
  4149 0000 789C6D91 	 .ascii "x\234m\221\313kSA\024\306\347\273'O\245Y\212\202`@|"
  4149      CB6B5341 
  4149      14C6E7BB 
@@ -10191,7 +10191,7 @@ ARM GAS   			page 1
  4178      6A1FE5
  4179 0223 4A       	 .ascii "J"
  4180              	 .text
- 4181              	 .section .gnu.lto_.symbol_nodes.c4822a3fcb4cf23d,"e",%progbits
+ 4181              	 .section .gnu.lto_.symbol_nodes.75fd7105081ad591,"e",%progbits
  4182 0000 789C75D5 	 .ascii "x\234u\325K7\024\000\000\305\361\377<\314x\023yU^\011"
  4182      4B371400 
  4182      00C5F1FF 
@@ -10286,12 +10286,12 @@ ARM GAS   			page 1
  4199      FF7132AA 
  4199      DE
  4200              	 .text
- 4201              	 .section .gnu.lto_.refs.c4822a3fcb4cf23d,"e",%progbits
+ 4201              	 .section .gnu.lto_.refs.75fd7105081ad591,"e",%progbits
  4202 0000 789C6364 	 .ascii "x\234cd\000\002\000\000\012\000\002"
  4202      00020000 
  4202      0A0002
  4203              	 .text
- 4204              	 .section .gnu.lto_.decls.c4822a3fcb4cf23d,"e",%progbits
+ 4204              	 .section .gnu.lto_.decls.75fd7105081ad591,"e",%progbits
  4205 0000 789CC598 	 .ascii "x\234\305\230kT\025W\226\307k\327)\344r\001A\301W\347"
  4205      6B541557 
  4205      96C76BD7 
@@ -11829,7 +11829,7 @@ ARM GAS   			page 1
  4512 156a F1DCFE1F 	 .ascii "\361\334\376\037\267:\321\332"
  4512      B73AD1DA 
  4513              	 .text
- 4514              	 .section .gnu.lto_.symtab.c4822a3fcb4cf23d,"e",%progbits
+ 4514              	 .section .gnu.lto_.symtab.75fd7105081ad591,"e",%progbits
  4515 0000 5553425F 	 .ascii "USB_BRGInit\000"
  4515      42524749 
  4515      6E697400 
@@ -12432,7 +12432,7 @@ ARM GAS   			page 1
  4873      00000000 
  4874 0688 57010000 	 .ascii "W\001\000\000"
  4875              	 .text
- 4876              	 .section .gnu.lto_.ext_symtab.c4822a3fcb4cf23d,"e",%progbits
+ 4876              	 .section .gnu.lto_.ext_symtab.75fd7105081ad591,"e",%progbits
  4877 0000 01       	 .ascii "\001"
  4878 0001 01       	 .ascii "\001"
  4879 0002 00       	 .ascii "\000"

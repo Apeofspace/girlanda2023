@@ -97,8 +97,8 @@ void init_SPI(){
 	GPIOInitStruct.PORT_SPEED     = PORT_SPEED_MAXFAST;
 	GPIOInitStruct.PORT_MODE      = PORT_MODE_DIGITAL;	
 	GPIOInitStruct.PORT_FUNC  = PORT_FUNC_ALTER;
-  GPIOInitStruct.PORT_Pin   = (SPI2_CLK | SPI2_TXD);
-  PORT_Init (SPI2_PORT, &GPIOInitStruct);
+	GPIOInitStruct.PORT_Pin   = (SPI2_CLK | SPI2_TXD);
+	PORT_Init (SPI2_PORT, &GPIOInitStruct);
 	 
 	//инициализация SSI
 	SSP_DeInit(MDR_SSP2);
