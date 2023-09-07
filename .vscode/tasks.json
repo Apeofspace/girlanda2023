@@ -1,0 +1,55 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Make Build",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"all",
+				"-j4"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Make Clean",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"clean"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+            "problemMatcher": []
+		},
+		{
+			"label": "flash-jlink-K1986BE92QI",
+			"type": "shell",
+			"command": "JLinkExe",
+			"args": [
+				"-Device",
+				"K1986BE92QI",
+				"-If",
+				"JTAG",
+				"-Speed",
+				"1000",
+				"-JTAGConf",
+				"-1,-1",
+				"JLink/FlashMCU.jlink"
+			],
+			"options": {
+				"cwd": "${workspaceRoot}",
+			}, 
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		}
+	]
+}
