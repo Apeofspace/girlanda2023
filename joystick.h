@@ -2,7 +2,7 @@
 #include "MDR32F9Qx_rst_clk.h"          // Keil::Drivers:RST_CLK
 
 
-/* "Коды клавиш" */
+/* "РљРѕРґС‹ РєР»Р°РІРёС€" */
 typedef enum {
     NOKEY      = 0,
     SEL        = 1,
@@ -16,7 +16,7 @@ typedef enum {
 
 void init_joystick(void);
 
-/* Определение "кода" по нажатым кнопкам */
+/* РћРїСЂРµРґРµР»РµРЅРёРµ "РєРѕРґР°" РїРѕ РЅР°Р¶Р°С‚С‹Рј РєРЅРѕРїРєР°Рј */
 KeyCode joystick_get_key(void);
 
 #define KEY_PRESSED(x)              (GetKey() == x)

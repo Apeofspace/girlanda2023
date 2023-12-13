@@ -7,7 +7,7 @@ alg_functions_t alg_functions;
 
 
 void convert_array(uint8_t* arr, uint8_t* result)
-	/*Превращает массив из 300 элементов в массив из 2400 элементов чтобы можно было кидать на SPI*/
+	/*РџСЂРµРІСЂР°С‰Р°РµС‚ РјР°СЃСЃРёРІ РёР· 300 СЌР»РµРјРµРЅС‚РѕРІ РІ РјР°СЃСЃРёРІ РёР· 2400 СЌР»РµРјРµРЅС‚РѕРІ С‡С‚РѕР±С‹ РјРѕР¶РЅРѕ Р±С‹Р»Рѕ РєРёРґР°С‚СЊ РЅР° SPI*/
 {
 	uint16_t i = 0;
 	int j = 0;
@@ -35,7 +35,7 @@ void clear_leds()
 }
 
 void update_leds()
-	/*Отправить массив на диодную ленту*/
+	/*РћС‚РїСЂР°РІРёС‚СЊ РјР°СЃСЃРёРІ РЅР° РґРёРѕРґРЅСѓСЋ Р»РµРЅС‚Сѓ*/
 {
 	for (uint32_t i = 0; i < LEDS_NUMBER*24; i++)
 	{
@@ -51,7 +51,7 @@ void reset_time()
 
 double get_delta_time()
 {	
-	/*Возвращает время в секундах, прошедшее от предыдущего вызова этой функции*/
+	/*Р’РѕР·РІСЂР°С‰Р°РµС‚ РІСЂРµРјСЏ РІ СЃРµРєСѓРЅРґР°С…, РїСЂРѕС€РµРґС€РµРµ РѕС‚ РїСЂРµРґС‹РґСѓС‰РµРіРѕ РІС‹Р·РѕРІР° СЌС‚РѕР№ С„СѓРЅРєС†РёРё*/
 	static double old_time = 0;
 	double new_time;
 	double delta_time;
@@ -66,7 +66,7 @@ double get_delta_time()
 
 void register_alg(void alg(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness))
 {
-	/*Добавляет указатель функции в массив указателей*/
+	/*Р”РѕР±Р°РІР»СЏРµС‚ СѓРєР°Р·Р°С‚РµР»СЊ С„СѓРЅРєС†РёРё РІ РјР°СЃСЃРёРІ СѓРєР°Р·Р°С‚РµР»РµР№*/
 	alg_functions.funcs[alg_functions.total_registered] = alg;
 	alg_functions.total_registered++;
 }

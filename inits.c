@@ -1,22 +1,22 @@
 #include "main.h"
 
 void init_CPU(){
-	MDR_RST_CLK->HS_CONTROL=RST_CLK_HSE_ON; //Вкл. HSE
-	while((MDR_RST_CLK->CLOCK_STATUS&RST_CLK_CLOCK_STATUS_HSE_RDY )!=RST_CLK_CLOCK_STATUS_HSE_RDY );		//Ждём HSE
-	MDR_RST_CLK->CPU_CLOCK=0x00000102; //Предварительно меняем мультиплексор c2 на CPU_C1
-	MDR_RST_CLK->PLL_CONTROL = ((1 << 2) | (9 << 8));//вкл. PLL  | коэф. умножения = 9+1
-	while ((MDR_RST_CLK->CLOCK_STATUS & RST_CLK_CLOCK_STATUS_PLL_CPU_RDY) != RST_CLK_CLOCK_STATUS_PLL_CPU_RDY);// Ждём PLL_CPU
-	MDR_RST_CLK->CPU_CLOCK=0x00000106; // меняем мультиплексор с2 на PLLCPU
+	MDR_RST_CLK->HS_CONTROL=RST_CLK_HSE_ON; //Р’РєР». HSE
+	while((MDR_RST_CLK->CLOCK_STATUS&RST_CLK_CLOCK_STATUS_HSE_RDY )!=RST_CLK_CLOCK_STATUS_HSE_RDY );		//Р–РґС‘Рј HSE
+	MDR_RST_CLK->CPU_CLOCK=0x00000102; //РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕ РјРµРЅСЏРµРј РјСѓР»СЊС‚РёРїР»РµРєСЃРѕСЂ c2 РЅР° CPU_C1
+	MDR_RST_CLK->PLL_CONTROL = ((1 << 2) | (9 << 8));//РІРєР». PLL  | РєРѕСЌС„. СѓРјРЅРѕР¶РµРЅРёСЏ = 9+1
+	while ((MDR_RST_CLK->CLOCK_STATUS & RST_CLK_CLOCK_STATUS_PLL_CPU_RDY) != RST_CLK_CLOCK_STATUS_PLL_CPU_RDY);// Р–РґС‘Рј PLL_CPU
+	MDR_RST_CLK->CPU_CLOCK=0x00000106; // РјРµРЅСЏРµРј РјСѓР»СЊС‚РёРїР»РµРєСЃРѕСЂ СЃ2 РЅР° PLLCPU
 }
 
 
 void init_TIMER1(){
-	/*Таймер для подсчёта реального времени*/
-	/*Тактирование таймеров*/
+	/*РўР°Р№РјРµСЂ РґР»СЏ РїРѕРґСЃС‡С‘С‚Р° СЂРµР°Р»СЊРЅРѕРіРѕ РІСЂРµРјРµРЅРё*/
+	/*РўР°РєС‚РёСЂРѕРІР°РЅРёРµ С‚Р°Р№РјРµСЂРѕРІ*/
 	MDR_RST_CLK->PER_CLOCK |= RST_CLK_PCLK_TIMER1;
 	MDR_RST_CLK->TIM_CLOCK |= RST_CLK_TIM_CLOCK_TIM1_CLK_EN;
 	
-	/*Обнуление*/
+	/*РћР±РЅСѓР»РµРЅРёРµ*/
 	MDR_TIMER1->CH1_CNTRL = 0x00000000;
 	MDR_TIMER1->CH2_CNTRL = 0x00000000;
 	MDR_TIMER1->CH3_CNTRL = 0x00000000;
@@ -30,28 +30,28 @@ void init_TIMER1(){
 	MDR_TIMER1->CH3_CNTRL2 = 0x00000000;
 	MDR_TIMER1->CH4_CNTRL2 = 0x00000000;	
 	MDR_TIMER1->STATUS = 0x00000000;
-	MDR_TIMER1->CNTRL = 0x00000000; // режим инициализации таймера
-	MDR_TIMER1->CNT = 0x00000000; // Начальное значение счетчика	
+	MDR_TIMER1->CNTRL = 0x00000000; // СЂРµР¶РёРј РёРЅРёС†РёР°Р»РёР·Р°С†РёРё С‚Р°Р№РјРµСЂР°
+	MDR_TIMER1->CNT = 0x00000000; // РќР°С‡Р°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‡РµС‚С‡РёРєР°	
 
-	/*Настройки таймера*/
-	MDR_TIMER1->PSG = 1599; // Предделитель частоты
-	MDR_TIMER1->ARR = 49999; // Основание счета (16 бит)
-	// частота 1 Гц. Каждая секунда делится на 50000 значений
-	MDR_TIMER1->CNTRL = TIMER_CNTRL_ARRB_EN | (0 << TIMER_CNTRL_CNT_MODE_Pos); //вверх, буферизация включена
+	/*РќР°СЃС‚СЂРѕР№РєРё С‚Р°Р№РјРµСЂР°*/
+	MDR_TIMER1->PSG = 1599; // РџСЂРµРґРґРµР»РёС‚РµР»СЊ С‡Р°СЃС‚РѕС‚С‹
+	MDR_TIMER1->ARR = 49999; // РћСЃРЅРѕРІР°РЅРёРµ СЃС‡РµС‚Р° (16 Р±РёС‚)
+	// С‡Р°СЃС‚РѕС‚Р° 1 Р“С†. РљР°Р¶РґР°СЏ СЃРµРєСѓРЅРґР° РґРµР»РёС‚СЃСЏ РЅР° 50000 Р·РЅР°С‡РµРЅРёР№
+	MDR_TIMER1->CNTRL = TIMER_CNTRL_ARRB_EN | (0 << TIMER_CNTRL_CNT_MODE_Pos); //РІРІРµСЂС…, Р±СѓС„РµСЂРёР·Р°С†РёСЏ РІРєР»СЋС‡РµРЅР°
 	
-	/*Разрешения работы*/
-	MDR_TIMER1->IE = TIMER_IE_CNT_ARR_EVENT_IE;		//прерывание по cnt=arr
-	NVIC_EnableIRQ(Timer1_IRQn); //разрешить прерывания таймера	
-	MDR_TIMER1->CNTRL |= TIMER_CNTRL_CNT_EN; //включить таймер.	
+	/*Р Р°Р·СЂРµС€РµРЅРёСЏ СЂР°Р±РѕС‚С‹*/
+	MDR_TIMER1->IE = TIMER_IE_CNT_ARR_EVENT_IE;		//РїСЂРµСЂС‹РІР°РЅРёРµ РїРѕ cnt=arr
+	NVIC_EnableIRQ(Timer1_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°	
+	MDR_TIMER1->CNTRL |= TIMER_CNTRL_CNT_EN; //РІРєР»СЋС‡РёС‚СЊ С‚Р°Р№РјРµСЂ.	
 }
 
 void init_TIMER2(){
-	/*Таймер для прерываний*/
-	/*Тактирование таймеров*/
+	/*РўР°Р№РјРµСЂ РґР»СЏ РїСЂРµСЂС‹РІР°РЅРёР№*/
+	/*РўР°РєС‚РёСЂРѕРІР°РЅРёРµ С‚Р°Р№РјРµСЂРѕРІ*/
 	MDR_RST_CLK->PER_CLOCK |= RST_CLK_PCLK_TIMER2;
 	MDR_RST_CLK->TIM_CLOCK |= RST_CLK_TIM_CLOCK_TIM2_CLK_EN;
 	
-	/*Обнуление*/
+	/*РћР±РЅСѓР»РµРЅРёРµ*/
 	MDR_TIMER2->CH1_CNTRL = 0x00000000;
 	MDR_TIMER2->CH2_CNTRL = 0x00000000;
 	MDR_TIMER2->CH3_CNTRL = 0x00000000;
@@ -65,30 +65,30 @@ void init_TIMER2(){
 	MDR_TIMER2->CH3_CNTRL2 = 0x00000000;
 	MDR_TIMER2->CH4_CNTRL2 = 0x00000000;	
 	MDR_TIMER2->STATUS = 0x00000000;
-	MDR_TIMER2->CNTRL = 0x00000000; // режим инициализации таймера
-	MDR_TIMER2->CNT = 0x00000000; // Начальное значение счетчика	
+	MDR_TIMER2->CNTRL = 0x00000000; // СЂРµР¶РёРј РёРЅРёС†РёР°Р»РёР·Р°С†РёРё С‚Р°Р№РјРµСЂР°
+	MDR_TIMER2->CNT = 0x00000000; // РќР°С‡Р°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‡РµС‚С‡РёРєР°	
 
-	/*Настройки таймера*/
-	MDR_TIMER2->PSG = 79; // Предделитель частоты
-	MDR_TIMER2->ARR = 33332; // Основание счета (16 бит)
-	// приблизительно 30 Гц
-	MDR_TIMER2->CNTRL = TIMER_CNTRL_ARRB_EN | (0 << TIMER_CNTRL_CNT_MODE_Pos); //вверх, буферизация включена
+	/*РќР°СЃС‚СЂРѕР№РєРё С‚Р°Р№РјРµСЂР°*/
+	MDR_TIMER2->PSG = 79; // РџСЂРµРґРґРµР»РёС‚РµР»СЊ С‡Р°СЃС‚РѕС‚С‹
+	MDR_TIMER2->ARR = 33332; // РћСЃРЅРѕРІР°РЅРёРµ СЃС‡РµС‚Р° (16 Р±РёС‚)
+	// РїСЂРёР±Р»РёР·РёС‚РµР»СЊРЅРѕ 30 Р“С†
+	MDR_TIMER2->CNTRL = TIMER_CNTRL_ARRB_EN | (0 << TIMER_CNTRL_CNT_MODE_Pos); //РІРІРµСЂС…, Р±СѓС„РµСЂРёР·Р°С†РёСЏ РІРєР»СЋС‡РµРЅР°
 	
-	/*Разрешения работы*/
-	MDR_TIMER2->IE = TIMER_IE_CNT_ARR_EVENT_IE;		//прерывание по cnt=arr
-	NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
-	MDR_TIMER2->CNTRL |= TIMER_CNTRL_CNT_EN; //включить таймер.	
+	/*Р Р°Р·СЂРµС€РµРЅРёСЏ СЂР°Р±РѕС‚С‹*/
+	MDR_TIMER2->IE = TIMER_IE_CNT_ARR_EVENT_IE;		//РїСЂРµСЂС‹РІР°РЅРёРµ РїРѕ cnt=arr
+	NVIC_EnableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°	
+	MDR_TIMER2->CNTRL |= TIMER_CNTRL_CNT_EN; //РІРєР»СЋС‡РёС‚СЊ С‚Р°Р№РјРµСЂ.	
 }
 
 void init_SPI(){
 	SSP_InitTypeDef SSI_init_struct;
 	PORT_InitTypeDef GPIOInitStruct;
 	
-	// Включение тактирования
+	// Р’РєР»СЋС‡РµРЅРёРµ С‚Р°РєС‚РёСЂРѕРІР°РЅРёСЏ
 	RST_CLK_PCLKcmd(RST_CLK_PCLK_SSP2, ENABLE);
 	RST_CLK_PCLKcmd(RST_CLK_PCLK_PORTD, ENABLE);
 	
-	//инициализация пинов 
+	//РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїРёРЅРѕРІ 
 	GPIOInitStruct.PORT_PULL_UP   = PORT_PULL_UP_OFF;
 	GPIOInitStruct.PORT_PULL_DOWN = PORT_PULL_DOWN_ON;
 	GPIOInitStruct.PORT_PD_SHM    = PORT_PD_SHM_OFF;
@@ -97,19 +97,19 @@ void init_SPI(){
 	GPIOInitStruct.PORT_SPEED     = PORT_SPEED_MAXFAST;
 	GPIOInitStruct.PORT_MODE      = PORT_MODE_DIGITAL;	
 	GPIOInitStruct.PORT_FUNC  = PORT_FUNC_ALTER;
-  GPIOInitStruct.PORT_Pin   = (SPI2_CLK | SPI2_TXD);
-  PORT_Init (SPI2_PORT, &GPIOInitStruct);
+	GPIOInitStruct.PORT_Pin   = (SPI2_CLK | SPI2_TXD);
+	PORT_Init (SPI2_PORT, &GPIOInitStruct);
 	 
-	//инициализация SSI
+	//РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ SSI
 	SSP_DeInit(MDR_SSP2);
-	SSP_BRGInit(MDR_SSP2,SSP_HCLKdiv2); //40МГц
+	SSP_BRGInit(MDR_SSP2,SSP_HCLKdiv2); //40РњР“С†
 	SSP_StructInit (&SSI_init_struct);
 	
-	SSI_init_struct.SSP_SCR = 2; //второй делитель F_SSPCLK / ( CPSDVR * (1 + SCR) )
-	SSI_init_struct.SSP_CPSDVSR = 2; // третий делитель (четное число)
+	SSI_init_struct.SSP_SCR = 2; //РІС‚РѕСЂРѕР№ РґРµР»РёС‚РµР»СЊ F_SSPCLK / ( CPSDVR * (1 + SCR) )
+	SSI_init_struct.SSP_CPSDVSR = 2; // С‚СЂРµС‚РёР№ РґРµР»РёС‚РµР»СЊ (С‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ)
 	SSI_init_struct.SSP_Mode = SSP_ModeMaster;
 	SSI_init_struct.SSP_WordLength = SSP_WordLength8b;
-	SSI_init_struct.SSP_FRF = SSP_FRF_SPI_Motorola; //режим ssi или spi
+	SSI_init_struct.SSP_FRF = SSP_FRF_SPI_Motorola; //СЂРµР¶РёРј ssi РёР»Рё spi
 	SSI_init_struct.SSP_HardwareFlowControl = SSP_HardwareFlowControl_None;
 	SSP_Init(MDR_SSP2, &SSI_init_struct);
 	

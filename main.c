@@ -1,11 +1,16 @@
 #include "main.h"
 
+//TODO: РЅРѕСЂРјР°Р»СЊРЅС‹Рµ РґРѕРєСЃС‚СЂРёРЅРіРё.
+//TODO: СЂРёРґРјРё
+//TODO: Р±РѕР»РµРµ РЅРѕСЂРјР°Р»СЊРЅРѕРµ РЅР°Р·РІР°РЅРёРµ Рё СЃС‚СЂСѓРєС‚СѓСЂР° Р°Р»РіРѕСЂРёС‚РјРѕРІ.
+//TODO: РёР·Р±Р°РІРёС‚СЊСЃСЏ РѕС‚ СЃС‚Р°С‚РёРєРѕРІ, РїСѓСЃС‚СЊ РїР°РјСЏС‚СЊ РІС‹РґРµР»СЏРµС‚СЃСЏ РґРёРЅР°РјРёС‡РЅРѕ. РІ СЌС‚РѕРј РЅРµ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РїСЂРѕР±Р»РµРј, С‚Р°Рє РєР°Рє РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ Р·Р°РїСѓС‰РµРЅ С‚РѕР»СЊРєРѕ 1 Р°Р»РѕСЂРёС‚Рј.
+//TODO: Р±РѕР»СЊС€Рµ РєСЂР°СЃРёРІС‹С… С†РІРµС‚Р°СЃС‚С‹С…
 
 
 int main(){
 	uint8_t pause = 0;
 	
-	for (uint32_t del = 0 ; del<3000000; del++); // задержка для того, чтобы контроллер успел войти в режим отладки, если вдруг гдето сильный баг
+	for (uint32_t del = 0 ; del<3000000; del++); // Р·Р°РґРµСЂР¶РєР° РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РєРѕРЅС‚СЂРѕР»Р»РµСЂ СѓСЃРїРµР» РІРѕР№С‚Рё РІ СЂРµР¶РёРј РѕС‚Р»Р°РґРєРё, РµСЃР»Рё РІРґСЂСѓРі РіРґРµС‚Рѕ СЃРёР»СЊРЅС‹Р№ Р±Р°Рі
 	
 	init_CPU();
 	init_SPI();
@@ -15,10 +20,11 @@ int main(){
 	alg_functions.speed = 100;
 	init_joystick();
 	
-	/*!!Регистрация алгоритмов!!*/
+	/*!!Р РµРіРёСЃС‚СЂР°С†РёСЏ Р°Р»РіРѕСЂРёС‚РјРѕРІ!!*/
 	register_alg(running_color2);
 	register_alg(running_color3);
-	register_alg(running_color4);
+	register_alg(breath_colors3);
+	// register_alg(running_color4);
 	register_alg(breath_colors2);
 //	register_alg(running_red1);
 	register_alg(breath_colors1);
@@ -37,7 +43,7 @@ int main(){
 				if (pause == 0)
 				{
 					pause = 1;
-					NVIC_DisableIRQ(Timer2_IRQn); //разрешить прерывания таймера
+					NVIC_DisableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°
 				}
 				else
 				{
@@ -47,16 +53,16 @@ int main(){
 				}
 				break;
 			case RIGHT:
-				NVIC_DisableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
+				NVIC_DisableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°	
 				alg_functions.currently_selected++;
 				if (alg_functions.currently_selected>alg_functions.total_registered-1) alg_functions.currently_selected = 0;
-				NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
+				NVIC_EnableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°	
 				break;
 			case LEFT:
-				NVIC_DisableIRQ(Timer2_IRQn); //разрешить прерывания таймера
+				NVIC_DisableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°
 				if (alg_functions.currently_selected == 0) alg_functions.currently_selected = alg_functions.total_registered-1;
 				else if (alg_functions.total_registered > 1 )	alg_functions.currently_selected--;
-				NVIC_EnableIRQ(Timer2_IRQn); //разрешить прерывания таймера	
+				NVIC_EnableIRQ(Timer2_IRQn); //СЂР°Р·СЂРµС€РёС‚СЊ РїСЂРµСЂС‹РІР°РЅРёСЏ С‚Р°Р№РјРµСЂР°	
 				break;
 			case UP:
 				if (alg_functions.speed<400) alg_functions.speed+=20;
