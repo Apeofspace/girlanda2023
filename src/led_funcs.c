@@ -4,11 +4,21 @@
 /*
 ----------------------------------------
 ТУТ ЛЕЖАТ ВСЕ АЛГОРИТМЫ ДЛЯ ДИОДОВ
-функции принимают время, массив в который это будет записано и скорость
-массив выглядит так: 300 восьмибитных значений: 100 групп по 3. каждая группа по три это три цвета от 0 до 255(синий, красный, зеленый)
-чтобы функция была добавлена в список используемых, ее необходимо зарегистрировать через register_alg
+функции принимают время, скорость, яркость и указатель на массив в который будет записан результат
+
+data - массив выглядит так: 600 восьмибитных значений: 200 групп по 3. каждая группа по три это три цвета от 0 до 255(синий, красный, зеленый)
+(две гирлянды по 100 элементов последовательно склеены, поэтому 200 групп по 3).
+delta_time - время в секундах, прошедшее с предыдущего запуска функции
+speed - скорость. базовая скорость = 100. (типа 100%)
+brightness - макс яркость алгоритма. Значение может меняться 0..255, обычно ограничено MAX_BRIGHTNESS
+
+Промежуточные значения, необходимые для работы алгоритмов хранятся в статических переменных. Важно давать им уникальные имена
+
+чтобы функция была добавлена в список используемых, ее необходимо зарегистрировать через register_alg() в main()
+запускаются они из прерывания таймера 2.
 ----------------------------------------
 */
+
 //-----------------------------------------------------------------------
 void clear(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
@@ -31,7 +41,7 @@ void glow_white(double delta_time, uint8_t* data, uint16_t speed, uint8_t bright
 void breath_colors1(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	// цвета меняют друг друга по очереди
-	static uint8_t dir = 1;
+	static uint8_t bc1_dir = 1;
 	static uint8_t bc1_brightness = MAX_BRIGHTNESS;
 	
 	static COLORS color = 0;
@@ -41,12 +51,12 @@ void breath_colors1(double delta_time, uint8_t* data, uint16_t speed, uint8_t br
 	
 	if (bc1_brightness<step) 
 	{
-		dir = 0;
+		bc1_dir = 0;
 		color++;
 		if (color>5) color = 0;
 	}
-	if (bc1_brightness>(MAX_BRIGHTNESS-step)) dir = 1;
-	bc1_brightness = (dir==0)? bc1_brightness+step : bc1_brightness-step;
+	if (bc1_brightness>(MAX_BRIGHTNESS-step)) bc1_dir = 1;
+	bc1_brightness = (bc1_dir==0)? bc1_brightness+step : bc1_brightness-step;
 	
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i+=3)
 	{
@@ -110,13 +120,13 @@ void breath_colors2(double delta_time, uint8_t* data, uint16_t speed, uint8_t br
 void breath_white2(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness)
 {
 	//дышит белым
-	static uint8_t dir = 1;
+	static uint8_t bw2_dir = 1;
 	static uint8_t bw2_brightness = MAX_BRIGHTNESS;
 	uint8_t step = (uint8_t)((double)speed/100 * brightness * (double)delta_time);
 	
-	if (bw2_brightness<step) dir = 0;
-	if (bw2_brightness>(brightness-step)) dir = 1;
-	bw2_brightness = (dir==0)? bw2_brightness+step : bw2_brightness-step;
+	if (bw2_brightness<step) bw2_dir = 0;
+	if (bw2_brightness>(brightness-step)) bw2_dir = 1;
+	bw2_brightness = (bw2_dir==0)? bw2_brightness+step : bw2_brightness-step;
 	
 	for (uint16_t i = 0; i< LEDS_NUMBER*3; i++)
 	{

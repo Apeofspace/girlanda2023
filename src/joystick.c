@@ -36,7 +36,7 @@ void init_joystick(void) {
 /* Определение "кода" по нажатым кнопкам */
 KeyCode joystick_get_key(void) {
     uint32_t i, sKey;
-    static uint32_t data[5];
+    static uint32_t _js_data[5];
 	
 //		// костыль чтобы на всякий случай забить массив нулями, ибо я не доверяю миландру
 //		static enum {first_launch, not_first_launch} first_launch_kostil = first_launch; 
@@ -46,20 +46,20 @@ KeyCode joystick_get_key(void) {
 //		}
 
 	//сдвигаем все буферы на 1 влево
-	for(i=0;i<5;i++) data[i] = (data[i]<<1); 
+	for(i=0;i<5;i++) _js_data[i] = (_js_data[i]<<1); 
 		
 	// Собираем данные с кнопок в массив с инверсией  значений (1 - нажата, 0 - не нажата)
-    if(!(MDR_PORTC->RXTX & (1<<2))) data[0] = (data[0]|=0x1UL);   /* SEL      PC2*/
-    if(!(MDR_PORTB->RXTX & (1<<6))) data[1] = (data[1]|=0x1UL);   /* RIGHT    PB6*/
-    if(!(MDR_PORTE->RXTX & (1<<3))) data[2] = (data[2]|=0x1UL);   /* LEFT     PE3*/
-    if(!(MDR_PORTB->RXTX & (1<<5))) data[3] = (data[3]|=0x1UL);   /* UP       PB5*/
-    if(!(MDR_PORTE->RXTX & (1<<1))) data[4] = (data[4]|=0x1UL);   /* DOWN     PE1*/
+    if(!(MDR_PORTC->RXTX & (1<<2))) _js_data[0] = (_js_data[0]|=0x1UL);   /* SEL      PC2*/
+    if(!(MDR_PORTB->RXTX & (1<<6))) _js_data[1] = (_js_data[1]|=0x1UL);   /* RIGHT    PB6*/
+    if(!(MDR_PORTE->RXTX & (1<<3))) _js_data[2] = (_js_data[2]|=0x1UL);   /* LEFT     PE3*/
+    if(!(MDR_PORTB->RXTX & (1<<5))) _js_data[3] = (_js_data[3]|=0x1UL);   /* UP       PB5*/
+    if(!(MDR_PORTE->RXTX & (1<<1))) _js_data[4] = (_js_data[4]|=0x1UL);   /* DOWN     PE1*/
 		
 	//Устроняем дребезг
 	uint32_t jitter_mask = 0x1F;
 	uint32_t actual_data[5];
 	for(i=0;i<5;i++){			
-		if (data[i]==jitter_mask) actual_data[i] = 1;
+		if (_js_data[i]==jitter_mask) actual_data[i] = 1;
 		else actual_data[i] = 0;
 	}
 	

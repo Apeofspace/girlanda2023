@@ -1,3 +1,6 @@
+#ifndef __JOYSTICK_H
+#define __JOYSTICK_H
+
 #include "MDR32F9Qx_port.h"             // Keil::Drivers:PORT
 #include "MDR32F9Qx_rst_clk.h"          // Keil::Drivers:RST_CLK
 
@@ -24,3 +27,4 @@ KeyCode joystick_get_key(void);
 #define WAIT_UNTIL_KEY_RELEASED(x)  while(KEY_PRESSED(x)){}
 #define WAIT_UNTIL_ANY_KEY          while(GetKey() == NOKEY){}
 
+#endif
