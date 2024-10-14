@@ -9,14 +9,9 @@
 void init_joystick(void) {
 	PORT_InitTypeDef GPIO_user_init;
 	
-//		GPIO_user_init.PORT_OE        = PORT_OE_OUT;
-//		GPIO_user_init.PORT_PULL_UP   = PORT_PULL_UP_OFF;
-//		GPIO_user_init.PORT_PULL_DOWN = PORT_PULL_DOWN_OFF;
-//		GPIO_user_init.PORT_PD_SHM    = PORT_PD_SHM_OFF;
-//		GPIO_user_init.PORT_PD        = PORT_PD_DRIVER;
-//		GPIO_user_init.PORT_GFEN      = PORT_GFEN_OFF;
-//		GPIO_user_init.PORT_SPEED     = PORT_SPEED_MAXFAST;		
-	GPIO_user_init.PORT_FUNC      = PORT_FUNC_MAIN;
+	GPIO_user_init.PORT_PULL_DOWN = PORT_PULL_DOWN_ON;
+	GPIO_user_init.PORT_SPEED     = PORT_SPEED_FAST;		
+	GPIO_user_init.PORT_FUNC      = PORT_FUNC_PORT;
 	GPIO_user_init.PORT_MODE      = PORT_MODE_DIGITAL;	
 	
 	
@@ -56,7 +51,7 @@ KeyCode joystick_get_key(void) {
     if(!(MDR_PORTE->RXTX & (1<<1))) _js_data[4] = (_js_data[4]|=0x1UL);   /* DOWN     PE1*/
 		
 	//Устроняем дребезг
-	uint32_t jitter_mask = 0x1F;
+	static const uint32_t jitter_mask = 0x1F;
 	uint32_t actual_data[5];
 	for(i=0;i<5;i++){			
 		if (_js_data[i]==jitter_mask) actual_data[i] = 1;
@@ -69,6 +64,5 @@ KeyCode joystick_get_key(void) {
 
     if(sKey == 0) return NOKEY;/* NOKEY    */ 
     else if (sKey > 1) return MULTIPLE;/* MULTIPLE */
-		
     for(i=0;i<5;i++) if(actual_data[i] == 1) return ((KeyCode)(i+1)); // Если нажата только одна кнопка, то распознаем её
 }
