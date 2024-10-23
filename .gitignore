@@ -72,7 +72,6 @@ cmake-build-*/
 /**/__pycache__/*
 *.csv
 user_settings.json
-*.txt
 *.pdf
 /**/build/
 # these will be added anyway

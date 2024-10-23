@@ -111,6 +111,9 @@ typedef enum
     #define __RAMFUNC    __ramfunc
 #elif defined (__ARMCC_VERSION) /* ARM Compiler */
     #define __RAMFUNC
+#else
+    #define __RAMFUNC __attribute__((section("EXECUTABLE_MEMORY_SECTION")))
+    // ^ this is untested btw
 #endif
 /** @} */ /* End of group EEPROM_Private_Defines */
 

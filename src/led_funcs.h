@@ -1,8 +1,8 @@
 #include "MDR32F9Qx_rst_clk.h"          // Keil::Drivers:RST_CLK
 
 #define LEDS_NUMBER 200
-typedef enum {R, G, B, RG, RB, GB}COLORS;
-typedef enum {PHASE_UP,PHASE_DOWN} phase_t;
+typedef enum {R, G, B, RG, RB, GB} COLORS;
+typedef enum {PHASE_UP, PHASE_DOWN} phase_t;
 
 #define MAX_BRIGHTNESS 100
 #define M_PI 3.14159265358979323846

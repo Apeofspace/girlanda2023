@@ -5,6 +5,7 @@
  * Date: 16 August 2013
  *
  * Copyright (c) 2011 - 2013 ARM LIMITED
+
    All rights reserved.
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are met:
@@ -133,40 +134,6 @@ Reset_Handler:
  *  one section.  The former scheme needs more instructions and read-only
  *  data to implement than the latter.
  *  Macro __STARTUP_COPY_MULTIPLE is used to choose between two schemes.  */
-
-#ifdef __STARTUP_COPY_MULTIPLE
-/*  Multiple sections scheme.
- *
- *  Between symbol address __copy_table_start__ and __copy_table_end__,
- *  there are array of triplets, each of which specify:
- *    offset 0: LMA of start of a section to copy from
- *    offset 4: VMA of start of a section to copy to
- *    offset 8: size of the section to copy. Must be multiply of 4
- *
- *  All addresses must be aligned to 4 bytes boundary.
- */
-	ldr	r4, =__copy_table_start__
-	ldr	r5, =__copy_table_end__
-
-.L_loop0:
-	cmp	r4, r5
-	bge	.L_loop0_done
-	ldr	r1, [r4]
-	ldr	r2, [r4, #4]
-	ldr	r3, [r4, #8]
-
-.L_loop0_0:
-	subs	r3, #4
-	ittt	ge
-	ldrge	r0, [r1, r3]
-	strge	r0, [r2, r3]
-	bge	.L_loop0_0
-
-	adds	r4, #12
-	b	.L_loop0
-
-.L_loop0_done:
-#else
 /*  Single section scheme.
  *
  *  The ranges of copy from/to are specified by following symbols
@@ -186,7 +153,6 @@ Reset_Handler:
 	ldrlt	r0, [r1], #4
 	strlt	r0, [r2], #4
 	blt	.L_loop1
-#endif /*__STARTUP_COPY_MULTIPLE */
 
 /*  This part of work usually is done in C library startup code. Otherwise,
  *  define this macro to enable it in this startup.
@@ -198,34 +164,6 @@ Reset_Handler:
  *  Define macro __STARTUP_CLEAR_BSS_MULTIPLE to choose the former.
  *  Otherwise define macro __STARTUP_CLEAR_BSS to choose the later.
  */
-#ifdef __STARTUP_CLEAR_BSS_MULTIPLE
-/*  Multiple sections scheme.
- *
- *  Between symbol address __copy_table_start__ and __copy_table_end__,
- *  there are array of tuples specifying:
- *    offset 0: Start of a BSS section
- *    offset 4: Size of this BSS section. Must be multiply of 4
- */
-	ldr	r3, =__zero_table_start__
-	ldr	r4, =__zero_table_end__
-
-.L_loop2:
-	cmp	r3, r4
-	bge	.L_loop2_done
-	ldr	r1, [r3]
-	ldr	r2, [r3, #4]
-	movs	r0, #0
-
-.L_loop2_0:
-	subs	r2, #4
-	itt	ge
-	strge	r0, [r1, r2]
-	bge	.L_loop2_0
-
-	adds	r3, #8
-	b	.L_loop2
-.L_loop2_done:
-#elif defined (__STARTUP_CLEAR_BSS)
 /*  Single BSS section scheme.
  *
  *  The BSS section is specified by following symbols
@@ -243,16 +181,12 @@ Reset_Handler:
 	itt	lt
 	strlt	r0, [r1], #4
 	blt	.L_loop3
-#endif /* __STARTUP_CLEAR_BSS_MULTIPLE || __STARTUP_CLEAR_BSS */
 
 #ifndef __NO_SYSTEM_INIT
 	bl	SystemInit
 #endif
 
-#ifndef __START
-#define __START _start
-#endif
-	bl	__START
+	bl	_start
 
 	.pool
 	.size	Reset_Handler, . - Reset_Handler

@@ -5,7 +5,7 @@
 #include "joystick.h"
 #include "led_funcs.h"
 
-#define SPI2_CLK PORT_Pin_5 
+#define SPI2_CLK PORT_Pin_5
 #define SPI2_RXD PORT_Pin_2
 #define SPI2_TXD PORT_Pin_6
 #define SPI2_PORT MDR_PORTD
@@ -35,14 +35,14 @@ void clear_leds(void);
 void convert_array(uint8_t* arr, uint8_t* result);
 
 /*DATA ARRAYS*/
-extern uint8_t leds_data_rgb[LEDS_NUMBER*3];
-extern uint8_t leds_data_corrected[LEDS_NUMBER*24];
-typedef struct
-{
-	void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed, uint8_t brightness); //массив указателей на функции
-	uint8_t total_registered;
-	uint8_t currently_selected;
-	uint16_t speed;
+extern uint8_t leds_data_rgb[LEDS_NUMBER * 3];
+extern uint8_t leds_data_corrected[LEDS_NUMBER * 24];
+typedef struct {
+  void (*funcs[20])(double delta_time, uint8_t* data, uint16_t speed,
+                    uint8_t brightness); //массив указателей на функции
+  uint8_t total_registered;
+  uint8_t currently_selected;
+  uint16_t speed;
 } alg_functions_t;
 extern alg_functions_t alg_functions;
 
